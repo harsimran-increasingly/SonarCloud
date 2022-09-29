@@ -1,5 +1,4 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
-
 (function() {
     "use strict";
 // Temp Bubdles Remove Once Done
