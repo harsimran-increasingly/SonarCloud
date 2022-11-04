@@ -9808,13 +9808,7 @@
                 );
             }
             if (zeroc > 6 && blockType != "pdp") {
-                // var inc_more_size = generate_html_tag('span', 'inc_more_size')
-                // inc_more_size.addEventListener('click', function () {
-                //     getTrackingPixel();
-                //     setTimeout(function () {
-                //     }, 2000)
-                // if (elAtt0ListBlock.querySelector('.inc_more_size') == null) {
-                // }
+                
                 return;
             }
             zeroc++;
