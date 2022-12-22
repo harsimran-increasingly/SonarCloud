@@ -1019,31 +1019,32 @@
         }
 
         function zerodata(product0ArrayObj, productListObj, mainProductId, childProductId) {
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]] = {};
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]["titleText"] = productListObj[mainProductId][
+            let child = product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]
+            child = {};
+            child["titleText"] = productListObj[mainProductId][
                 childProductId
             ]["option"]["1"]["titleText"];
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]["imgSrc"] = productListObj[mainProductId][
+            child["imgSrc"] = productListObj[mainProductId][
                 childProductId
             ]["option"]["1"]["imgSrc"];
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]["code"] = productListObj[mainProductId][
+            child["code"] = productListObj[mainProductId][
                 childProductId
             ]["option"]["1"]["code"];
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]["cpid"] = productListObj[mainProductId][
+            child["cpid"] = productListObj[mainProductId][
                 childProductId
             ]["option"]["1"]["cpid"];
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]["prc"] = productListObj[mainProductId][
+            child["prc"] = productListObj[mainProductId][
                 childProductId]["option"]["1"]["activePriceChild"];
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]["label"] = productListObj[mainProductId][
+            child["label"] = productListObj[mainProductId][
                 childProductId
             ]["option"]["1"]["label"];
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]["colorCode"] = productListObj[mainProductId][
+            child["colorCode"] = productListObj[mainProductId][
                 childProductId
             ]["option"]["1"]["colorCode"];
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]["opt_id"] = productListObj[mainProductId][
+            child["opt_id"] = productListObj[mainProductId][
                 childProductId
             ]["option"]["1"]["opt_id"];
-            product0ArrayObj[productListObj[mainProductId][childProductId]["option"]["1"]["text"]]["att_id"] = productListObj[mainProductId][
+            child["att_id"] = productListObj[mainProductId][
                 childProductId
             ]["option"]["1"]["att_id"];
             return product0ArrayObj;
@@ -2124,14 +2125,7 @@
 
                 width_slide = wid_sld;
 
-                if (INC.clientConfig.slidevalue_rec + cc_ounts < all_p_length) {
-                    amBlock.parentNode.parentNode.querySelector(".inc_af_left_btn_block").setAttribute("style",
-                        "pointer-events: auto;opacity:1");
-                    amBlock.parentNode.parentNode.querySelector(".inc_af_left_btn_img").setAttribute("style", "pointer-events: auto;opacity:1");
-                    INC.clientConfig.slidevalue_rec++;
-                    let menu = null;
-                    INC.clientConfig.offset_rec = parseInt(INC.clientConfig.offset_rec) - width_slide + "px";
-
+                function menuChanges() {
                     menu = amBlock.parentNode.parentNode.querySelector(".inc_af_product-list_block");
                     menu.setAttribute("style", "left:" + INC.clientConfig.offset_rec +
                         ";transition-duration:0.5s;-webkit-transition-duration:0.5s;-moz-transition-duration:0.5s;-ms-transition-duration:0.5s;-o-transition-duration:0.5s;"
@@ -2144,6 +2138,17 @@
                         document.querySelectorAll(".inc_af_product-list-dots-main_block .inc_dots")[+INC.clientConfig.slidevalue_rec].classList
                             .add("inc_active");
                     }
+                }
+
+                if (INC.clientConfig.slidevalue_rec + cc_ounts < all_p_length) {
+                    amBlock.parentNode.parentNode.querySelector(".inc_af_left_btn_block").setAttribute("style",
+                        "pointer-events: auto;opacity:1");
+                    amBlock.parentNode.parentNode.querySelector(".inc_af_left_btn_img").setAttribute("style", "pointer-events: auto;opacity:1");
+                    INC.clientConfig.slidevalue_rec++;
+                    let menu = null;
+                    INC.clientConfig.offset_rec = parseInt(INC.clientConfig.offset_rec) - width_slide + "px";
+
+                    menuChanges()
                 }
                 if (+INC.clientConfig.slidevalue_rec + +cc_ounts == all_p_length) {
                     amBlock.parentNode.parentNode.querySelector(".inc_af_right_btn_block").setAttribute("style",
@@ -2174,18 +2179,7 @@
                     INC.clientConfig.offset_rec = parseInt(INC.clientConfig.offset_rec) + width_slide + "px";
                     let menu = null;
 
-                    menu = amBlock.parentNode.parentNode.querySelector(".inc_af_product-list_block");
-                    menu.setAttribute("style", "left:" + INC.clientConfig.offset_rec +
-                        ";transition-duration:0.5s;-webkit-transition-duration:0.5s;-moz-transition-duration:0.5s;-ms-transition-duration:0.5s;-o-transition-duration:0.5s;"
-                    );
-
-                    if (document.querySelector(".inc_af_product-list-dots-main_block .inc_dots.inc_active") != null) {
-                        document.querySelector(".inc_af_product-list-dots-main_block .inc_dots.inc_active").classList.remove("inc_active");
-                    }
-                    if (document.querySelectorAll(".inc_af_product-list-dots-main_block .inc_dots")[+INC.clientConfig.slidevalue_rec] != null) {
-                        document.querySelectorAll(".inc_af_product-list-dots-main_block .inc_dots")[+INC.clientConfig.slidevalue_rec].classList
-                            .add("inc_active");
-                    }
+                    menuChanges()
                 }
                 if (INC.clientConfig.slidevalue_rec == 0) {
                     amBlock.parentNode.parentNode.querySelector(".inc_af_left_btn_block").setAttribute("style",
