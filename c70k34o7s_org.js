@@ -2513,8 +2513,6 @@
                         } else if (window.innerWidth > 1023) {
                             if (window.innerWidth > 1023) {
                                 width_prod = 300;
-                            } else {
-                                width_prod = 300;
                             }
                         } else {
                             width_prod = 254;
@@ -3017,7 +3015,8 @@
                 }
             }
             let addCount = document.querySelectorAll(".inc_sidebar_cart_added_block .inc_cart_added_product_block").length;
-            document.querySelector(".inc_sidebar_cart_added_block").className.lastIndexOf(/\binc_added_.+?/g, "");
+            let replaced = document.querySelector(".inc_sidebar_cart_added_block").className.replace(/\binc_added_.+?/g, "");
+            document.querySelector(".inc_sidebar_cart_added_block").className = replaced;
             document.querySelector(".inc_sidebar_cart_added_block").classList.add("inc_added_" + addCount);
             if (sbBlock.querySelector(".inc_cart_added_product_block") == null) {
                 sbBlock.classList.add("oos_prod_avail");
