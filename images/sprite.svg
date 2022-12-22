@@ -1,0 +1,22 @@
+<svg width="41" height="723" viewBox="0 0 41 723" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.5625 149.181L26.875 144.052" stroke="#E3483D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.3335 144.052H26.8752V147.471" stroke="#E3483D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.875 151.575V154.994C26.875 155.357 26.7257 155.705 26.4601 155.961C26.1944 156.218 25.8341 156.362 25.4583 156.362H15.5417C15.1659 156.362 14.8056 156.218 14.5399 155.961C14.2743 155.705 14.125 155.357 14.125 154.994V145.42C14.125 145.057 14.2743 144.709 14.5399 144.452C14.8056 144.196 15.1659 144.052 15.5417 144.052H19.0833" stroke="#E3483D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 359L15 371" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 359L27 371" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.2517 16.0478L15.0629 12.859L14 13.922L18.2517 18.1736L27.3624 9.06291L26.2994 8L18.2517 16.0478Z" fill="white"/>
+<path d="M18.2971 59.8736C17.9065 60.2638 17.2736 60.2636 16.8832 59.8732L14.1246 57.1146C13.7351 56.7251 13.1034 56.7243 12.7125 57.1125C12.3196 57.5026 12.3181 58.1381 12.7096 58.5296L16.8829 62.7029C17.2734 63.0934 17.9066 63.0934 18.2971 62.7029L28.8848 52.1152C29.2743 51.7257 29.2743 51.0943 28.8848 50.7048C28.4955 50.3155 27.8643 50.3154 27.4748 50.7045L18.2971 59.8736Z" fill="#E3483D"/>
+<path opacity="0.4" d="M15 96L27 108M27 96L15 108" stroke="#505050" stroke-width="1.5"/>
+<path d="M28 519L12 535" stroke="black" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+<path d="M12 519L28 535" stroke="black" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+<path d="M27 296L15 308.5L27 321" stroke="#505050" stroke-width="4"/>
+<path d="M37 202.039H23.2857V214.818H18.7143V202.039H5V197.779H18.7143V185H23.2857V197.779H37V202.039Z" fill="black"/>
+<path d="M18 259L23 254L18 249" stroke="#505050" stroke-width="1.5"/>
+<path d="M15 573L27 585.5L15 598" stroke="white" stroke-width="5"/>
+<rect x="13" y="423" width="16" height="2" fill="black"/>
+<rect x="13" y="634" width="16" height="2" fill="white"/>
+<rect x="13" y="473" width="16" height="2" fill="black"/>
+<rect x="20" y="482" width="16" height="2" transform="rotate(-90 20 482)" fill="black"/>
+<rect x="13" y="684" width="16" height="2" fill="white"/>
+<rect x="20" y="693" width="16" height="2" transform="rotate(-90 20 693)" fill="white"/>
+</svg>
