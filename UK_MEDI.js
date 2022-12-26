@@ -5473,20 +5473,14 @@
             elAttSizeBlock.parentNode.parentNode.parentNode.classList.add("dropdownstyle");
             if (productSizesObj["sizeArray"][0].code != "Color") {
                 elAttSizeListBlock.innerHTML = "";
-                if (blockType == "pdp" || blockType == "sidebar") {
-                    if (productBlock.parentNode.classList == 'inc_product_showcase_block') {
-                        elAttSizeTitleText.innerText = productSizesObj["sizeArray"][0].label;
-                    } else {
-                        elAttSizeTitleText.innerText = productSizesObj["sizeArray"][0].label + ": ";
-                    }
-                } else {
-                    if (productBlock.parentNode.classList == 'inc_product_showcase_block') {
-                        elAttSizeTitleText.innerText = productSizesObj["sizeArray"][0].label;
-                    } else {
-                        elAttSizeTitleText.innerText = productSizesObj["sizeArray"][0].label + ": ";
-                    }
 
+                if (productBlock.parentNode.classList == 'inc_product_showcase_block') {
+                    elAttSizeTitleText.innerText = productSizesObj["sizeArray"][0].label;
+                } else {
+                    elAttSizeTitleText.innerText = productSizesObj["sizeArray"][0].label + ": ";
                 }
+
+
                 elAttSizeBlock.classList.add("inc_active");
                 productSizesObj["sizeArray"].forEach(function (sizeObj) {
                     let attSizeImgBlock = generate_html_tag("div", "inc_product_desc_att_size_list_item_img_block");
