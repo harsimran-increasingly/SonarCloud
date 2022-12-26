@@ -1915,13 +1915,9 @@
                 }
                 let width_slide = ""
                 let wid_sld = document.querySelector('.inc_af_block .inc_product_module_block').clientWidth
-                if (INC.config.pageType == "pdp") {
 
-                    width_slide = wid_sld;
+                width_slide = wid_sld;
 
-                } else {
-                    width_slide = wid_sld;
-                }
 
                 if (INC.clientConfig.slidevalue_rec + cc_ounts < all_p_length) {
                     amBlock.parentNode.parentNode.querySelector('.inc_af_left_btn_block').setAttribute("style", "pointer-events: auto;opacity:1");
@@ -7238,11 +7234,9 @@
                     document.querySelector('html').classList.remove('inc_overlay')
                 }
             }, 1500)
-            if (productObj.ProductType == "configurable") {
-                params = "pid=" + productObj.id + "&quantity=" + qty + "&options=%5B%5D"
-            } else {
-                params = "pid=" + productObj.id + "&quantity=" + qty + "&options=%5B%5D"
-            }
+
+            params = "pid=" + productObj.id + "&quantity=" + qty + "&options=%5B%5D"
+
             let data0 = {}
             data0["pid"] = productObj.id
             data0["quantity"] = qty;
