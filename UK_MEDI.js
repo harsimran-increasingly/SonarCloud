@@ -1858,7 +1858,7 @@
                 attr0Obj["att_id"] = product0ArrayObj[colorText]["att_id"];
                 product0ObjArray.push(attr0Obj);
             });
-            product0Obj["att0Array"] = sortByKey(product0ObjArray, "colorText");
+
             product0Obj["att0Array"] = product0ObjArray.sort(function (a, b) {
                 return (
                     sizesArray.indexOf(a["text"]) -
@@ -4310,16 +4310,9 @@
                         ".inc_af_block .inc_product_module_block"
                     ).clientWidth;
                     var width_slide = "";
-                    if (
-                        INC.config.pageType == "pdp" &&
-                        !INC.config.recommendation
-                    ) {
 
-                        width_slide = wid_sld;
+                    width_slide = wid_sld;
 
-                    } else {
-                        width_slide = wid_sld;
-                    }
                     if (INC.clientConfig.slidevalue_rec > 0) {
                         amBlock.parentNode.parentNode
                             .querySelector(".inc_af_right_btn_block")
