@@ -2,26 +2,26 @@
 (function () {
     "use strict";
 
-    letpdp_html =
+    let pdp_html =
         '<div class="inc_pdp_title_block"><div class="inc_pdp_title_text_block"><div class="inc_pdp_title_text">Frequently Bought Together</div></div></div><div class="inc_pdp_bundle_block"><div class="inc_pdp_product-main_block"></div><div class="inc_pdp_icon-add_block"><div class="inc_pdp_icon-add_img_block"><div class="inc_pdp_icon-add_img"></div></div></div><div class="inc_pdp_bundle_product_block"><div class="inc_pdp_bundle_product_header_block"><div class="inc_pdp_bundle_product_header_text">Frequently Bought with</div></div><div class="inc_pdp_bundle_product_left-btn_block"><div class="inc_pdp_bundle_product_left-btn_img_block"><div class="inc_pdp_bundle_product_left-btn_img" title="Scroll left"></div></div></div><div class="inc_pdp_bundle_product_list_block"><div class="inc_pdp_bundle_product_list_main_block"></div><div class="inc_pdp_bundle_product_list_left_block"><div class="inc_pdp_bundle_product_list_left_btn_block"><div class="inc_pdp_bundle_product_list_left_btn_img_block"><div class="inc_pdp_bundle_product_list_left_btn_img"></div></div></div></div><div class="inc_pdp_bundle_product_list_items_show_more_less_block"><div class="inc_pdp_bundle_product_list_items_show_more_less_text down_wrrow">Show more products</div></div><div class="inc_pdp_bundle_product_list_wrapper_items_block"><div class="inc_pdp_bundle_product_list_wrapper_header_block"><div class="inc_pdp_bundle_product_list_wrapper_header_text_block"></div><div class="inc_pdp_bundle_product_list_wrapper_header_close_block"></div></div><div class="inc_pdp_bundle_product_list_items_block"></div></div><div class="inc_pdp_bundle_product_list_right_block"><div class="inc_pdp_bundle_product_list_right_btn_block"><div class="inc_pdp_bundle_product_list_right_btn_img_block"><div class="inc_pdp_bundle_product_list_right_btn_img"></div></div></div></div></div><div class="inc_pdp_bundle_product_right-btn_block"><div class="inc_pdp_bundle_product_right-btn_img_block"><div class="inc_pdp_bundle_product_right-btn_img" title="Scroll right"></div></div></div></div><div class="inc_pdp_bundle_cart_overlay_block"></div><div class="inc_pdp_bundle_cart_block"><div class="inc_pdp_bundle_cart_title_block"><div class="inc_pdp_bundle_cart_title_text_block"><div class="inc_pdp_bundle_cart_title_text">Price Summary</div></div></div><div class="inc_pdp_bundle-cart_ecirp_block"><div class="inc_pdp_bundle-cart_ecirp_main"><div class="inc_pdp_bundle-cart_ecirp_main_title_block"><div class="inc_pdp_bundle-cart_ecirp_main_title_text_block"><div class="inc_pdp_bundle-cart_ecirp_main_title_text">Main Product Price </div></div></div><div class="inc_pdp_bundle-cart_ecirp_main_figure_block"><div class="inc_pdp_bundle-cart_ecirp_main_figure_text_block"><div class="inc_pdp_bundle-cart_ecirp_main_figure_text">Â£00.00</div></div></div></div><div class="inc_pdp_bundle-cart_ecirp_addon_block"><div class="inc_pdp_bundle-cart_ecirp_addon_title_block"><div class="inc_pdp_bundle-cart_ecirp_addon_title_text_block"><div class="inc_pdp_bundle-cart_ecirp_addon_title_text">Add-on(s) Selected </div></div></div><div class="inc_pdp_bundle-cart_ecirp_addon_figure_block"><div class="inc_pdp_bundle-cart_ecirp_addon_figure_text_block"><div class="inc_pdp_bundle-cart_ecirp_addon_figure_text">Â£0.00</div></div></div></div></div><div class="inc_pdp_bundle_cart_added_block"></div><div class="inc_pdp_bundle_cart_summary_block"><div class="inc_pdp_bundle_cart_summary_title_block"><div class="inc_pdp_bundle_cart_summary_title_text_block"><div class="inc_pdp_bundle_cart_summary_count_text"></div><div class="inc_pdp_bundle_cart_summary_title_text">Total Bundle Price</div></div></div><div class="inc_pdp_bundle_cart_summary_ecirp_block"><div class="inc_pdp_bundle_cart_summary_ecirp_active_block"><div class="inc_pdp_bundle_cart_summary_ecirp_active_text_block"><div class="inc_pdp_bundle_cart_summary_ecirp_active_text">Â£60.00</div></div></div><div class="inc_pdp_bundle_cart_summary_ecirp_save_block"><div class="inc_pdp_bundle_cart_summary_ecirp_save_text"></div></div><div class="inc_pdp_bundle_cart_summary_ecirp_regular_block"><div class="inc_pdp_bundle_cart_summary_ecirp_regular_text_block"><div class="inc_pdp_bundle_cart_summary_ecirp_regular_text"></div></div></div></div><div class="inc_pdp_bundle_cart_summary_view_block"><div class="inc_pdp_bundle_cart_summary_view_btn_block"><div class="inc_pdp_bundle_cart_summary_view_btn_img_block"><div class="inc_pdp_bundle_cart_summary_view_btn_img"></div></div><div class="inc_pdp_bundle_cart_summary_view_btn_text_block"><div class="inc_pdp_bundle_cart_summary_view_btn_text">Added items</div></div><div class="inc_pdp_bundle_cart_summary_view_btn_count_block"><div class="inc_pdp_bundle_cart_summary_view_btn_count"></div></div></div></div><div class="inc_pdp_bundle_cart_summary_add_block"><div class="inc_pdp_bundle_cart_summary_add_btn_block"><div class="inc_pdp_bundle_cart_summary_add_btn_text_block"><div class="inc_pdp_bundle_cart_summary_add_btn_text">Add To Cart</div><div class="inc_pdp_bundle_cart_summary_add_btn_span"></div></div><div class="inc_pdp_bundle_cart_summary_add_btn_img_block"><div class="inc_pdp_bundle_cart_summary_add_btn_img"></div></div></div><div class="inc_pdp_bundle_cart_summary_add_btn_collection_block" style="pointer-events: auto;opacity: 1;"><div class="inc_pdp_bundle_cart_summary_add_btn_collection_text_block"><div class="inc_pdp_bundle_cart_summary_add_btn_collection_text" style="text-transform: none;"></div></div></div></div></div></div></div>';
-    letsidebar_html =
+    let sidebar_html =
         '<span class="close_modal_inc"></span><div class="inc_sidebar_modal_block"><div class="inc_sidebar_modal_cart_and_title_block"><div class="inc_header_title_block"><div class="inc_header_title_text_block"><div class="inc_header_title_text">Just added To Your Cart</div></div></div><div class="inc_sidebar_cart_added_block"><div class="inc_cart_added_list_block"></div><div class="inc_cart_product_count_block"></div></div><div class="inc_sidebar_header_block"><div class="inc_header_continue_block"><div class="inc_header_continue_img_block"><div class="inc_header_continue_img"></div></div><div class="inc_header_continue_text_block"><div class="inc_header_continue_text">Back</div></div></div><div class="inc_header_item_block"><div class="inc_header_item_count_block"><div class="inc_header_item_count_title_block"><div class="inc_header_item_count_title_text_block"><div class="inc_header_item_count_title_text">Subtotal (0 item)</div></div></div><div class="inc_header_item_count_figure_block"><div class="inc_header_item_count_figure_text_block"><div class="inc_header_item_count_figure_text"></div></div></div><div class="inc_cart_added_product_desc_subtotal_ecirp_block"><div class="inc_cart_added_product_desc_subtotal_ecirp_active_block"><div class="inc_cart_added_product_desc_subtotal_ecirp_active_text_block"><div class="inc_cart_added_product_desc_subtotal_ecirp_active_text" subtotalactiveprice="0.00">Â£0.00</div><div class="inc_cart_added_product_desc_ecirp_active_text_msg"></div></div></div><div class="inc_cart_added_product_desc_subtotal_ecirp_regular_block"><div class="inc_cart_added_product_desc_subtotal_ecirp_regular_text_block"><div class="inc_cart_added_product_desc_subtotal_ecirp_regular_text" subtotalregularprice="0.00"></div></div></div><div class="inc_just_added_save_pr"></div></div></div></div></div></div><div class="inc_sidebar_checkout_block"><div class="inc_checkout_continue_block"><div class="inc_checkout_continue_btn_block"><div class="inc_checkout_continue_btn_img_block"><div class="inc_checkout_continue_btn_img"></div></div><div class="inc_checkout_continue_btn_text_block"><div class="inc_checkout_continue_btn_text">Proceed to checkout</div><div class="inc_checkout_continue_btn_span"></div></div></div></div><div class="inc_checkout_basket_block"><div class="inc_checkout_basket_btn_block"><div class="inc_checkout_basket_btn_img_block"><div class="inc_checkout_basket_btn_img"></div></div><div class="inc_checkout_basket_btn_text_block"><div class="inc_checkout_basket_btn_span"></div><div class="inc_checkout_basket_btn_text"><a class="view_basket_checkout"><div draggable="false">View or edit your cart</div></a></div></div></div></div></div><div class="inc_sidebar_recommended_block"><div class="inc_recommended_title_block"><div class="inc_recommended_title_text_block"><div class="inc_recommended_title_text">Customers Also Bought</div></div></div><div class="inc_recommended_tabs_block"><div class="inc_recommended_tabs_list_block" tabindex="0"></div></div><div class="inc_recommended_products_block"><div class="inc_recommended_products_left_block"><div class="inc_recommended_products_left_btn_block"><div class="inc_recommended_products_left_btn_img_block"><div class="inc_recommended_products_left_btn_img" title="Scroll left"></div></div></div></div><div class="inc_recommended_products_list_main_block"><div class="inc_recommended_products_list_block"></div></div><div class="inc_recommended_products_item_thumb_block"><div class="inc_recommended_products_list_item_thumb_block"></div></div><div class="inc_recommended_products_right_block"><div class="inc_recommeded_products_right_btn_block"><div class="inc_recommended_products_right_btn_img_block"><div class="inc_recommended_products_right_btn_img" title="Scroll right"></div></div></div></div></div></div></div>';
 
-    letcart_html =
+    let cart_html =
         '<div class="inc_af_title_block" style="clear: both;"><div class="inc_af_title_text_block"><div class="inc_af_title_text"></div><div class="inc_af_modal_close"></div></div></div><div class="inc_af_bundles_block"><div class="inc_af_left_block"><div class="inc_af_left_btn_block"><div class="inc_af_left_btn_img_block"><div class="inc_af_left_btn_img"></div></div></div></div><div class="inc_af_product-list-main_block"><div class="inc_af_product-list_block"></div></div><div class="inc_af_right_block"><div class="inc_af_right_btn_block"><div class="inc_af_right_btn_img_block"><div class="inc_af_right_btn_img"></div></div></div></div></div>';
-    letshowcase_productcard =
+    let showcase_productcard =
         '<div class="inc_product_block"><div class="inc_product_header_main_block"><div class="inc_product_header_main_title_block"></div><div class="inc_product_header_main_rating_block"></div><div class="inc_product_header_block"><div class="inc_product_header_title_block"><div class="inc_product_header_title_text_block"><div class="inc_product_header_title_text"></div></div></div></div><div class="inc_product_Description_header_block"><div class="inc_product_Description_header_title_block"><div class="inc_product_Description_header_title_text_block"><div class="inc_product_Description_header_title_text"></div></div></div></div><div class="inc_product_header_img_block"><div class="inc_product_header_img"></div></div></div><div class="inc_product_info_main_block"><div class="inc_product_img_block"><div class="inc_product_extension_block"></div><div class="inc_product_img_main_block"><div class="inc_product_img_main_img"></div></div><div class="inc_product_img_gallery_block"><div class="inc_product_img_gallery_left_block"><div class="inc_product_img_gallery_left_btn_block"><div class="inc_product_img_gallery_left_btn_img_block"><div class="inc_product_img_gallery_left_btn_img"></div></div><div class="inc_product_img_gallery_left_btn_text_block"><div class="inc_product_img_gallery_left_btn_text"></div></div></div></div><div class="inc_product_img_gallery_list_block"></div><div class="inc_product_img_gallery_right_block"><div class="inc_product_img_gallery_right_btn_block"><div class="inc_product_img_gallery_right_btn_img_block"><div class="inc_product_img_gallery_right_btn_img"></div></div><div class="inc_product_img_gallery_right_btn_text_block"><div class="inc_product_img_gallery_right_btn_text"></div></div></div></div></div></div><div class="inc_product_desc_block"><div class="inc_product_desc_title_block"><div class="inc_product_desc_title_text_block"><div class="inc_product_desc_title_text"></div></div></div><div class="inc_product_desc_ecirp_block"><div class="inc_product_ecirp_label_block"></div><div class="inc_product_desc_ecirp_active_block"><div class="inc_product_desc_ecirp_active_text_block"><div class="inc_product_desc_ecirp_active_text">Â£0.00 - -Â£0.00</div><div class="inc_product_desc_ecirp_active_text_msg"></div></div></div><div class="inc_product_desc_ecirp_regular_block"><div class="inc_product_desc_ecirp_regular_text_block"><div class="inc_product_desc_ecirp_regular_text"></div></div></div><div class="inc_product_desc_ecirp_worth_block"><div class="inc_product_desc_ecirp_worth_text_block"><div class="inc_product_desc_ecirp_worth_text"></div><div class="inc_product_desc_ecirp_worth_text_msg"></div></div></div></div><div class="pc_promo_div"></div><div class="inc_product_desc_ratings_block"></div><div class="inc_variant_error_text"></div><div class="inc_product_desc_att_details_block"><div class="inc_product_variant_simple_block"><div class="inc_product_variant_simple_text"><span>Add To Cart</span></div></div><div class="inc_product_desc_att_block"><div class="inc_product_desc_variant_popup_close_block"></div><div class="inc_product_desc_add_err_text_block"></div><div class="inc_product_desc_add_title_text_block"></div><div class="inc_product_desc_att_color_block"><div class="inc_product_desc_att_color_title_block"><div class="inc_product_desc_att_color_title_text_block"><div class="inc_product_desc_att_color_title_text"></div><div class="inc_product_desc_att_color_title_text_selected"></div></div></div><div class="inc_product_desc_att_color_list_block"></div></div><div class="inc_product_desc_att_zero_block"><div class="inc_product_desc_att_zero_title_block"><div class="inc_product_desc_att_zero_title_text_block"><div class="inc_product_desc_att_zero_title_text"></div><div class="inc_product_desc_att_zero_title_text_selected"></div></div></div><div class="inc_product_desc_att_zero_list_block"></div></div><div class="inc_product_desc_att_size_block"><div class="inc_product_desc_att_size_title_block"><div class="inc_product_desc_att_size_title_text_block"><div class="inc_product_desc_att_size_title_text"></div><div class="inc_product_desc_att_size_title_text_selected"></div></div></div><div class="inc_product_desc_att_size_list_block"></div></div><div class="inc_product_desc_att_third_block"><div class="inc_product_desc_att_third_title_block"><div class="inc_product_desc_att_third_title_text_block"><div class="inc_product_desc_att_third_title_text"></div><div class="inc_product_desc_att_third_title_text_selected"></div></div></div><div class="inc_product_desc_att_third_list_block"></div></div><div class="inc_product_desc_att_fourth_block"><div class="inc_product_desc_att_fourth_title_block"><div class="inc_product_desc_att_fourth_title_text_block"><div class="inc_product_desc_att_fourth_title_text"></div><div class="inc_product_desc_att_fourth_title_text_selected"></div></div></div><div class="inc_product_desc_att_fourth_list_block"><div class="inc_product_desc_att_fourth_list_item_block"><div class="inc_product_desc_att_fourth_list_item_img_block"><div class="inc_product_desc_att_fourth_list_item_img"></div></div><div class="inc_product_desc_att_fourth_list_item_text_block"><div class="inc_product_desc_att_fourth_list_item_text"></div></div></div></div></div><div class="inc_product_desc_att_edit_block"><div class="inc_product_desc_att_edit_text"></div></div><div class="inc_product_desc_att_variant_add_block"><div class="inc_product_desc_att_variant_text"></div></div></div><div class="inc_product_details_prod_block"><div class="inc_product_details_prod_text"></div></div></div><div class="inc_product_desc_qty_add_btn_block "><label>qty</label><div class="inc_product_qty_block singleqty"><div class="inc_product_qty_down_block"><div class="inc_product_qty_down_btn_block"><div class="inc_product_qty_down_btn"></div></div></div><div class="inc_product_qty_input_block"><div class="inc_product_qty_input_text_block"><div class="inc_product_qty_input_text"><span class="inc_add_text"></span></div></div></div><div class="inc_product_qty_up_block"><div class="inc_product_qty_up_btn_block"><div class="inc_product_qty_up_btn"></div></div></div></div><div class="inc_product_add_block"><div class="inc_product_add_text_block"><div class="inc_product_add_text">Add To Cart</div></div></div><div class="inc_product_add_collection_block"><div class="inc_product_add_collection_text_block"><div class="inc_product_add_collection_text">Collect</div></div></div><div class="inc_product_desc_add_block"><div class="inc_product_desc_add_img_block"><div class="inc_product_desc_add_img"></div></div><div class="inc_product_desc_add_text_block"><div class="inc_product_desc_add_text">Add To Cart</div><div class="inc_product_desc_add_span"></div></div></div><div class="inc_product_bstxt_block"></div></div></div><div class="inc_product_bstxt_block"></div></div><div class="inc_product_description_main_block"></div></div>';
 
-    letmodal_productcard =
+    let modal_productcard =
         '<div class="inc_product_block "><div class="inc_product_extension_block"></div><div class="inc_product_header_main_block"><div class="inc_product_header_main_title_block"></div><div class="inc_product_header_main_rating_block"><div class="inc_product_desc_ratings_block"></div><span class="product_modal_sku">#</span></div><div class="inc_product_header_block"><div class="inc_product_header_title_block"><div class="inc_product_header_title_text_block"><div class="inc_product_header_title_text">Overview</div></div></div><div class="inc_product_header_title_block_1"><div class="inc_product_header_title_text_block_1"><div class="inc_product_header_title_text_1">Description</div></div></div><div class="inc_product_header_new_page"><a class="inc_product_header_new_page_text" href="">Open in a new tab</a></div></div><div class="inc_product_Description_header_block"><div class="inc_product_Description_header_title_block"><div class="inc_product_Description_header_title_text_block"><div class="inc_product_Description_header_title_text"></div></div></div></div><div class="inc_product_header_img_block"><div class="inc_product_header_img"></div></div></div><div class="inc_product_info_main_block"><div class="inc_product_img_block"><div class="inc_product_img_main_block"><div class="inc_product_img_main_img"><div class="inc_video_container empty"><video id="incVideoPlayer" class="inc_vim_video"  autoplay muted="" playsinline=""><source src="" type="video/mp4"></video></div></div></div><div class="inc_product_img_gallery_block"><div class="inc_product_img_gallery_left_block" title="Scroll left"><div class="inc_product_img_gallery_left_btn_block"><div class="inc_product_img_gallery_left_btn_img_block"><div class="inc_product_img_gallery_left_btn_img"></div></div><div class="inc_product_img_gallery_left_btn_text_block"><div class="inc_product_img_gallery_left_btn_text"></div></div></div></div><div class="inc_product_img_gallery_list_block"></div><div class="inc_product_img_gallery_right_block" title="Scroll right"><div class="inc_product_img_gallery_right_btn_block"><div class="inc_product_img_gallery_right_btn_img_block"><div class="inc_product_img_gallery_right_btn_img"></div></div><div class="inc_product_img_gallery_right_btn_text_block"><div class="inc_product_img_gallery_right_btn_text"></div></div></div></div></div></div><div class="inc_product_desc_block"><div class="inc_product_desc_size_guide_block"></div><div class="inc_product_desc_title_block"><div class="inc_product_desc_title_text_block"><div class="inc_product_desc_title_text"></div></div></div><div class="inc_product_desc_ecirp_block"><div class="inc_product_ecirp_label_block"></div><div class="inc_product_desc_ecirp_active_block"><div class="inc_product_desc_ecirp_active_text_block"><div class="inc_product_desc_ecirp_active_text">Â£0.00 - -Â£0.00</div><div class="inc_product_desc_ecirp_active_text_msg"></div></div></div><div class="inc_product_desc_ecirp_regular_block"><div class="inc_product_desc_ecirp_regular_text_block"><div class="inc_product_desc_ecirp_regular_text"></div></div></div><div class="inc_product_desc_ecirp_worth_block"><div class="inc_product_desc_ecirp_worth_text_block"><div class="inc_product_desc_ecirp_worth_text"></div><div class="inc_product_desc_ecirp_worth_text_msg"></div></div></div></div><div class="inc_product_desc_ratings_block"></div><div class="inc_product_desc_att_details_block"><div class="inc_product_variant_simple_block"><div class="inc_product_variant_simple_text"><span></span></div></div><div class="pc_promo_div"></div><div class="inc_product_desc_att_block"><div class="inc_product_desc_variant_popup_close_block"></div><div class="inc_product_desc_add_err_text_block"></div><div class="inc_product_desc_add_title_text_block"></div><div class="inc_product_desc_att_color_block"><div class="inc_product_desc_att_color_title_block"><div class="inc_product_desc_att_color_title_text_block"><div class="inc_product_desc_att_color_title_text"></div><div class="inc_product_desc_att_color_title_text_selected"></div></div></div><div class="inc_product_desc_att_color_list_block"></div></div><div class="inc_product_desc_att_zero_block"><div class="inc_product_desc_att_zero_title_block"><div class="inc_product_desc_att_zero_title_text_block"><div class="inc_product_desc_att_zero_title_text"></div><div class="inc_product_desc_att_zero_title_text_selected"></div></div></div><div class="inc_product_desc_att_zero_list_block"></div></div><div class="inc_product_desc_att_size_block"><div class="inc_product_desc_att_size_title_block"><div class="inc_product_desc_att_size_title_text_block"><div class="inc_product_desc_att_size_title_text"></div><div class="inc_product_desc_att_size_title_text_selected"></div></div></div><div class="inc_product_desc_att_size_list_block"></div></div><div class="inc_product_desc_att_third_block"><div class="inc_product_desc_att_third_title_block"><div class="inc_product_desc_att_third_title_text_block"><div class="inc_product_desc_att_third_title_text"></div><div class="inc_product_desc_att_third_title_text_selected"></div></div></div><div class="inc_product_desc_att_third_list_block"></div></div><div class="inc_product_desc_att_fourth_block"><div class="inc_product_desc_att_fourth_title_block"><div class="inc_product_desc_att_fourth_title_text_block"><div class="inc_product_desc_att_fourth_title_text"></div><div class="inc_product_desc_att_fourth_title_text_selected"></div></div></div><div class="inc_product_desc_att_fourth_list_block"><div class="inc_product_desc_att_fourth_list_item_block"><div class="inc_product_desc_att_fourth_list_item_img_block"><div class="inc_product_desc_att_fourth_list_item_img"></div></div><div class="inc_product_desc_att_fourth_list_item_text_block"><div class="inc_product_desc_att_fourth_list_item_text"></div></div></div></div></div><div class="inc_product_desc_att_edit_block"><div class="inc_product_desc_att_edit_text"></div></div><div class="inc_product_desc_att_variant_add_block"><div class="inc_product_desc_att_variant_text"></div></div></div><div class="inc_product_details_prod_block"><div class="inc_product_details_prod_text"></div></div></div><div class="inc_product_desc_qty_add_btn_block"><div class="inc_qty_header">Quantity:</div><div class="inc_product_qty_block singleqty"><div class="inc_product_qty_down_block"><div class="inc_product_qty_down_btn_block"><div class="inc_product_qty_down_btn"></div></div></div><div class="inc_product_qty_input_block"><div class="inc_product_qty_input_text_block"><div class="inc_product_qty_input_text"></div></div></div><div class="inc_product_qty_up_block"><div class="inc_product_qty_up_btn_block"><div class="inc_product_qty_up_btn"></div></div></div></div><div class="inc_product_add_block"><div class="inc_product_add_text_block"><div class="inc_product_add_text"></div></div></div><div class="inc_product_add_collection_block"><div class="inc_product_add_collection_text_block"><div class="inc_product_add_collection_text">Collect</div></div></div><div class="inc_product_desc_add_block"><div class="inc_product_desc_add_img_block"><div class="inc_product_desc_add_img"></div></div><div class="inc_product_desc_add_text_block"><div class="inc_product_desc_add_text">Add To Cart</div><div class="inc_product_desc_add_span"></div></div></div><div class="inc_product_bstxt_block"></div></div></div><div class="inc_product_bstxt_block"></div></div><div class="inc_product_description_main_block"></div></div>';
-    letINC = {};
+    let INC = {};
     INC.bundles = true;
     INC.ENV = "prod";
     INC.debug = 0;
     INC.initStatus = "";
     INC.initStatusCP = "";
-    letonloadpdp = false;
-    letcrypto = window.crypto || window.msCrypto;
+    let onloadpdp = false;
+    let crypto = window.crypto || window.msCrypto;
 
     function generateRandomString(bits1) {
         return (
@@ -33,14 +33,14 @@
                 .substring(2, 15)
         );
     }
-    letrecsUrl = [];
-    lettrueflag = true;
-    letfalseflag = false;
-    letmismatch = falseflag;
-    letoosStatus = falseflag;
-    letonloadpdp_delete = false;
-    letincallowedKeys = [46, 8, 9, 27, 110, 190];
-    letinc_scroll_height = 100;
+    let recsUrl = [];
+    let trueflag = true;
+    let falseflag = false;
+    let mismatch = falseflag;
+    let oosStatus = falseflag;
+    let onloadpdp_delete = false;
+    let incallowedKeys = [46, 8, 9, 27, 110, 190];
+    let inc_scroll_height = 100;
     INC.clientConfig = {};
     INC.clientConfig.statusVAT = "";
     INC.clientConfig.offset = 0;
@@ -92,8 +92,8 @@
     INC.config.datastoreprod = [];
     INC.config.ddFlag = false;
     INC.config.catFlag = [];
-    letfabricprod = [];
-    letaddedProductIndex = [];
+    let fabricprod = [];
+    let addedProductIndex = [];
     INC.config.singleProd = false;
     INC.config.VariantProduct = false;
     INC.checkProdUserCookie = function () {
@@ -106,11 +106,11 @@
     INC.checkProdUserCookie();
 
     function readCookie(name) {
-        letnameEQ = name + "=";
-        letca = document.cookie.split(";");
-        for (lets in ca) {
+        let nameEQ = name + "=";
+        let ca = document.cookie.split(";");
+        for (let s in ca) {
             if (Object.prototype.hasOwnProperty.call(ca, s)) {
-                letc = ca[s];
+                let c = ca[s];
                 while (c.charAt(0) == " ") {
                     c = c.substring(1, c.length);
                 }
@@ -123,13 +123,13 @@
     }
 
     function generate_html_tag(element, className) {
-        letgenerateEl = document.createElement(element);
+        let generateEl = document.createElement(element);
         if (className != undefined) {
             generateEl.classList.add(className);
         }
         return generateEl;
     }
-    letformatter = new Intl.NumberFormat("en-GB", {
+    let formatter = new Intl.NumberFormat("en-GB", {
         style: "currency",
         currency: "GBP",
     });
@@ -174,8 +174,8 @@
         }
         switch (INC.config.pageType) {
             case "pdp":
-                letproductId = INC.methods.getProductIdFromWebPage();
-                letclientATC = document.querySelector(
+                let productId = INC.methods.getProductIdFromWebPage();
+                let clientATC = document.querySelector(
                     ".button.klaviyo-bis-trigger"
                 );
                 if (clientATC != null) {
@@ -206,10 +206,10 @@
 
     function cartpageprodids() {
         INC.config.cartproductids = [];
-        letcartPro = document.querySelectorAll(
+        let cartPro = document.querySelectorAll(
             '.cart-item .cart-item-block a[href="#"]'
         );
-        for (letc of cartPro) {
+        for (let c of cartPro) {
             if (
                 c.getAttribute("data-product-id") != null &&
                 c.getAttribute("data-product-id") != undefined
@@ -224,12 +224,12 @@
     }
     INC.dataStore = {};
     INC.dataStore.methods = function () {
-        letincDataStore = INC.dataStore;
+        let incDataStore = INC.dataStore;
 
         function buildDataStoreObj(bundleResponse) {
             INC.config.dupDataObjectProducts = [];
             INC.dataStore.clientProductDealsCategory = "";
-            letbundles = [];
+            let bundles = [];
             if (INC.config.recommendation == trueflag) {
                 bundles = bundleResponse.CategoryRecommendations;
             } else {
@@ -246,11 +246,11 @@
                         productDealObj.CategoryId;
                 });
             }
-            letdataStoreObj = {};
-            letbundleproductarray = {};
-            letbundleProductsArray = [];
+            let dataStoreObj = {};
+            let bundleproductarray = {};
+            let bundleProductsArray = [];
             if (bundleResponse.ProductsDetail != null) {
-                for (letpr in bundleResponse.ProductsDetail) {
+                for (let pr in bundleResponse.ProductsDetail) {
                     if (
                         Object.prototype.hasOwnProperty.call(
                             bundleResponse.ProductsDetail,
@@ -263,7 +263,7 @@
                     }
                 }
             } else if (bundleResponse.CategoryRecommendations != null) {
-                for (letct in bundleResponse.CategoryRecommendations) {
+                for (let ct in bundleResponse.CategoryRecommendations) {
                     if (
                         Object.prototype.hasOwnProperty.call(
                             bundleResponse.CategoryRecommendations,
@@ -277,8 +277,8 @@
                 }
             }
 
-            letpdpProductId = "";
-            for (leti in bundles) {
+            let pdpProductId = "";
+            for (let i in bundles) {
                 if (Object.prototype.hasOwnProperty.call(bundles, i)) {
                     if (
                         INC.config.dupDataObjectProducts.indexOf(
@@ -294,8 +294,8 @@
                             bundleids: bundles[i].BundleId,
                             productids: bundles[i].ProductIds,
                         });
-                        letirbBundleObj = bundles[i];
-                        letbundleObj = {};
+                        let irbBundleObj = bundles[i];
+                        let bundleObj = {};
                         if (INC.config.recommendation == falseflag) {
                             bundleObj.id = irbBundleObj["BundleId"];
                         }
@@ -312,7 +312,7 @@
                             bundleObj.productCount =
                                 irbBundleObj["ProductCount"];
                         }
-                        letirbProductsArray = "";
+                        let irbProductsArray = "";
                         if (INC.config.recommendation == trueflag) {
                             irbProductsArray = bundles;
                         } else {
@@ -358,14 +358,14 @@
                             bundleProductsArray.push(bundles[i]["ProductId"]);
                         }
 
-                        for (letir in irbProductsArray) {
+                        for (let ir in irbProductsArray) {
                             if (
                                 Object.prototype.hasOwnProperty.call(
                                     irbProductsArray,
                                     ir
                                 )
                             ) {
-                                letproduct =
+                                let product =
                                     bundleproductarray[irbProductsArray[ir]] ||
                                     irbProductsArray[ir];
 
@@ -382,13 +382,13 @@
                                             product.ProductId
                                         );
                                     }
-                                    letpAttributes =
+                                    let pAttributes =
                                         product["Attributes"] || "";
                                     if (
                                         pAttributes != "" &&
                                         pAttributes != null
                                     ) {
-                                        for (letp of pAttributes) {
+                                        for (let p of pAttributes) {
                                             if (p.attributeCode == "color") {
                                                 p.attributeCode = "Color";
                                             }
@@ -428,10 +428,10 @@
                                         pAttributes =
                                             attribute_listing(pAttributes);
                                     }
-                                    letpAttObj = {};
-                                    letattr_values = "";
-                                    letc_t = 0;
-                                    for (lett of pAttributes) {
+                                    let pAttObj = {};
+                                    let attr_values = "";
+                                    let c_t = 0;
+                                    for (let t of pAttributes) {
                                         if (
                                             t.attributeId != null &&
                                             t.attributeId != undefined
@@ -455,7 +455,7 @@
                                                 // pAttributes[0].attributeId = 0;
                                                 pAttributes[0].attributeIdAd = 0;
                                                 attr_values = t.attributeValues;
-                                                for (letv of attr_values) {
+                                                for (let v of attr_values) {
                                                     v["opId"] = v.optionId;
                                                     v.optionId = 0;
                                                 }
@@ -463,7 +463,7 @@
                                                 // pAttributes[0].attributeId = 1;
                                                 pAttributes[0].attributeIdAd = 1;
                                                 attr_values = t.attributeValues;
-                                                for (letvb of attr_values) {
+                                                for (let vb of attr_values) {
                                                     vb["opId"] = vb.optionId;
                                                     vb.optionId = 1;
                                                 }
@@ -485,36 +485,36 @@
                                             }
                                             t.attributeIdAd = c_t;
                                             attr_values = t.attributeValues;
-                                            for (letva of attr_values) {
+                                            for (let va of attr_values) {
                                                 va["opId"] = va.optionId;
                                                 va.optionId = c_t;
                                             }
                                         }
                                         c_t++;
                                     }
-                                    letproductObj = "";
+                                    let productObj = "";
                                     if (pAttributes.length) {
-                                        for (letpattv in pAttributes) {
+                                        for (let pattv in pAttributes) {
                                             if (
                                                 Object.prototype.hasOwnProperty.call(
                                                     pAttributes,
                                                     pattv
                                                 )
                                             ) {
-                                                letpAttributesObj =
+                                                let pAttributesObj =
                                                     pAttributes[pattv];
-                                                letpAttributesValues =
+                                                let pAttributesValues =
                                                     pAttributesObj[
                                                     "attributeValues"
                                                     ];
-                                                for (letptr in pAttributesValues) {
+                                                for (let ptr in pAttributesValues) {
                                                     if (
                                                         Object.prototype.hasOwnProperty.call(
                                                             pAttributesValues,
                                                             ptr
                                                         )
                                                     ) {
-                                                        letchildProduct =
+                                                        let childProduct =
                                                             pAttributesValues[
                                                             ptr
                                                             ];
@@ -764,7 +764,7 @@
                                                             "ProductId"
                                                             ]
                                                             ][productObj["id"]];
-                                                        for (letpAtt in productObj) {
+                                                        for (let pAtt in productObj) {
                                                             if (
                                                                 Object.prototype.hasOwnProperty.call(
                                                                     productObj,
@@ -886,8 +886,8 @@
         }
 
         function getFirstProductObjByMainId(findObj) {
-            letchildProductObj = {};
-            letproductListObj = INC.dataStore.dataStoreObj;
+            let childProductObj = {};
+            let productListObj = INC.dataStore.dataStoreObj;
             try {
                 if (
                     productListObj != undefined &&
@@ -906,11 +906,11 @@
         }
 
         function getProductById(findObj) {
-            letchildProductObj = {};
-            letproductListObj = INC.dataStore.dataStoreObj;
+            let childProductObj = {};
+            let productListObj = INC.dataStore.dataStoreObj;
             if (Object.prototype.hasOwnProperty.call(findObj, "id")) {
-                for (letmainProductId in productListObj) {
-                    for (letchildProductId in productListObj[mainProductId]) {
+                for (let mainProductId in productListObj) {
+                    for (let childProductId in productListObj[mainProductId]) {
                         if (
                             document.querySelector(
                                 ".sidebar_outer.sidebar_outer_active .inc_sidebar_modal_block"
@@ -948,8 +948,8 @@
             }
             if (Object.keys(childProductObj).length == 0) {
                 if (Object.prototype.hasOwnProperty.call(findObj, "id")) {
-                    for (letmainProductIds in productListObj) {
-                        for (letchildProductIds in productListObj[
+                    for (let mainProductIds in productListObj) {
+                        for (let childProductIds in productListObj[
                             mainProductIds
                         ]) {
                             if (
@@ -998,11 +998,11 @@
         }
 
         function getProductBySKU(findObj, sidebar) {
-            letchildProductObj = {};
-            letproductListObj = INC.dataStore.dataStoreObj;
+            let childProductObj = {};
+            let productListObj = INC.dataStore.dataStoreObj;
             if (Object.prototype.hasOwnProperty.call(findObj, "sku")) {
-                for (letmainProductId in productListObj) {
-                    for (letchildProductId in productListObj[mainProductId]) {
+                for (let mainProductId in productListObj) {
+                    for (let childProductId in productListObj[mainProductId]) {
                         if (sidebar == "sidebar") {
                             if (
                                 productListObj[mainProductId][childProductId][
@@ -1044,16 +1044,16 @@
         }
 
         function getUniqueCatergories() {
-            letcatergoriesArray = [];
-            letproductListObj = INC.dataStore.dataStoreObj;
-            letbundleProductsArray = INC.dataStore.bundleProductsArray;
+            let catergoriesArray = [];
+            let productListObj = INC.dataStore.dataStoreObj;
+            let bundleProductsArray = INC.dataStore.bundleProductsArray;
             bundleProductsArray.forEach(function (productId) {
-                for (letchildProductId in productListObj[productId]) {
+                for (let childProductId in productListObj[productId]) {
                     if (
                         productListObj[productId][childProductId].bundleId !=
                         undefined
                     ) {
-                        letindexOfCategoryId = catergoriesArray.indexOf(
+                        let indexOfCategoryId = catergoriesArray.indexOf(
                             productListObj[productId][childProductId][
                             "categoryId"
                             ]
@@ -1078,7 +1078,7 @@
 
         function sortByKey(array, key) {
             return array.sort(function (a, b) {
-                letx = a[key],
+                let x = a[key],
                     y = b[key];
                 if (typeof x === "string") {
                     x = x.toLowerCase();
@@ -1097,14 +1097,14 @@
         }
 
         function getProductColorsObj(findObj, type_of) {
-            letproductColorObj = {};
-            letproductListObj = INC.dataStore.dataStoreObj;
-            letproductColorArrayObj = {};
-            letproductColorObjArray = [];
+            let productColorObj = {};
+            let productListObj = INC.dataStore.dataStoreObj;
+            let productColorArrayObj = {};
+            let productColorObjArray = [];
             if (Object.prototype.hasOwnProperty.call(findObj, "mainId")) {
-                for (letmainProductId in productListObj) {
+                for (let mainProductId in productListObj) {
                     if (mainProductId == findObj["mainId"]) {
-                        for (letchildProductId in productListObj[
+                        for (let childProductId in productListObj[
                             mainProductId
                         ]) {
                             if (
@@ -1132,7 +1132,7 @@
                                         ]["option"]["0"] != undefined
                                     ) {
                                         if (type_of != undefined) {
-                                            letattr_block = null;
+                                            let attr_block = null;
                                             if (
                                                 type_of.parentNode.parentNode.parentNode.classList.contains(
                                                     "inc_product_desc_att_block"
@@ -1147,8 +1147,8 @@
                                                     type_of.parentNode
                                                         .parentNode.parentNode;
                                             }
-                                            letopt_text = "";
-                                            letopt_size_text = "";
+                                            let opt_text = "";
+                                            let opt_size_text = "";
                                             if (type_of.parentNode != null) {
                                                 opt_text =
                                                     attr_block.getAttribute(
@@ -1238,7 +1238,7 @@
                 }
             }
             Object.keys(productColorArrayObj).forEach(function (colorText) {
-                letcolorObj = {};
+                let colorObj = {};
                 colorObj["text"] = colorText;
                 colorObj["colorCode"] =
                     productColorArrayObj[colorText]["colorCode"];
@@ -1403,22 +1403,22 @@
         }
 
         function getProductSizesObj(findObj, type_of) {
-            letproductSizeObj = {};
-            letproductListObj = INC.dataStore.dataStoreObj;
-            letproductSizesArrayObj = {};
-            letproductSizesObjArray = [];
-            letattr_code = "";
-            letc_pid = "";
-            letprc = "";
-            letlabel = "";
-            letattid = "";
+            let productSizeObj = {};
+            let productListObj = INC.dataStore.dataStoreObj;
+            let productSizesArrayObj = {};
+            let productSizesObjArray = [];
+            let attr_code = "";
+            let c_pid = "";
+            let prc = "";
+            let label = "";
+            let attid = "";
             if (Object.prototype.hasOwnProperty.call(findObj, "mainId")) {
-                for (letmainProductId in productListObj) {
+                for (let mainProductId in productListObj) {
                     if (mainProductId == findObj["mainId"]) {
-                        for (letchildProductId in productListObj[
+                        for (let childProductId in productListObj[
                             mainProductId
                         ]) {
-                            letattr_flag = "";
+                            let attr_flag = "";
                             if (
                                 productListObj[mainProductId][childProductId][
                                 "option"
@@ -1428,7 +1428,7 @@
                                 ]["2"] != undefined
                             ) {
                                 if (type_of != undefined) {
-                                    letattr_block = null;
+                                    let attr_block = null;
                                     if (
                                         type_of.parentNode.parentNode.parentNode.classList.contains(
                                             "inc_product_desc_att_block"
@@ -1442,9 +1442,9 @@
                                             type_of.parentNode.parentNode
                                                 .parentNode;
                                     }
-                                    letopt_text =
+                                    let opt_text =
                                         attr_block.getAttribute("data-zero");
-                                    letopt_size_text =
+                                    let opt_size_text =
                                         attr_block.getAttribute("data-color");
 
                                     if (opt_size_text == undefined) {
@@ -1689,7 +1689,7 @@
             }
 
             Object.keys(productSizesArrayObj).forEach(function (sizeText) {
-                letsizeObj = {};
+                let sizeObj = {};
                 sizeObj["text"] = productSizesArrayObj[sizeText]["titleText"];
                 sizeObj["code"] = attr_code;
                 sizeObj["cpid"] = c_pid;
@@ -1707,11 +1707,11 @@
         }
 
         function getProductopt0Obj(findObj) {
-            letproduct0Obj = {};
-            letproductListObj = INC.dataStore.dataStoreObj;
-            letproduct0ArrayObj = {};
-            letproduct0ObjArray = [];
-            letsizesArray = [
+            let product0Obj = {};
+            let productListObj = INC.dataStore.dataStoreObj;
+            let product0ArrayObj = {};
+            let product0ObjArray = [];
+            let sizesArray = [
                 "XS",
                 "S",
                 "M",
@@ -1725,9 +1725,9 @@
                 "XXXL",
             ];
             if (Object.prototype.hasOwnProperty.call(findObj, "mainId")) {
-                for (letmainProductId in productListObj) {
+                for (let mainProductId in productListObj) {
                     if (mainProductId == findObj["mainId"]) {
-                        for (letchildProductId in productListObj[
+                        for (let childProductId in productListObj[
                             mainProductId
                         ]) {
                             if (
@@ -1744,8 +1744,8 @@
                                 "option"
                                 ]["1"] != undefined
                             ) {
-                                letattr_main = true;
-                                letfirst_attr_acodec = [
+                                let attr_main = true;
+                                let first_attr_acodec = [
                                     "Connectivity",
                                     "Number of SIM",
                                     "Device",
@@ -1839,7 +1839,7 @@
             }
 
             Object.keys(product0ArrayObj).forEach(function (colorText) {
-                letattr0Obj = {};
+                let attr0Obj = {};
                 attr0Obj["text"] = colorText;
                 attr0Obj["text1"] = colorText
                     .replace("g", "")
@@ -1955,14 +1955,14 @@
         }
 
         function getProductopt3Obj(findObj, type_of) {
-            letproduct3Obj = {};
-            letproductListObj = INC.dataStore.dataStoreObj;
-            letproductColorArrayObj = {};
-            letproduct3ObjArray = [];
+            let product3Obj = {};
+            let productListObj = INC.dataStore.dataStoreObj;
+            let productColorArrayObj = {};
+            let product3ObjArray = [];
             if (Object.prototype.hasOwnProperty.call(findObj, "mainId")) {
-                for (letmainProductId in productListObj) {
+                for (let mainProductId in productListObj) {
                     if (mainProductId == findObj["mainId"]) {
-                        for (letchildProductId in productListObj[
+                        for (let childProductId in productListObj[
                             mainProductId
                         ]) {
                             if (
@@ -1980,7 +1980,7 @@
                                 ]["3"] != undefined
                             ) {
                                 if (type_of != undefined) {
-                                    letattr_block = null;
+                                    let attr_block = null;
                                     if (type_of.parentNode.parentNode != null) {
                                         if (
                                             type_of.parentNode.parentNode.parentNode.classList.contains(
@@ -2017,11 +2017,11 @@
                                             type_of.parentNode.parentNode
                                                 .parentNode.parentNode;
                                     }
-                                    letopt_text =
+                                    let opt_text =
                                         attr_block.getAttribute("data-zero");
-                                    letopt_size_text =
+                                    let opt_size_text =
                                         attr_block.getAttribute("data-size");
-                                    letopt_color_text =
+                                    let opt_color_text =
                                         attr_block.getAttribute("data-color");
 
                                     if (opt_size_text == undefined) {
@@ -2333,7 +2333,7 @@
             }
 
             Object.keys(productColorArrayObj).forEach(function (colorText) {
-                letattr3Obj = {};
+                let attr3Obj = {};
                 attr3Obj["text"] = colorText;
                 attr3Obj["imgSrc"] = productColorArrayObj[colorText]["imgSrc"];
                 attr3Obj["titleText"] =
@@ -2350,14 +2350,14 @@
             return product3Obj;
         }
         function getProductopt4Obj(findObj, type_of) {
-            letproduct4Obj = {};
-            letproductListObj = INC.dataStore.dataStoreObj;
-            letproductColorArrayObj = {};
-            letproduct4ObjArray = [];
+            let product4Obj = {};
+            let productListObj = INC.dataStore.dataStoreObj;
+            let productColorArrayObj = {};
+            let product4ObjArray = [];
             if (Object.prototype.hasOwnProperty.call(findObj, "mainId")) {
-                for (letmainProductId in productListObj) {
+                for (let mainProductId in productListObj) {
                     if (mainProductId == findObj["mainId"]) {
-                        for (letchildProductId in productListObj[
+                        for (let childProductId in productListObj[
                             mainProductId
                         ]) {
                             if (
@@ -2375,7 +2375,7 @@
                                 ]["4"] != undefined
                             ) {
                                 if (type_of != undefined) {
-                                    letattr_block = null;
+                                    let attr_block = null;
                                     if (type_of.parentNode.parentNode != null) {
                                         if (
                                             type_of.parentNode.parentNode.parentNode.classList.contains(
@@ -2412,11 +2412,11 @@
                                             type_of.parentNode.parentNode
                                                 .parentNode.parentNode;
                                     }
-                                    letopt_text =
+                                    let opt_text =
                                         attr_block.getAttribute("data-zero");
-                                    letopt_size_text =
+                                    let opt_size_text =
                                         attr_block.getAttribute("data-size");
-                                    letopt_color_text =
+                                    let opt_color_text =
                                         attr_block.getAttribute("data-color");
 
                                     if (opt_size_text == undefined) {
@@ -2728,7 +2728,7 @@
             }
 
             Object.keys(productColorArrayObj).forEach(function (colorText) {
-                letattr4Obj = {};
+                let attr4Obj = {};
                 attr4Obj["text"] = colorText;
                 attr4Obj["imgSrc"] = productColorArrayObj[colorText]["imgSrc"];
                 attr4Obj["titleText"] =
@@ -2746,13 +2746,13 @@
         }
 
         function getProductByAtt(findObj) {
-            letchildProductObj = {};
-            letmainProductListObj = "";
-            letproductListObj = INC.dataStore.dataStoreObj;
+            let childProductObj = {};
+            let mainProductListObj = "";
+            let productListObj = INC.dataStore.dataStoreObj;
             if (findObj.mainId != undefined && productListObj != undefined) {
                 mainProductListObj = productListObj[findObj.mainId];
             }
-            for (letchildProductId in mainProductListObj) {
+            for (let childProductId in mainProductListObj) {
                 if (
                     findObj.zeroText != "" &&
                     findObj.sizeText != "" &&
@@ -3332,16 +3332,16 @@
 
     INC.methods = {};
     INC.methods.networkReq = function (nwConfigObj, cb) {
-        letnwConfigObject = new INC.classes.NWConfig(nwConfigObj);
-        letxhr = new XMLHttpRequest();
+        let nwConfigObject = new INC.classes.NWConfig(nwConfigObj);
+        let xhr = new XMLHttpRequest();
         xhr.open(nwConfigObject.method, nwConfigObject.url, true);
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 if (xhr.response != "") {
                     cb(xhr.response);
                     if (INC.config.pageType == "pdp") {
-                        letp_ids = INC.methods.getProductIdFromWebPage();
-                        letrepd = JSON.parse(xhr.response);
+                        let p_ids = INC.methods.getProductIdFromWebPage();
+                        let repd = JSON.parse(xhr.response);
                         INC.methods.irbReq_is_tc(
                             p_ids,
                             10,
@@ -3359,14 +3359,14 @@
                     }
                 }
             } else if (xhr.status === 401 || xhr.status === 0) {
-                letresp = localStorage.getItem("bundle_response");
+                let resp = localStorage.getItem("bundle_response");
                 cb(resp);
 
                 if (INC.config.pageType == "pdp") {
-                    letp_ids = INC.methods.getProductIdFromWebPage();
+                    let p_ids = INC.methods.getProductIdFromWebPage();
                     INC.methods.irbReq_is_tc(p_ids, 10, "catalog_product_view");
                 }
-                letp_ids = INC.methods.getProductIdFromWebPage();
+                let p_ids = INC.methods.getProductIdFromWebPage();
                 if (INC.config.pageType == "pdp") {
                     // INC.methods.irbReq_is_categ_recomendation(
                     //     p_ids,
@@ -3380,12 +3380,12 @@
     };
 
     INC.methods.irbReq = function (productId, bundleCount, elementName) {
-        letelmname = elementName || "";
-        letproductIdReq = productId;
-        letapiKey = INC.config.clientToken;
-        letbundleReqCount = bundleCount || 5;
-        letirbReqParams = "";
-        letirbPATH = "//rapidload.increasingly.co/increasingly_bundles?irb/";
+        let elmname = elementName || "";
+        let productIdReq = productId;
+        let apiKey = INC.config.clientToken;
+        let bundleReqCount = bundleCount || 5;
+        let irbReqParams = "";
+        let irbPATH = "//rapidload.increasingly.co/increasingly_bundles?irb/";
         irbReqParams =
             "product_ids=" +
             productIdReq +
@@ -3406,25 +3406,25 @@
                 "&no_of_bundles=" +
                 bundleReqCount;
         }
-        letirbReqURL = decodeURI(irbPATH + btoa(irbReqParams));
-        letnetworkConfigObj = new INC.classes.NWConfig();
+        let irbReqURL = decodeURI(irbPATH + btoa(irbReqParams));
+        let networkConfigObj = new INC.classes.NWConfig();
         networkConfigObj["url"] = irbReqURL;
         return this.refreshBundles(networkConfigObj);
     };
 
     INC.methods.refreshBundles = function (nwConfigObj) {
-        letincDataStore = INC.dataStore;
+        let incDataStore = INC.dataStore;
         INC.methods.networkReq(nwConfigObj, function (response) {
             if (response.length == 0) {
                 return;
             }
-            letresponseJSON = "";
+            let responseJSON = "";
             if (typeof response != "object") {
                 responseJSON = JSON.parse(response);
             } else {
                 responseJSON = response;
             }
-            letbundleResponse = responseJSON;
+            let bundleResponse = responseJSON;
 
             if (
                 Object.prototype.hasOwnProperty.call(responseJSON, "Bundles") &&
@@ -3451,9 +3451,9 @@
                     case "productList":
                         INC.config.dupDataObjectProducts = [];
                         INC.methods.createSidebarBlock();
-                        letfindObj = new INC.classes.FindObj();
+                        let findObj = new INC.classes.FindObj();
                         findObj["id"] = INC.config.plpProductId;
-                        letsbBlock = document.querySelector(
+                        let sbBlock = document.querySelector(
                             ".inc_sidebar_modal_block"
                         );
                         sbBlock.querySelector(
@@ -3490,20 +3490,20 @@
                                 .click();
                         }
                         INC.methods.showSidebar();
-                        letimg_elem = setInterval(function () {
-                            letcircle_img = document.querySelector(
+                        let img_elem = setInterval(function () {
+                            let circle_img = document.querySelector(
                                 ".inc_cart_added_product_img img"
                             );
                             if (circle_img != null) {
                                 clearInterval(img_elem);
-                                letsubtotalinc_active = document.querySelector(
+                                let subtotalinc_active = document.querySelector(
                                     ".inc_cart_added_product_desc_subtotal_ecirp_active_text"
                                 );
-                                letsubtotalinc_regular =
+                                let subtotalinc_regular =
                                     document.querySelector(
                                         ".inc_cart_added_product_desc_subtotal_ecirp_regular_text"
                                     );
-                                letlabel = document.querySelector(
+                                let label = document.querySelector(
                                     ".inc_just_added_save_pr"
                                 );
                                 if (
@@ -3515,12 +3515,12 @@
                                             .p_activePrice != undefined
                                     ) {
                                         if (subtotalinc_active != null) {
-                                            letsubt =
+                                            let subt =
                                                 +INC.config
                                                     .empty_prod_details[0]
                                                     .p_activePrice *
                                                 INC.dataStore.plpProductQty;
-                                            letsubr =
+                                            let subr =
                                                 +INC.config
                                                     .empty_prod_details[0]
                                                     .regularPrice *
@@ -3537,7 +3537,7 @@
                                                     "subtotalregularprice",
                                                     subr
                                                 );
-                                                lettotalsaveprc =
+                                                let totalsaveprc =
                                                     get_discount_price(
                                                         subt,
                                                         subr
@@ -3564,7 +3564,7 @@
                                                     "subtotalactiveprice",
                                                     subt
                                                 );
-                                                letsubtotalregular =
+                                                let subtotalregular =
                                                     document.querySelector(
                                                         ".inc_cart_added_product_desc_subtotal_ecirp_regular_text_block"
                                                     );
@@ -3574,7 +3574,7 @@
                                                 );
                                             }
                                         }
-                                        letprd_names = document.querySelector(
+                                        let prd_names = document.querySelector(
                                             ".inc_cart_added_product_desc_title_text"
                                         );
                                         if (
@@ -3591,7 +3591,7 @@
                                             circle_img.src =
                                                 INC.config.empty_prod_details[0].p_img;
                                         }
-                                        letprd_price = document.querySelector(
+                                        let prd_price = document.querySelector(
                                             ".inc_cart_added_product_desc_ecirp_active_text"
                                         );
                                         if (
@@ -3606,7 +3606,7 @@
                                                         .p_activePrice
                                                 );
                                         }
-                                        letszeClrTxt = document.querySelector(
+                                        let szeClrTxt = document.querySelector(
                                             ".inc_cart_added_product_desc_att_size_text"
                                         );
                                         if (
@@ -3674,13 +3674,13 @@
         bundleCount,
         elementNameel
     ) {
-        letelementName = elementNameel || "";
-        letproductId = productIds;
-        letapiKey = INC.config.clientToken;
-        letbundleReqCount = bundleCount || 5;
-        letirbPATH = "//rapidload.increasingly.co/increasingly_bundles?irb/";
-        letvi = INC.config.ivid;
-        letirbparam =
+        let elementName = elementNameel || "";
+        let productId = productIds;
+        let apiKey = INC.config.clientToken;
+        let bundleReqCount = bundleCount || 5;
+        let irbPATH = "//rapidload.increasingly.co/increasingly_bundles?irb/";
+        let vi = INC.config.ivid;
+        let irbparam =
             "product_ids=" +
             productId +
             "&api_key=" +
@@ -3696,10 +3696,10 @@
             "&no_of_bundles=" +
             bundleReqCount;
 
-        letirbReqURL1 = decodeURI(irbPATH + btoa(irbparam));
-        letnetworkConfigObj = new INC.classes.NWConfig();
+        let irbReqURL1 = decodeURI(irbPATH + btoa(irbparam));
+        let networkConfigObj = new INC.classes.NWConfig();
         networkConfigObj["url"] = irbReqURL1;
-        letxhr = new XMLHttpRequest();
+        let xhr = new XMLHttpRequest();
         xhr.open("GET", networkConfigObj["url"], true);
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
@@ -3709,7 +3709,7 @@
                     }
                 }
             } else if (xhr.status === 401 || xhr.status === 0) {
-                letresp = localStorage.getItem("bundle_response");
+                let resp = localStorage.getItem("bundle_response");
                 if (INC.config.pageType == "pdp") {
                     cb_tc(resp);
                 }
@@ -3722,10 +3722,10 @@
         field2,
         rating_containers
     ) {
-        letcount = document.createElement("span");
+        let count = document.createElement("span");
         count.classList.add("rating_count");
         rating_containers.appendChild(count);
-        letavg = document.createElement("span");
+        let avg = document.createElement("span");
         avg.classList.add("rating_avg");
         if (field2 == undefined) {
             count.textContent = "0 reviews";
@@ -3733,9 +3733,9 @@
         } else {
             count.textContent = field2 + " reviews";
         }
-        letstars = document.createElement("span");
+        let stars = document.createElement("span");
         if (filed3 != undefined && filed3 != "") {
-            letrating = filed3;
+            let rating = filed3;
             if (
                 rating == "" ||
                 rating == undefined ||
@@ -3746,7 +3746,7 @@
             }
             rating = parseFloat(rating).toFixed(1);
             rating = rating.toString();
-            letrating_m = null;
+            let rating_m = null;
             if (
                 rating != 0 &&
                 rating != 1 &&
@@ -3796,7 +3796,7 @@
         }
     };
     INC.methods.getProductIdFromWebPage = function () {
-        letPRODUCTID = "";
+        let PRODUCTID = "";
         if (document.querySelector(".body .container .productView") != null) {
             PRODUCTID = document
                 .querySelector(".body .container .productView")
@@ -3814,7 +3814,7 @@
         if (window.location.href.includes("cart")) return "cartPage";
     };
     INC.methods.showSidebar = function (client) {
-        letsidebarel = document.querySelector(".inc_sidebar_modal_block");
+        let sidebarel = document.querySelector(".inc_sidebar_modal_block");
         if (sidebarel != null) {
             if (
                 document.querySelector(
@@ -3832,10 +3832,10 @@
                     ".inc_recommended_tabs_list_item_block"
                 ) != null
             ) {
-                letsidebarouter = document.querySelector(".sidebar_outer");
+                let sidebarouter = document.querySelector(".sidebar_outer");
                 if (sidebarouter != null) {
                     document.querySelector("html").classList.add("inc_overlay");
-                    letelSidebarOverlay = document.querySelector(
+                    let elSidebarOverlay = document.querySelector(
                         ".inc_sidebar_overlay_block"
                     );
                     if (elSidebarOverlay != null) {
@@ -3862,13 +3862,13 @@
         }
     };
     INC.methods.hideSidebar = function () {
-        letsidebarelhide = document.querySelector(".inc_sidebar_modal_block");
+        let sidebarelhide = document.querySelector(".inc_sidebar_modal_block");
         INC.config.sidebarremovedprod = [];
         INC.bundles = true;
         document.querySelector("html").style = "";
         document.querySelector("html").classList.remove("inc_overlay");
         document.querySelector("body").classList.remove("inc_popup_open");
-        letsidebarouterH = document.querySelector(".sidebar_outer");
+        let sidebarouterH = document.querySelector(".sidebar_outer");
         if (sidebarouterH != null) {
             document.querySelector(".inc_sidebar_overlay_block").style.display =
                 "none";
@@ -3879,7 +3879,7 @@
         }
         if (INC.config.pageType == "pdp") {
             if (document.querySelector(".inc_pdp_block") != null) {
-                letrempdpel = document.querySelector(".inc_pdp_block");
+                let rempdpel = document.querySelector(".inc_pdp_block");
                 if (rempdpel != null) {
                     rempdpel.parentNode.removeChild(rempdpel);
                 }
@@ -3928,17 +3928,17 @@
             document
                 .querySelector("html")
                 .classList.add("inc-prevent-hor-scroll");
-            letamBlock = generate_html_tag("div", "inc_af_block");
+            let amBlock = generate_html_tag("div", "inc_af_block");
             amBlock.classList.add("af_cart_page");
             amBlock.innerHTML = cart_html;
             amBlock.querySelector(".inc_af_product-list_block").innerHTML = "";
-            letelAmTitleText = amBlock.querySelector(
+            let elAmTitleText = amBlock.querySelector(
                 ".inc_af_title_text_block"
             );
-            letamProductListBlock = amBlock.querySelector(
+            let amProductListBlock = amBlock.querySelector(
                 ".inc_af_product-list_block"
             );
-            letbundleProductsArray = INC.dataStore.bundleCartProductsArray;
+            let bundleProductsArray = INC.dataStore.bundleCartProductsArray;
             if (INC.config.pageType == "pdp") {
                 if (
                     INC.dataStore.bundleProductsArray.indexOf(
@@ -3948,19 +3948,19 @@
                 }
                 INC.config.cartproductids = [];
             }
-            letduplamid = [];
+            let duplamid = [];
             if (PDP_type == "PDP") {
                 let countBlockAdded = 0;
                 bundleProductsArray = INC.config.recommendationProduct;
                 bundleProductsArray.forEach(function (mainProductId) {
                     if (duplamid.indexOf(mainProductId) == -1) {
                         duplamid.push(mainProductId);
-                        letfirstProductObjByMainId = INC.dataStore
+                        let firstProductObjByMainId = INC.dataStore
                             .methods()
                             .getFirstProductObjByMainId({
                                 mainId: mainProductId,
                             });
-                        letprd_modulerec =
+                        let prd_modulerec =
                             INC.methods.createProductModuleBlock(
                                 firstProductObjByMainId.id,
                                 "am",
@@ -4010,12 +4010,12 @@
                                     mainProductId
                                 ) == -1
                             ) {
-                                letfirstProductObjByMainId = INC.dataStore
+                                let firstProductObjByMainId = INC.dataStore
                                     .methods()
                                     .getFirstProductObjByMainId({
                                         mainId: mainProductId,
                                     });
-                                letprd_module =
+                                let prd_module =
                                     INC.methods.createProductModuleBlock(
                                         firstProductObjByMainId.id,
                                         "am",
@@ -4062,7 +4062,7 @@
                 }
             }
 
-            letamProductBlocks =
+            let amProductBlocks =
                 amBlock.querySelectorAll(".inc_product_block");
             Array.prototype.forEach.call(
                 amProductBlocks,
@@ -4075,7 +4075,7 @@
                 }
             );
 
-            letprod_sl_c = 1;
+            let prod_sl_c = 1;
             if (amBlock != null) {
                 Array.prototype.forEach.call(
                     document.querySelectorAll(".inc_af_block"),
@@ -4102,7 +4102,7 @@
             }
 
             if (PDP_type == "PDP") {
-                letpdpBlockSibling = document.querySelector(".inc_pdp_block");
+                let pdpBlockSibling = document.querySelector(".inc_pdp_block");
                 if (pdpBlockSibling != null) {
                     pdpBlockSibling = pdpBlockSibling.nextElementSibling;
                     pdpBlockSibling.parentElement.insertBefore(
@@ -4124,7 +4124,7 @@
                 }
             } else {
                 if (bundleProductsArray.length > 0) {
-                    letCartPos = document.querySelector("header");
+                    let CartPos = document.querySelector("header");
                     if (CartPos != null) {
                         if (CartPos.nextElementSibling != null) {
                             CartPos = CartPos.nextElementSibling;
@@ -4141,10 +4141,10 @@
                 "hidden";
             amBlock.querySelector(".inc_af_left_btn_img").style.visibility =
                 "hidden";
-            letproductBlocks = amProductListBlock.querySelectorAll(
+            let productBlocks = amProductListBlock.querySelectorAll(
                 ".inc_product_module_block"
             );
-            letsliderBtnCounter_rec = 0;
+            let sliderBtnCounter_rec = 0;
             if (productBlocks.length > prod_sl_c) {
                 amBlock.querySelector(
                     ".inc_af_right_btn_block"
@@ -4170,7 +4170,7 @@
                 amBlock.querySelector(".inc_af_left_btn_block").style.display =
                     "none";
             }
-            letcc_ount = 0;
+            let cc_ount = 0;
             if (window.innerWidth < 800) {
                 cc_ount = 2;
             } else if (window.innerWidth < 1200) {
@@ -4199,10 +4199,10 @@
                         sliderBtnCounter_rec--;
                     }
 
-                    letall_p_length = document.querySelectorAll(
+                    let all_p_length = document.querySelectorAll(
                         ".inc_af_product-list_block .inc_product_module_block"
                     ).length;
-                    letcc_ounts = 0;
+                    let cc_ounts = 0;
                     if (window.innerWidth < 800) {
                         cc_ounts = 2;
                     } else if (window.innerWidth < 1200) {
@@ -4210,8 +4210,8 @@
                     } else {
                         cc_ounts = 4;
                     }
-                    letwidth_slide = "";
-                    letwid_sld = document.querySelector(
+                    let width_slide = "";
+                    let wid_sld = document.querySelector(
                         ".inc_af_block .inc_product_module_block"
                     ).clientWidth;
                     if (
@@ -4237,7 +4237,7 @@
                                 "pointer-events: auto;opacity:1"
                             );
                         INC.clientConfig.slidevalue_rec++;
-                        letmenu = null;
+                        let menu = null;
                         INC.clientConfig.offset_rec =
                             parseInt(INC.clientConfig.offset_rec) -
                             width_slide +
@@ -4306,10 +4306,10 @@
                     if (INC.clientConfig.slidevalue_rec == -1) {
                         INC.clientConfig.slidevalue_rec = 0;
                     }
-                    letwid_sld = document.querySelector(
+                    let wid_sld = document.querySelector(
                         ".inc_af_block .inc_product_module_block"
                     ).clientWidth;
-                    letwidth_slide = "";
+                    let width_slide = "";
 
                     width_slide = wid_sld;
 
@@ -4331,7 +4331,7 @@
                             parseInt(INC.clientConfig.offset_rec) +
                             width_slide +
                             "px";
-                        letmenu = null;
+                        let menu = null;
                         menu = amBlock.parentNode.parentNode.querySelector(
                             ".inc_af_product-list_block"
                         );
@@ -4384,18 +4384,18 @@
                 });
 
             setTimeout(function () {
-                letall_list_el = document.querySelectorAll(
+                let all_list_el = document.querySelectorAll(
                     ".inc_af_product-list_block .inc_product_showcase_block"
                 );
-                for (letall_list in all_list_el) {
+                for (let all_list in all_list_el) {
                     if (
                         Object.prototype.hasOwnProperty.call(
                             all_list_el,
                             all_list
                         )
                     ) {
-                        letprd_moduleb = all_list_el[all_list].parentNode;
-                        letmain_idsd = "";
+                        let prd_moduleb = all_list_el[all_list].parentNode;
+                        let main_idsd = "";
                         if (prd_moduleb != null) {
                             main_idsd =
                                 prd_moduleb.getAttribute("data-main_id");
@@ -4504,10 +4504,10 @@
                 onloadpdp = true;
             }, 400);
             setTimeout(function () {
-                letinc_prod_img = document.querySelectorAll(
+                let inc_prod_img = document.querySelectorAll(
                     ".inc_product_img_main_img img"
                 );
-                for (leti_prd_image in inc_prod_img) {
+                for (let i_prd_image in inc_prod_img) {
                     if (
                         inc_prod_img[i_prd_image] != null &&
                         Object.prototype.hasOwnProperty.call(
@@ -4567,8 +4567,8 @@
     };
 
     function addprodsingle(element) {
-        letproductBlockNode = element.parentNode.parentNode;
-        letflag_check = INC.methods.checkVariantSelection(productBlockNode);
+        let productBlockNode = element.parentNode.parentNode;
+        let flag_check = INC.methods.checkVariantSelection(productBlockNode);
         if (
             element.parentNode.parentNode.className == "inc_product_desc_block"
         ) {
@@ -4580,18 +4580,18 @@
         ) {
             productBlockNode = productBlockNode.parentNode.parentNode;
         }
-        letsku = productBlockNode.getAttribute("data-sku");
+        let sku = productBlockNode.getAttribute("data-sku");
         if (sku == null) {
             sku = productBlockNode.parentNode.parentNode.getAttribute("data-sku");
         }
-        letfindObj = new INC.classes.FindObj({
+        let findObj = new INC.classes.FindObj({
             id: sku,
         });
-        letadd_btn = productBlockNode.querySelector(".inc_product_add_text");
-        letadd_btn_click = productBlockNode.querySelector(
+        let add_btn = productBlockNode.querySelector(".inc_product_add_text");
+        let add_btn_click = productBlockNode.querySelector(
             ".inc_product_add_text"
         );
-        letadd_prod_im = productBlockNode.querySelectorAll(
+        let add_prod_im = productBlockNode.querySelectorAll(
             ".inc_product_desc_add_img"
         );
         if (flag_check == 1) {
@@ -4604,7 +4604,7 @@
                         "inc_product_modal_block"
                     ) == trueflag
                 ) {
-                    letpopbtn = productBlockNode.querySelector(
+                    let popbtn = productBlockNode.querySelector(
                         ".inc_product_modal_block .inc_product_desc_add_text"
                     );
                     popbtn.innerText = "Adding To Basket";
@@ -4614,7 +4614,7 @@
                     productBlockNode.querySelector(
                         ".inc_product_add_text"
                     ).innerText = "Adding To Basket";
-                    letrec = false;
+                    let rec = false;
                     if (
                         INC.config.pageType == "pdp" &&
                         document.querySelector(".inc_af_block") != null
@@ -4657,7 +4657,7 @@
     INC.methods.createPDPBlock = function (sidebar) {
         document.querySelector("body").classList.add("inc_bundles");
         document.querySelector("html").classList.add("inc-prevent-hor-scroll");
-        letempty_sidebarflag = false;
+        let empty_sidebarflag = false;
         if (INC.dataStore.dataStoreObj[INC.config.Product_id] != undefined) {
             if (
                 INC.dataStore.dataStoreObj[INC.config.Product_id][
@@ -4685,32 +4685,32 @@
                 INC.dataStore.dataStoreObj.undefined != undefined ||
                 empty_sidebarflag == falseflag
             ) {
-                letpdpBlock = generate_html_tag("div", "inc_pdp_block");
+                let pdpBlock = generate_html_tag("div", "inc_pdp_block");
                 pdpBlock.innerHTML = pdp_html;
                 pdpBlock.querySelector(
                     ".inc_pdp_bundle_cart_summary_title_text"
                 ).innerText = "Total Bundle Price ";
                 pdpBlock.setAttribute("style", "clear: both;");
-                letmodalTitle = pdpBlock.querySelector(".inc_pdp_title_text");
+                let modalTitle = pdpBlock.querySelector(".inc_pdp_title_text");
                 console.log("Increasingly!!");
                 modalTitle.innerText = INC.config.FBTTitle;
-                letpdpProductId = INC.dataStore
+                let pdpProductId = INC.dataStore
                     .methods()
                     .getFirstProductObjByMainId({
                         mainId: INC.dataStore.pdpProductId,
                     }).id;
 
-                letfirstProductObjByMainId = "";
-                letpdpBundleProductListMainBlock = null;
-                letmainProductBlock = this.createProductModuleBlock(
+                let firstProductObjByMainId = "";
+                let pdpBundleProductListMainBlock = null;
+                let mainProductBlock = this.createProductModuleBlock(
                     pdpProductId,
                     "pdp",
                     false,
                     pdpBlock,
                     "mainprod"
                 );
-                letbundleProductsArray = INC.dataStore.bundleProductsArray;
-                letelPdpMainProductBlock = pdpBlock.querySelector(
+                let bundleProductsArray = INC.dataStore.bundleProductsArray;
+                let elPdpMainProductBlock = pdpBlock.querySelector(
                     ".inc_pdp_product-main_block"
                 );
                 elPdpMainProductBlock.appendChild(mainProductBlock);
@@ -4718,11 +4718,11 @@
                     ".inc_pdp_bundle_product_list_main_block"
                 );
                 pdpBundleProductListMainBlock.innerHTML = "";
-                letpdpBundleProductListItemsBlock = pdpBlock.querySelector(
+                let pdpBundleProductListItemsBlock = pdpBlock.querySelector(
                     ".inc_pdp_bundle_product_list_items_block"
                 );
                 pdpBundleProductListItemsBlock.innerHTML = "";
-                letproductVisibleCount = "";
+                let productVisibleCount = "";
                 if (window.innerWidth < 820) {
                     productVisibleCount =
                         bundleProductsArray.length > 2
@@ -4736,14 +4736,14 @@
                 }
                 //productVisibleCount = (bundleProductsArray.length > 2) ? 2 : bundleProductsArray.length;
 
-                for (letiq = 0; iq < productVisibleCount; iq++) {
+                for (let iq = 0; iq < productVisibleCount; iq++) {
                     firstProductObjByMainId = INC.dataStore
                         .methods()
                         .getFirstProductObjByMainId({
                             mainId: bundleProductsArray[iq],
                         });
                     if (Object.keys(firstProductObjByMainId).length !== 0) {
-                        letproductBlock = this.createProductModuleBlock(
+                        let productBlock = this.createProductModuleBlock(
                             firstProductObjByMainId.id,
                             "pdp",
                             true,
@@ -4751,7 +4751,7 @@
                         );
                         productBlock.setAttribute("b-index", iq + 1);
                         pdpBundleProductListMainBlock.appendChild(productBlock);
-                        letproductListItemBlock =
+                        let productListItemBlock =
                             this.createProductListItemBlock(
                                 firstProductObjByMainId,
                                 "pdp"
@@ -4764,7 +4764,7 @@
                 if (productVisibleCount == 1) {
                     INC.config.singleProd = true;
                 }
-                letheader = pdpBlock.querySelector(
+                let header = pdpBlock.querySelector(
                     ".inc_pdp_bundle_product_header_text"
                 );
                 if (header != null) {
@@ -4772,28 +4772,28 @@
                     header.style.textTransform = "none";
                 }
 
-                letmainprodimgsrc = pdpBlock
+                let mainprodimgsrc = pdpBlock
                     .querySelector(
                         ".inc_pdp_product-main_block .inc_product_img_main_img img"
                     )
                     .getAttribute("data-src");
-                letsecbundleimgsrc = pdpBlock
+                let secbundleimgsrc = pdpBlock
                     .querySelectorAll(
                         ".inc_pdp_bundle_product_list_main_block .inc_product_img_main_img img"
                     )[0]
                     .getAttribute("data-src");
-                letinc_bundle_avail_block = generate_html_tag(
+                let inc_bundle_avail_block = generate_html_tag(
                     "div",
                     "inc_bundle_avail_block"
                 );
-                lettoplevelbundleblock = "";
+                let toplevelbundleblock = "";
                 if (
                     pdpBlock.querySelectorAll(
                         ".inc_pdp_bundle_product_list_main_block .inc_product_img_main_img img"
                     ).length > 2
                 ) {
                     inc_bundle_avail_block.classList.add("INCthreeProducts");
-                    letthirdbundleimgsrc = pdpBlock
+                    let thirdbundleimgsrc = pdpBlock
                         .querySelectorAll(
                             ".inc_pdp_bundle_product_list_main_block .inc_product_img_main_img img"
                         )[2]
@@ -4827,19 +4827,19 @@
                             },
                             "210"
                         );
-                        letpdpelm = document.querySelector(".inc_pdp_block");
+                        let pdpelm = document.querySelector(".inc_pdp_block");
                         if (pdpelm != null) {
                             scrollincelmtoview(pdpelm);
                         }
                     });
-                letpdpbundleel = document.querySelector(
+                let pdpbundleel = document.querySelector(
                     ".wrapper-tabs-product"
                 );
                 INC.methods.clear();
-                letactive_price = pdpBlock.querySelector(
+                let active_price = pdpBlock.querySelector(
                     ".inc_pdp_product-main_block .inc_product_showcase_block .inc_product_desc_ecirp_regular_text"
                 ).innerText;
-                letspecial_price = pdpBlock.querySelector(
+                let special_price = pdpBlock.querySelector(
                     ".inc_pdp_product-main_block .inc_product_showcase_block .inc_product_desc_ecirp_active_text"
                 ).innerText;
                 // if(window.location.href=='https://ukmedi.co.uk/safe-snap-amp-snapper' || window.location.href=='https://ukmedi.co.uk/0-3-litre-black-discreet-sharps-bin/'){
@@ -4850,30 +4850,30 @@
                 pdpBlock
                     .querySelector(".inc_pdp_bundle_product_list_items_block")
                     .classList.add("inc_active");
-                letpdpBundleCartBlock =
+                let pdpBundleCartBlock =
                     this.createPDPBundleCartBlock(pdpBlock);
-                letrpdpBundleCartBlock = pdpBlock.querySelector(
+                let rpdpBundleCartBlock = pdpBlock.querySelector(
                     ".inc_pdp_bundle_cart_block"
                 );
                 rpdpBundleCartBlock.parentNode.removeChild(rpdpBundleCartBlock);
                 pdpBlock
                     .querySelector(".inc_pdp_bundle_block")
                     .appendChild(pdpBundleCartBlock);
-                letpdpBlockSibling = document.querySelector(
+                let pdpBlockSibling = document.querySelector(
                     ".page-content.page-content--product"
                 );
-                letpdpplacement = document.querySelector(
+                let pdpplacement = document.querySelector(
                     ".container .productView"
                 );
                 if (pdpplacement != null) {
                     pdpplacement = pdpplacement.nextElementSibling;
                 }
 
-                letfabricavail = false;
-                letclient_var_size = "";
-                letclient_var = "";
-                letswatch1 = "";
-                letswatch2 = "";
+                let fabricavail = false;
+                let client_var_size = "";
+                let client_var = "";
+                let swatch1 = "";
+                let swatch2 = "";
                 if (
                     document.querySelector(
                         ".productView-details .productView-options-wrap .form-option-wrapper input"
@@ -4882,7 +4882,7 @@
                     swatch1 = document.querySelectorAll(
                         ".productView-details .productView-options-wrap .form-option-wrapper input"
                     );
-                    for (letm = 0; m < swatch1.length; m++) {
+                    for (let m = 0; m < swatch1.length; m++) {
                         if (swatch1[m].checked) {
                             client_var_size = swatch1[m].parentNode.querySelector('label').innerText.replace('"', '').toLowerCase();
                             break;
@@ -4897,7 +4897,7 @@
                     swatch2 = document.querySelectorAll(
                         ".product-wrapper .product-form__item.colors .image-radio"
                     );
-                    for (letm__ = 0; m__ < swatch2.length; m__++) {
+                    for (let m__ = 0; m__ < swatch2.length; m__++) {
                         if (swatch2[m__].classList.contains("current")) {
                             client_var = swatch2[m__]
                                 .querySelector("input")
@@ -4910,7 +4910,7 @@
                     document.querySelector(".product-options-wrapper select") !=
                     null
                 ) {
-                    letselvar_ = document.querySelector(
+                    let selvar_ = document.querySelector(
                         ".product-options-wrapper select"
                     );
                     client_var = selvar_.options[
@@ -5002,10 +5002,10 @@
                     }
 
 
-                    letel_all_list_main1 = pdpBlock.querySelectorAll(
+                    let el_all_list_main1 = pdpBlock.querySelectorAll(
                         ".inc_pdp_product-main_block .inc_product_showcase_block"
                     );
-                    for (letli in el_all_list_main1) {
+                    for (let li in el_all_list_main1) {
                         if (
                             el_all_list_main1[li] != null &&
                             Object.prototype.hasOwnProperty.call(
@@ -5080,10 +5080,10 @@
                     }
                 }
 
-                letelProductAddBlock = pdpBlock.querySelectorAll(
+                let elProductAddBlock = pdpBlock.querySelectorAll(
                     ".inc_product_desc_add_block"
                 );
-                letproductBlocks = pdpBlock
+                let productBlocks = pdpBlock
                     .querySelector(".inc_pdp_bundle_product_list_block")
                     .querySelectorAll(".inc_product_module_block");
                 if (
@@ -5110,9 +5110,9 @@
                 pdpBlock
                     .querySelector(".inc_pdp_bundle_product_right-btn_img")
                     .setAttribute("title", "Scroll right");
-                letsliderBtnCounter = 0;
-                letlengthCount = productBlocks.length + 1;
-                letprd_length = 1;
+                let sliderBtnCounter = 0;
+                let lengthCount = productBlocks.length + 1;
+                let prd_length = 1;
                 if (window.innerWidth > 800) {
                     prd_length = 2;
                 }
@@ -5122,8 +5122,8 @@
                             ".inc_pdp_bundle_product_right-btn_block"
                         )
                         .addEventListener("click", function () {
-                            letprod_c = 2;
-                            letwidth_prod = 255;
+                            let prod_c = 2;
+                            let width_prod = 255;
                             if (window.innerWidth < 1150) {
                                 width_prod = 250;
                             }
@@ -5161,7 +5161,7 @@
                                     parseInt(INC.clientConfig.offset) -
                                     width_prod +
                                     "px";
-                                letmenu = pdpBlock.querySelector(
+                                let menu = pdpBlock.querySelector(
                                     ".inc_pdp_bundle_product_list_main_block"
                                 );
                                 menu.setAttribute(
@@ -5197,7 +5197,7 @@
                     pdpBlock
                         .querySelector(".inc_pdp_bundle_product_left-btn_block")
                         .addEventListener("click", function () {
-                            letwidth_prod = 255;
+                            let width_prod = 255;
                             if (window.innerWidth < 1150) {
                                 width_prod = 250;
                             }
@@ -5234,7 +5234,7 @@
                                     parseInt(INC.clientConfig.offset) +
                                     width_prod +
                                     "px";
-                                letmenu = pdpBlock.querySelector(
+                                let menu = pdpBlock.querySelector(
                                     ".inc_pdp_bundle_product_list_main_block"
                                 );
                                 menu.setAttribute(
@@ -5278,7 +5278,7 @@
                     ).style.visibility = "hidden";
                 }
                 setTimeout(function () {
-                    for (letiw = 0; iw < 8; iw++) {
+                    for (let iw = 0; iw < 8; iw++) {
                         if (
                             typeof elProductAddBlock[iw] != "undefined" &&
                             iw % 2 != 0
@@ -5311,18 +5311,18 @@
                                 .click();
                         }
                     }
-                    letall_list_el = document.querySelectorAll(
+                    let all_list_el = document.querySelectorAll(
                         ".inc_pdp_bundle_block .inc_product_showcase_block"
                     );
-                    for (letell in all_list_el) {
+                    for (let ell in all_list_el) {
                         if (
                             Object.prototype.hasOwnProperty.call(
                                 all_list_el,
                                 ell
                             )
                         ) {
-                            letprd_moduleb = all_list_el[ell].parentNode;
-                            letmain_idsd =
+                            let prd_moduleb = all_list_el[ell].parentNode;
+                            let main_idsd =
                                 prd_moduleb.getAttribute("data-main_id");
                             if (all_list_el[ell] != null) {
                                 if (
@@ -5564,7 +5564,7 @@
                             ".inc_pdp_bundle_product_list_main_block .inc_product_showcase_block .inc_product_img_main_img img"
                         )[0] != undefined
                     ) {
-                        letsecimg = document.querySelectorAll(
+                        let secimg = document.querySelectorAll(
                             ".inc_pdp_bundle_product_list_main_block .inc_product_showcase_block .inc_product_img_main_img img"
                         )[0].src;
                         document.querySelector(
@@ -5579,19 +5579,19 @@
                             ".inc_pdp_bundle_product_list_main_block .inc_product_showcase_block .inc_product_img_main_img img"
                         )[1] != undefined
                     ) {
-                        letthirdimg_ = document.querySelectorAll(
+                        let thirdimg_ = document.querySelectorAll(
                             ".inc_pdp_bundle_product_list_main_block .inc_product_showcase_block .inc_product_img_main_img img"
                         )[1].src;
                         document.querySelector(
                             ".inc_bundle_avail_img.third img"
                         ).src = thirdimg_;
                     }
-                    letselectedSwatch = document.querySelectorAll(
+                    let selectedSwatch = document.querySelectorAll(
                         ".swatches .selected a"
                     );
-                    for (lets = 0; s < selectedSwatch.length; s++) {
-                        letsswatch = selectedSwatch[s].title;
-                        letfbtEleSize = document.querySelectorAll(
+                    for (let s = 0; s < selectedSwatch.length; s++) {
+                        let sswatch = selectedSwatch[s].title;
+                        let fbtEleSize = document.querySelectorAll(
                             '.inc_pdp_block .inc_product_modal_block .inc_product_desc_att_block [data-size="' +
                             sswatch +
                             '"]'
@@ -5603,13 +5603,13 @@
                         ) {
                             fbtEleSize[fbtEleS_].click();
                         }
-                        letfbtEleColor = document.querySelectorAll(
+                        let fbtEleColor = document.querySelectorAll(
                             '.inc_pdp_block .inc_product_modal_block .inc_product_desc_att_block [data-color="' +
                             sswatch +
                             '"]'
                         );
                         for (
-                            letfbtEleC_ = 0;
+                            let fbtEleC_ = 0;
                             fbtEleC_ < fbtEleColor.length;
                             fbtEleC_++
                         ) {
@@ -5635,10 +5635,10 @@
                             );
                         }
                     }
-                    letinc_prod_img = document.querySelectorAll(
+                    let inc_prod_img = document.querySelectorAll(
                         ".inc_product_img_main_img img"
                     );
-                    for (letim in inc_prod_img) {
+                    for (let im in inc_prod_img) {
                         if (
                             inc_prod_img[im] != undefined &&
                             Object.prototype.hasOwnProperty.call(
@@ -5653,7 +5653,7 @@
                         }
                     }
                     if (document.querySelector('.inc_pdp_product-main_block .inc_product_variant_simple_text.config') != null) {
-                        letsel_text_m = document.querySelector('.inc_pdp_product-main_block .inc_product_variant_simple_text.config').getAttribute('title')
+                        let sel_text_m = document.querySelector('.inc_pdp_product-main_block .inc_product_variant_simple_text.config').getAttribute('title')
                         if (sel_text_m != null) {
                             document.querySelector('.inc_pdp_product-main_block .inc_product_variant_simple_text.config').innerHTML = '<span class="variant_span">' + sel_text_m + '</span>'
                         }
@@ -5690,22 +5690,22 @@
         }
     };
     INC.methods.createPDPBundleCartBlock = function (pdpBlock) {
-        letpdpBundleCartBlock = pdpBlock.querySelector(
+        let pdpBundleCartBlock = pdpBlock.querySelector(
             ".inc_pdp_bundle_cart_block"
         );
-        letelBundleCartTitleText = pdpBlock.querySelector(
+        let elBundleCartTitleText = pdpBlock.querySelector(
             ".inc_pdp_bundle_cart_title_text"
         );
-        letelBundleCartAddedBlock = pdpBlock.querySelector(
+        let elBundleCartAddedBlock = pdpBlock.querySelector(
             ".inc_pdp_bundle_cart_added_block"
         );
-        letelBundleCartSummaryViewBtnText = pdpBlock.querySelector(
+        let elBundleCartSummaryViewBtnText = pdpBlock.querySelector(
             ".inc_pdp_bundle_cart_summary_view_btn_text"
         );
-        letelBundleCartAddBtnBlock = pdpBlock.querySelector(
+        let elBundleCartAddBtnBlock = pdpBlock.querySelector(
             ".inc_pdp_bundle_cart_summary_add_btn_block"
         );
-        letelBundleCartAddBtncollectionBlock = pdpBlock.querySelector(
+        let elBundleCartAddBtncollectionBlock = pdpBlock.querySelector(
             ".inc_pdp_bundle_cart_summary_add_btn_collection_block"
         );
 
@@ -5738,7 +5738,7 @@
         elm.classList.add("inc_loading");
         INC.clientConfig.offset = 0;
         INC.clientConfig.slidevalue = 0;
-        letprd_length = 2;
+        let prd_length = 2;
         if (window.innerWidth >= 820) {
             prd_length = 3;
         }
@@ -5765,9 +5765,9 @@
                 .setAttribute("style", "opacity:1");
         }
         if (INC.config.disablebtn == trueflag) {
-            letbtn_cart = elm;
+            let btn_cart = elm;
             btn_cart.classList.add("inc_loading");
-            letrecs_ = false;
+            let recs_ = false;
             INC.methods.addBundleToCart(btn_cart, recs_);
         }
     }
@@ -5805,48 +5805,48 @@
         }
     }
     INC.methods.createSidebarBlock = function () {
-        letdataStore = INC.dataStore;
-        letsidebar_dialoge_block = document.createElement("div");
+        let dataStore = INC.dataStore;
+        let sidebar_dialoge_block = document.createElement("div");
         sidebar_dialoge_block.classList.add("sidebar_outer");
         sidebar_dialoge_block.innerHTML = sidebar_html;
-        letsbBlock = sidebar_dialoge_block.querySelector(
+        let sbBlock = sidebar_dialoge_block.querySelector(
             ".inc_sidebar_modal_block"
         );
 
         sbBlock.querySelector(".inc_cart_added_list_block").innerHTML = "";
 
-        letelHeaderContinueText = sbBlock.querySelector(
+        let elHeaderContinueText = sbBlock.querySelector(
             ".inc_header_continue_text"
         );
-        letelHeaderTitleText = sbBlock.querySelector(".inc_header_title_text");
-        letelHeaderItemCountTitleText = sbBlock.querySelector(
+        let elHeaderTitleText = sbBlock.querySelector(".inc_header_title_text");
+        let elHeaderItemCountTitleText = sbBlock.querySelector(
             ".inc_header_item_count_title_text"
         );
-        letelRecommendedTitleText = sbBlock.querySelector(
+        let elRecommendedTitleText = sbBlock.querySelector(
             ".inc_recommended_title_text"
         );
-        letelRecommendedTabsListBlock = sbBlock.querySelector(
+        let elRecommendedTabsListBlock = sbBlock.querySelector(
             ".inc_recommended_tabs_list_block"
         );
-        letelRecommendedProductsListBlock = sbBlock.querySelector(
+        let elRecommendedProductsListBlock = sbBlock.querySelector(
             ".inc_recommended_products_list_block"
         );
-        letelCheckoutContinueBtnText = sbBlock.querySelector(
+        let elCheckoutContinueBtnText = sbBlock.querySelector(
             ".inc_checkout_continue_btn_text"
         );
-        letelCheckoutBasketBtnText = sbBlock.querySelector(
+        let elCheckoutBasketBtnText = sbBlock.querySelector(
             ".inc_checkout_basket_btn_text"
         );
-        letelheaditemblock = sbBlock.querySelector(".inc_header_item_block");
-        letelheadtitleblock = sbBlock.querySelector(".inc_header_title_block");
-        letelclosesidebar = document.querySelector(".close_modal_inc");
+        let elheaditemblock = sbBlock.querySelector(".inc_header_item_block");
+        let elheadtitleblock = sbBlock.querySelector(".inc_header_title_block");
+        let elclosesidebar = document.querySelector(".close_modal_inc");
         if (elclosesidebar != null) {
             elclosesidebar.addEventListener("click", function () {
                 closesidebar();
             });
         }
         elheaditemblock.addEventListener("click", function () {
-            letcnt = document
+            let cnt = document
                 .querySelector(".inc_header_item_count_title_text")
                 .getAttribute("added_counts");
             if (cnt >= 1) {
@@ -5858,15 +5858,15 @@
                     document
                         .querySelector(".inc_sidebar_cart_added_block")
                         .classList.remove("inc_active");
-                    letalladdedprodlength = document.querySelectorAll(
+                    let alladdedprodlength = document.querySelectorAll(
                         ".inc_cart_added_product_block"
                     ).length;
-                    letmorecount = 2;
+                    let morecount = 2;
                     if (window.innerWidth <= 769) {
                         morecount = 1;
                     }
                     if (alladdedprodlength > morecount) {
-                        lettcount =
+                        let tcount =
                             alladdedprodlength - morecount + " more item(s)";
                         document.querySelector(
                             ".inc_header_item_count_title_text"
@@ -5892,7 +5892,7 @@
                 }
             }
         });
-        letclose_sisebar_icon = generate_html_tag(
+        let close_sisebar_icon = generate_html_tag(
             "span",
             "close_sisebar_icon"
         );
@@ -5908,17 +5908,17 @@
             elRecommendedTitleText.innerText = INC.config.BeforeYouChecktext;
             elRecommendedTitleText.style.textTransform = "none";
             elCheckoutContinueBtnText.innerText = "Proceed to checkout";
-            letelCheckoutLink = elCheckoutBasketBtnText.querySelector(
+            let elCheckoutLink = elCheckoutBasketBtnText.querySelector(
                 ".view_basket_checkout"
             );
             elCheckoutLink.setAttribute("href", INC.clientConfig.checkoutLink);
 
-            letproductCategoriesArray = dataStore
+            let productCategoriesArray = dataStore
                 .methods()
                 .getUniqueCatergories();
             elRecommendedTabsListBlock.innerHTML = "";
             elRecommendedProductsListBlock.innerHTML = "";
-            letcategory_count = 0;
+            let category_count = 0;
             elRecommendedTabsListBlock.classList.add(
                 "inc_categ_" + Object.keys(productCategoriesArray).length
             );
@@ -5926,14 +5926,14 @@
             productCategoriesArray.forEach(function (productCategory) {
                 if (category_count < 5 && productCategory != undefined) {
                     category_count++;
-                    letsidebarTabsListItemBlock = generate_html_tag(
+                    let sidebarTabsListItemBlock = generate_html_tag(
                         "div",
                         "inc_recommended_tabs_list_item_block"
                     );
-                    lettablistitm =
+                    let tablistitm =
                         '<div class="inc_recommended_tabs_list_item_text_block"><div class="inc_recommended_tabs_list_item_text"></div></div>';
                     sidebarTabsListItemBlock.innerHTML = tablistitm;
-                    letsidebarTabsListItemText =
+                    let sidebarTabsListItemText =
                         sidebarTabsListItemBlock.querySelector(
                             ".inc_recommended_tabs_list_item_text"
                         );
@@ -5950,7 +5950,7 @@
                     sidebarTabsListItemBlock.addEventListener(
                         "click",
                         function () {
-                            letelrecprdlistblk = sbBlock.querySelector(
+                            let elrecprdlistblk = sbBlock.querySelector(
                                 ".inc_recommended_products_list_block"
                             );
                             if (elrecprdlistblk != null) {
@@ -5993,7 +5993,7 @@
             } else {
                 elRecommendedTitleText.style.display = "none";
             }
-            letsbcontinue = sbBlock.querySelector(
+            let sbcontinue = sbBlock.querySelector(
                 ".inc_header_continue_block"
             );
             sbcontinue.addEventListener("click", function () {
@@ -6018,9 +6018,9 @@
                     ).classList.add("inc_loading");
                     window.location.replace("https://ukmedi.co.uk/cart.php");
                 });
-            letbody = document.querySelector("body");
+            let body = document.querySelector("body");
             body.appendChild(sidebar_dialoge_block);
-            letelSideBarOverlayBlock = document.createElement("div");
+            let elSideBarOverlayBlock = document.createElement("div");
             elSideBarOverlayBlock.setAttribute(
                 "class",
                 "inc_sidebar_overlay_block"
@@ -6090,10 +6090,10 @@
                     .querySelector(".inc_recommended_products_list_block")
                     .setAttribute("role", "contentinfo");
             }
-            letinc_prod_img = document.querySelectorAll(
+            let inc_prod_img = document.querySelectorAll(
                 ".inc_product_img_main_img img"
             );
-            for (letig in inc_prod_img) {
+            for (let ig in inc_prod_img) {
                 if (
                     inc_prod_img[ig] != null &&
                     Object.prototype.hasOwnProperty.call(inc_prod_img, ig)
@@ -6112,30 +6112,30 @@
         INC.clientConfig.slidevalue = 0;
     }
     INC.methods.updateSidebarBlock = function (mainord, elprd) {
-        letsubtotalactiveprice = 0;
-        letsubtotalregukarprice = 0;
-        letdataStore = INC.dataStore;
-        letqty = "";
-        letsbBlock = document.querySelector(".inc_sidebar_modal_block");
+        let subtotalactiveprice = 0;
+        let subtotalregukarprice = 0;
+        let dataStore = INC.dataStore;
+        let qty = "";
+        let sbBlock = document.querySelector(".inc_sidebar_modal_block");
         if (sbBlock != null) {
-            letsidebarHeaderItemCountTitleText = sbBlock.querySelector(
+            let sidebarHeaderItemCountTitleText = sbBlock.querySelector(
                 ".inc_header_item_count_title_text"
             );
-            letelHeadersubtotalactivetext = sbBlock.querySelector(
+            let elHeadersubtotalactivetext = sbBlock.querySelector(
                 ".inc_cart_added_product_desc_subtotal_ecirp_active_text"
             );
-            letelHeadersubtotalregulartext = sbBlock.querySelector(
+            let elHeadersubtotalregulartext = sbBlock.querySelector(
                 ".inc_cart_added_product_desc_subtotal_ecirp_regular_text"
             );
-            letsbCartBlock = sbBlock.querySelector(
+            let sbCartBlock = sbBlock.querySelector(
                 ".inc_cart_added_list_block"
             );
-            letsidebarHeaderseelesstext = sbBlock.querySelector(
+            let sidebarHeaderseelesstext = sbBlock.querySelector(
                 ".inc_header_item_count_figure_text"
             );
             sidebarHeaderseelesstext.innerText = "";
             sbCartBlock.innerHTML = "";
-            letbundleCartProductsArray = "";
+            let bundleCartProductsArray = "";
             if (mainord != null && mainord != undefined) {
                 INC.dataStore["bundleCartProducts"] = {};
                 INC.dataStore["bundleCartProducts"][mainord] = 1;
@@ -6148,14 +6148,14 @@
                 );
             }
             sidebarHeaderItemCountTitleText.innerHTML = "Subtotal ";
-            letheaderItemCountFigureText = 0;
+            let headerItemCountFigureText = 0;
             subtotalactiveprice = 0;
             subtotalregukarprice = 0;
-            leterror_message = "";
-            letoosname = [];
-            letoosids = [];
-            letremerrorjust = document.querySelectorAll(".inc_justerror");
-            for (letr in remerrorjust) {
+            let error_message = "";
+            let oosname = [];
+            let oosids = [];
+            let remerrorjust = document.querySelectorAll(".inc_justerror");
+            for (let r in remerrorjust) {
                 if (
                     remerrorjust[r] != null &&
                     Object.prototype.hasOwnProperty.call(remerrorjust, r)
@@ -6167,7 +6167,7 @@
                 if (dataStore.bundleCartProducts[productSKU] < 1) {
                     dataStore.bundleCartProducts[productSKU] = 1;
                 }
-                letfindObj = new INC.classes.FindObj({
+                let findObj = new INC.classes.FindObj({
                     sku: productSKU,
                 });
                 if (mainord != null && mainord != undefined) {
@@ -6177,7 +6177,7 @@
                 } else {
                     qty = dataStore.bundleCartProducts[productSKU];
                 }
-                letproductObj = INC.dataStore
+                let productObj = INC.dataStore
                     .methods()
                     .getProductBySKU(findObj);
                 if (INC.clientConfig.OOS.indexOf(productObj.sku) >= 0) {
@@ -6205,17 +6205,17 @@
                                 " - " +
                                 "<span>The requested quantity is not available</span>";
                         }
-                        letheadertitle = sbBlock.querySelector(
+                        let headertitle = sbBlock.querySelector(
                             ".inc_sidebar_modal_cart_and_title_block"
                         );
-                        leterrormes = generate_html_tag(
+                        let errormes = generate_html_tag(
                             "div",
                             "inc_justerror"
                         );
-                        leterrorimg = generate_html_tag("img", "errorimg");
+                        let errorimg = generate_html_tag("img", "errorimg");
                         errorimg.src = productObj.imageURL;
                         errormes.appendChild(errorimg);
-                        leterrormestext = generate_html_tag(
+                        let errormestext = generate_html_tag(
                             "span",
                             "inc_justerror_text"
                         );
@@ -6226,9 +6226,9 @@
                             headertitle
                         );
                         setTimeout(function () {
-                            letremoerroblk =
+                            let remoerroblk =
                                 document.querySelectorAll(".inc_justerror");
-                            for (letre in remoerroblk) {
+                            for (let re in remoerroblk) {
                                 if (
                                     remoerroblk[re] != null &&
                                     Object.prototype.hasOwnProperty.call(
@@ -6247,11 +6247,11 @@
                     headerItemCountFigureText =
                         headerItemCountFigureText +
                         parseInt(dataStore.bundleCartProducts[productSKU]);
-                    letcolor = "";
-                    letsize = "";
-                    letsizeLabel = "";
-                    letcolorLabel = "";
-                    letjust_check_prod_block = null;
+                    let color = "";
+                    let size = "";
+                    let sizeLabel = "";
+                    let colorLabel = "";
+                    let just_check_prod_block = null;
                     if (productObj.ProductType != "simple") {
                         just_check_prod_block = document.querySelector(
                             '.inc_pdp_block .inc_product_module_block[data-sku="' +
@@ -6321,7 +6321,7 @@
                         }
                     }
 
-                    letsel_size = "";
+                    let sel_size = "";
                     if (color != "" && color != undefined && color != null) {
                         sel_size = colorLabel + " : " + color;
                     }
@@ -6366,7 +6366,7 @@
                     //         sel_size += " " + allFourth.innerText;
                     //     }
                     // }
-                    letactivePrice = parseFloat(
+                    let activePrice = parseFloat(
                         productObj.activePrice
                     ).toFixed(2);
 
@@ -6374,8 +6374,8 @@
                         +subtotalactiveprice + +productObj.activePrice * qty;
                     subtotalregukarprice =
                         +subtotalregukarprice + +productObj.regularPrice * qty;
-                    letcolorUrl_ = "";
-                    letsizeText_ = ""
+                    let colorUrl_ = "";
+                    let sizeText_ = ""
                     if (just_check_prod_block !== null) {
                         sizeText_ = ""
                         let first_attr = just_check_prod_block.querySelector('.inc_product_desc_att_zero_list_block')
@@ -6430,7 +6430,7 @@
 
                     }
 
-                    letaddedhtml =
+                    let addedhtml =
                         '<div class="inc_cart_added_product_img_block"><div class="inc_cart_added_product_img"><img class="inc_lazy" src="' +
                         productObj.imageURL +
                         '" data-src="' +
@@ -6451,7 +6451,7 @@
                         '</div></div></div></div><div class="inc_cart_added_product_desc_ecirp_block"><div class="inc_cart_added_product_desc_ecirp_active_block"><div class="inc_cart_added_product_desc_ecirp_active_text_block"><div class="inc_cart_added_product_desc_ecirp_active_text">' +
                         formatter.format(activePrice) +
                         '</div><div class="inc_cart_added_product_desc_ecirp_active_text_msg"></div></div></div><div class="inc_cart_added_product_desc_ecirp_regular_block"><div class="inc_cart_added_product_desc_ecirp_regular_text_block"><div class="inc_cart_added_product_desc_ecirp_regular_text"></div></div></div></div><div class="inc_cart_added_product_qty_block"></div></div></div>';
-                    letproductBlock = generate_html_tag(
+                    let productBlock = generate_html_tag(
                         "div",
                         "inc_cart_added_product_block"
                     );
@@ -6484,7 +6484,7 @@
                 }
             });
 
-            letsidebarsaveprc = get_discount_price(
+            let sidebarsaveprc = get_discount_price(
                 subtotalregukarprice,
                 subtotalactiveprice
             );
@@ -6594,12 +6594,12 @@
         elRecommendedProductsListBlock,
         productCategory
     ) {
-        letproductListArray = INC.dataStore.bundleProductsArray;
-        letdupl_sidebar_prod = [];
-        letaddCheck = INC.config.pdpaddedProductList;
+        let productListArray = INC.dataStore.bundleProductsArray;
+        let dupl_sidebar_prod = [];
+        let addCheck = INC.config.pdpaddedProductList;
 
-        for (letpd in productListArray) {
-            letfirstProductObjByMainId = INC.dataStore
+        for (let pd in productListArray) {
+            let firstProductObjByMainId = INC.dataStore
                 .methods()
                 .getFirstProductObjByMainId({
                     mainId: productListArray[pd],
@@ -6619,7 +6619,7 @@
                             productCategory
                         ) {
                             dupl_sidebar_prod.push(firstProductObjByMainId.id);
-                            letprdblck = INC.methods.createProductModuleBlock(
+                            let prdblck = INC.methods.createProductModuleBlock(
                                 firstProductObjByMainId.id,
                                 "sidebar",
                                 false,
@@ -6701,7 +6701,7 @@
         elRecommendedProductsListBlock.parentNode.parentNode
             .querySelector(".inc_recommended_products_left_btn_img")
             .setAttribute("style", "opacity:0.5");
-        letsliderBtnCounter = 0;
+        let sliderBtnCounter = 0;
         elRecommendedProductsListBlock.parentNode.parentNode
             .querySelector(".inc_recommended_products_left_btn_img")
             .setAttribute("title", "Scroll left");
@@ -6711,7 +6711,7 @@
         elRecommendedProductsListBlock.parentNode.parentNode
             .querySelector(".inc_recommeded_products_right_btn_block")
             .addEventListener("click", function () {
-                letproductBlocks = document.querySelectorAll(
+                let productBlocks = document.querySelectorAll(
                     ".wrapper-cart-product .inc_recommended_products_list_block .inc_product_module_block"
                 );
                 if (INC.clientConfig.slidevalue + 1 < productBlocks.length) {
@@ -6733,13 +6733,13 @@
                         .querySelector(".inc_recommended_products_left_btn_img")
                         .setAttribute("style", "opacity:1");
                     INC.clientConfig.slidevalue++;
-                    letslide_w = 357;
+                    let slide_w = 357;
                     if (window.innerWidth >= 850) {
                         slide_w = 352.4;
                     }
                     INC.clientConfig.offset =
                         parseFloat(INC.clientConfig.offset) - slide_w + "px";
-                    letmenu =
+                    let menu =
                         elRecommendedProductsListBlock.parentNode.parentNode.querySelector(
                             ".inc_recommended_products_list_block"
                         );
@@ -6750,7 +6750,7 @@
                         ";transition-duration:0.5s;-webkit-transition-duration:0.5s;-moz-transition-duration:0.5s;-ms-transition-duration:0.5s;-o-transition-duration:0.5s;"
                     );
                 }
-                letcc_ount = 1;
+                let cc_ount = 1;
                 if (window.innerWidth > 820) {
                     cc_ount = 1;
                 }
@@ -6793,7 +6793,7 @@
                     INC.clientConfig.slidevalue = 0;
                 }
                 if (INC.clientConfig.slidevalue > 0) {
-                    letslide_w = 357;
+                    let slide_w = 357;
                     if (window.innerWidth >= 850) {
                         slide_w = 352.4;
                     }
@@ -6821,7 +6821,7 @@
                     INC.clientConfig.slidevalue--;
                     INC.clientConfig.offset =
                         parseFloat(INC.clientConfig.offset) + slide_w + "px";
-                    letmenu =
+                    let menu =
                         elRecommendedProductsListBlock.parentNode.parentNode.querySelector(
                             ".inc_recommended_products_list_block"
                         );
@@ -6857,12 +6857,12 @@
                 }
             });
         setTimeout(function () {
-            letall_list_el = document.querySelectorAll(
+            let all_list_el = document.querySelectorAll(
                 ".inc_recommended_products_list_block .inc_product_showcase_block"
             );
-            for (letle in all_list_el) {
-                letprd_moduleb = all_list_el[le].parentNode;
-                letmain_idsd = "";
+            for (let le in all_list_el) {
+                let prd_moduleb = all_list_el[le].parentNode;
+                let main_idsd = "";
                 if (prd_moduleb != null) {
                     main_idsd = prd_moduleb.getAttribute("data-main_id");
                 }
@@ -6961,10 +6961,10 @@
                 }
             }
             setTimeout(function () {
-                letinc_prod_img = document.querySelectorAll(
+                let inc_prod_img = document.querySelectorAll(
                     ".inc_product_img_main_img img"
                 );
-                for (letprodimg in inc_prod_img) {
+                for (let prodimg in inc_prod_img) {
                     if (
                         inc_prod_img[prodimg] != null &&
                         Object.prototype.hasOwnProperty.call(
@@ -6984,7 +6984,7 @@
     };
 
     function sidebaraddprod(element) {
-        letproductModuleBlock =
+        let productModuleBlock =
             element.parentNode.parentNode.parentNode.parentNode.parentNode
                 .parentNode;
         if (
@@ -6994,12 +6994,12 @@
             productModuleBlock =
                 element.parentNode.parentNode.parentNode.parentNode.parentNode;
         }
-        letflag_check = INC.methods.checkVariantSelection(productModuleBlock);
-        letsku = productModuleBlock.getAttribute("data-sku");
-        letfindObj = new INC.classes.FindObj({
+        let flag_check = INC.methods.checkVariantSelection(productModuleBlock);
+        let sku = productModuleBlock.getAttribute("data-sku");
+        let findObj = new INC.classes.FindObj({
             id: sku,
         });
-        letadd_prod_im = productModuleBlock.querySelector(
+        let add_prod_im = productModuleBlock.querySelector(
             ".inc_product_desc_add_img"
         );
         if (flag_check == 1) {
@@ -7012,10 +7012,10 @@
                 ) == trueflag
             ) {
                 if (INC.config.disablebtn == trueflag) {
-                    letnewbtntext = productModuleBlock.querySelector(
+                    let newbtntext = productModuleBlock.querySelector(
                         ".inc_product_modal_block .inc_product_desc_add_text"
                     );
-                    letbtnclick = productModuleBlock.querySelector(
+                    let btnclick = productModuleBlock.querySelector(
                         ".inc_product_add_text"
                     );
                     if (
@@ -7033,10 +7033,10 @@
                             );
                         }
                     }
-                    letrec_ = false;
+                    let rec_ = false;
                     newbtntext.innerText = "Adding To Basket";
                     btnclick.innerText = "Adding To Basket";
-                    letselbtn = productModuleBlock.querySelector(
+                    let selbtn = productModuleBlock.querySelector(
                         ".inc_product_variant_simple_text"
                     );
                     selbtn.innerText = "Adding To Basket";
@@ -7060,7 +7060,7 @@
         btn_addtocart,
         elmparent
     ) {
-        letqty = 1;
+        let qty = 1;
         if (client_add_btn != "client_add_btn") {
             if (_productBlockel != null) {
                 if (
@@ -7103,10 +7103,10 @@
                 qty = INC.dataStore.plpProductQty;
             }
         }
-        letdataStore = INC.dataStore;
-        letsbBlock = document.querySelector(".inc_sidebar_modal_block");
-        letsubtotal_activeprice = 0;
-        letsubtotal_regular = 0;
+        let dataStore = INC.dataStore;
+        let sbBlock = document.querySelector(".inc_sidebar_modal_block");
+        let subtotal_activeprice = 0;
+        let subtotal_regular = 0;
         if (
             document.querySelector(
                 ".inc_cart_added_product_desc_subtotal_ecirp_block .inc_cart_added_product_desc_subtotal_ecirp_active_text"
@@ -7155,48 +7155,48 @@
             }
         }
         if (sbBlock != null) {
-            letelHeadersubtotalactivetext = sbBlock.querySelector(
+            let elHeadersubtotalactivetext = sbBlock.querySelector(
                 ".inc_cart_added_product_desc_subtotal_ecirp_active_text"
             );
-            letelHeadersubtotalregulartext = sbBlock.querySelector(
+            let elHeadersubtotalregulartext = sbBlock.querySelector(
                 ".inc_cart_added_product_desc_subtotal_ecirp_regular_text"
             );
-            letelHeaderItemCountFigureText = sbBlock.querySelector(
+            let elHeaderItemCountFigureText = sbBlock.querySelector(
                 ".inc_header_item_count_figure_text"
             );
-            letsidebarHeaderItemCountTitleText = sbBlock.querySelector(
+            let sidebarHeaderItemCountTitleText = sbBlock.querySelector(
                 ".inc_header_item_count_title_text"
             );
-            letsbCartBlock = sbBlock.querySelector(
+            let sbCartBlock = sbBlock.querySelector(
                 ".inc_cart_added_list_block"
             );
             if (client_add_btn == "client_add_btn") {
                 sbCartBlock.innerHTML = "";
             }
-            letproductObj = dataStore.methods().getProductById(findObj);
-            letproductBlock = generate_html_tag(
+            let productObj = dataStore.methods().getProductById(findObj);
+            let productBlock = generate_html_tag(
                 "div",
                 "inc_cart_added_product_block"
             );
 
             if (INC.clientConfig.OOS.indexOf(productObj.mainId) >= 0) {
                 productBlock.classList.add("cross");
-                for (lete = 0; e < INC.clientConfig.OOS.length; e++) {
+                for (let e = 0; e < INC.clientConfig.OOS.length; e++) {
                     if (INC.clientConfig.OOS_MESG[e] != undefined) {
-                        letremerrorjust =
+                        let remerrorjust =
                             document.querySelector(".inc_justerror");
                         if (remerrorjust != null) {
                             remerrorjust.parentNode.removeChild(remerrorjust);
                         }
                         if (document.querySelector(".inc_justerror") == null) {
-                            letheadertitle = sbBlock.querySelector(
+                            let headertitle = sbBlock.querySelector(
                                 ".inc_sidebar_modal_cart_and_title_block"
                             );
-                            leterrormes = generate_html_tag(
+                            let errormes = generate_html_tag(
                                 "div",
                                 "inc_justerror"
                             );
-                            leterrormestext = generate_html_tag(
+                            let errormestext = generate_html_tag(
                                 "span",
                                 "inc_justerror_text"
                             );
@@ -7212,7 +7212,7 @@
                                 headertitle
                             );
                             setTimeout(function () {
-                                letremel =
+                                let remel =
                                     document.querySelector(".inc_justerror");
                                 if (remel != null) {
                                     remel.parentNode.removeChild(remel);
@@ -7222,11 +7222,11 @@
                     }
                 }
             } else {
-                letcolor = "";
-                letsize = "";
-                letsizeLabel = "";
-                letjust_check_prod_block = "";
-                letcolorLabel = "";
+                let color = "";
+                let size = "";
+                let sizeLabel = "";
+                let just_check_prod_block = "";
+                let colorLabel = "";
                 if (
                     document.querySelector(
                         ".inc_sidebar_modal_block.inc_active"
@@ -7286,7 +7286,7 @@
                             "inc_product_module_block"
                         ) == trueflag
                     ) {
-                        letmodule_blk =
+                        let module_blk =
                             btn_addtocart.parentNode.parentNode.parentNode
                                 .parentNode.parentNode.parentNode.parentNode;
                         if (
@@ -7294,16 +7294,16 @@
                                 ".inc_product_modal_block .inc_product_desc_att_block"
                             ) != null
                         ) {
-                            letsel_attr = module_blk.querySelector(
+                            let sel_attr = module_blk.querySelector(
                                 ".inc_product_modal_block .inc_product_desc_att_block"
                             );
-                            letzero_text = sel_attr.getAttribute("data-zero");
-                            letsize_text = sel_attr.getAttribute("data-size");
-                            letcolor_text =
+                            let zero_text = sel_attr.getAttribute("data-zero");
+                            let size_text = sel_attr.getAttribute("data-size");
+                            let color_text =
                                 sel_attr.getAttribute("data-color");
-                            letthird_text =
+                            let third_text =
                                 sel_attr.getAttribute("data-third");
-                            letfourth_text =
+                            let fourth_text =
                                 sel_attr.getAttribute("data-fourth");
                             size = "";
                             color = "";
@@ -7327,7 +7327,7 @@
                     }
                 }
 
-                letsel_size = "";
+                let sel_size = "";
                 if (color != "" && color != undefined && color != null) {
                     sel_size = colorLabel + " : " + color.toLowerCase();
                 }
@@ -7340,8 +7340,8 @@
                     }
                 }
 
-                letpdpprice = 0;
-                letactivepriceClnt = 0;
+                let pdpprice = 0;
+                let activepriceClnt = 0;
                 if (
                     document.querySelectorAll(
                         ".productView .price-section--withTax .price"
@@ -7395,8 +7395,8 @@
 
                 console.log(activepriceClnt, pdpprice);
 
-                letactivePrice = 0;
-                letregularPrice = 0;
+                let activePrice = 0;
+                let regularPrice = 0;
                 if (client_add_btn == "client_add_btn") {
                     if (activepriceClnt != 0 && pdpprice != 0) {
                         activePrice = Number(
@@ -7440,8 +7440,8 @@
                 } else {
                     return;
                 }
-                letcolorUrl_ = "";
-                letsizeText_ = "";
+                let colorUrl_ = "";
+                let sizeText_ = "";
                 if (productObj.option[0] != undefined) {
                     colorUrl_ = productObj.option[0].imgSrc;
                 }
@@ -7524,7 +7524,7 @@
 
 
 
-                letaddedhtml =
+                let addedhtml =
                     '<div class="inc_cart_added_product_img_block"><div class="inc_cart_added_product_img"><img class="inc_lazy" src="' +
                     productObj.imageURL +
                     '" data-src="' +
@@ -7552,8 +7552,8 @@
                         "onerror",
                         "this.src='" + INC.config.noimage + "'"
                     );
-                letsubtotalactiveprice = 0;
-                letsubtotalregukarprice = 0;
+                let subtotalactiveprice = 0;
+                let subtotalregukarprice = 0;
                 if (
                     subtotal_regular == "" &&
                     +regularPrice != 0 &&
@@ -7590,7 +7590,7 @@
                     subtotalregukarprice
                 );
 
-                letsidebarsaveprcw = get_discount_price(
+                let sidebarsaveprcw = get_discount_price(
                     subtotalregukarprice,
                     subtotalactiveprice
                 );
@@ -7693,7 +7693,7 @@
                                 ".inc_pdp_product-main_block .inc_product_img_main_img img"
                             ) != null
                         ) {
-                            letimgselp = "";
+                            let imgselp = "";
                             if (
                                 elmparent.querySelector(
                                     ".productView-img-container img"
@@ -7712,13 +7712,13 @@
                                 ).src;
                             }
 
-                            letnamep = elmparent
+                            let namep = elmparent
                                 .querySelector(
                                     ".productView-title.main-heading"
                                 )
                                 .innerText.trim();
-                            letclientPrice = null;
-                            letclientSpPrice = null;
+                            let clientPrice = null;
+                            let clientSpPrice = null;
                             if (
                                 document.querySelectorAll(
                                     ".productView .price-section--withTax .price"
@@ -7767,11 +7767,11 @@
                                 parseFloat(clientSpPrice) <
                                 parseFloat(clientPrice)
                             ) {
-                                letactivprice =
+                                let activprice =
                                     parseFloat(clientSpPrice).toFixed(2) * qty;
-                                letreglprice =
+                                let reglprice =
                                     parseFloat(clientPrice).toFixed(2) * qty;
-                                letsidebarsavepr = get_discount_price(
+                                let sidebarsavepr = get_discount_price(
                                     activprice,
                                     reglprice
                                 );
@@ -7794,7 +7794,7 @@
                             let size_;
                             let color_;
                             let colorImgUrl;
-                            letproSku = "";
+                            let proSku = "";
                             if (
                                 elmparent.querySelector(
                                     ".productSKU .productView-info-value"
@@ -7867,7 +7867,7 @@
         }
     };
     INC.methods.sendBundleClickTracking = function (productId, rec_type) {
-        letpageType = "";
+        let pageType = "";
         switch (INC.config.pageType) {
             case "pdp":
                 pageType = "107";
@@ -7901,7 +7901,7 @@
         ) {
             pageType = "107";
         }
-        letprdcore = INC.dataStore.pdpProductId;
+        let prdcore = INC.dataStore.pdpProductId;
         if (INC.config.pageType == "pdp") {
             prdcore = INC.config.Product_id;
         }
@@ -7925,22 +7925,22 @@
         rec_type
     ) {
         if (INC.dataStore.dataStoreObj.undefined == undefined) {
-            letproductModuleBlock = generate_html_tag(
+            let productModuleBlock = generate_html_tag(
                 "div",
                 "inc_product_module_block"
             );
-            letfindObj = new INC.classes.FindObj({
+            let findObj = new INC.classes.FindObj({
                 id: pdpProductId,
             });
-            letproductObj = INC.dataStore.methods().getProductById(findObj);
+            let productObj = INC.dataStore.methods().getProductById(findObj);
             productModuleBlock.style.userSelect = "none";
             setidstoelm(productModuleBlock, productObj);
-            letelProductShowcaseBlock = generate_html_tag(
+            let elProductShowcaseBlock = generate_html_tag(
                 "div",
                 "inc_product_showcase_block"
             );
             elProductShowcaseBlock.innerHTML = showcase_productcard;
-            letelProductModalBlock = generate_html_tag(
+            let elProductModalBlock = generate_html_tag(
                 "div",
                 "inc_product_modal_block"
             );
@@ -7952,7 +7952,7 @@
                 elProductModalBlock.setAttribute("role", "contentinfo");
             }
 
-            letproductShowcaseBlock = INC.methods.createProductShowcaseBlock(
+            let productShowcaseBlock = INC.methods.createProductShowcaseBlock(
                 pdpProductId,
                 blockType,
                 bundleProductListCheck,
@@ -7961,7 +7961,7 @@
                 mainprod,
                 rec_type
             );
-            letproductModalBlock = INC.methods.createProductModalBlock(
+            let productModalBlock = INC.methods.createProductModalBlock(
                 pdpProductId,
                 blockType,
                 bundleProductListCheck,
@@ -7974,7 +7974,7 @@
             elProductShowcaseBlock.appendChild(productShowcaseBlock);
             elProductModalBlock.appendChild(productModalBlock);
             if (window.innerWidth <= 800) {
-                letcloseBlock = elProductModalBlock.querySelector(
+                let closeBlock = elProductModalBlock.querySelector(
                     ".inc_product_header_img_block"
                 );
                 elProductModalBlock
@@ -8012,18 +8012,18 @@
     function prodtypedesc(productObj, producttypedetails, prodtypeflag) {
         if (productObj.finish != null && productObj.finish != "") {
             prodtypeflag = true;
-            letinc_prod_finish_block = generate_html_tag(
+            let inc_prod_finish_block = generate_html_tag(
                 "div",
                 "inc_prod_finish_block"
             );
             producttypedetails.appendChild(inc_prod_finish_block);
-            letinc_prod_finish_title = generate_html_tag(
+            let inc_prod_finish_title = generate_html_tag(
                 "div",
                 "inc_prod_finish_title"
             );
             inc_prod_finish_title.innerText = "Finish";
             inc_prod_finish_block.appendChild(inc_prod_finish_title);
-            letinc_prod_finish_text = generate_html_tag(
+            let inc_prod_finish_text = generate_html_tag(
                 "div",
                 "inc_prod_finish_text"
             );
@@ -8032,18 +8032,18 @@
         }
         if (productObj.coverage != null && productObj.coverage != "") {
             prodtypeflag = true;
-            letinc_prod_coverage_block = generate_html_tag(
+            let inc_prod_coverage_block = generate_html_tag(
                 "div",
                 "inc_prod_coverage_block"
             );
             producttypedetails.appendChild(inc_prod_coverage_block);
-            letinc_prod_coverage_title = generate_html_tag(
+            let inc_prod_coverage_title = generate_html_tag(
                 "div",
                 "inc_prod_coverage_title"
             );
             inc_prod_coverage_title.innerText = "Coverage";
             inc_prod_coverage_block.appendChild(inc_prod_coverage_title);
-            letinc_prod_coverage_text = generate_html_tag(
+            let inc_prod_coverage_text = generate_html_tag(
                 "div",
                 "inc_prod_coverage_text"
             );
@@ -8052,18 +8052,18 @@
         }
         if (productObj.underTone != null && productObj.underTone != "") {
             prodtypeflag = true;
-            letinc_prod_undertone_block = generate_html_tag(
+            let inc_prod_undertone_block = generate_html_tag(
                 "div",
                 "inc_prod_undertone_block"
             );
             producttypedetails.appendChild(inc_prod_undertone_block);
-            letinc_prod_undertone_title = generate_html_tag(
+            let inc_prod_undertone_title = generate_html_tag(
                 "div",
                 "inc_prod_undertone_title"
             );
             inc_prod_undertone_title.innerText = "Undertone";
             inc_prod_undertone_block.appendChild(inc_prod_undertone_title);
-            letinc_prod_undertone_text = generate_html_tag(
+            let inc_prod_undertone_text = generate_html_tag(
                 "div",
                 "inc_prod_undertone_text"
             );
@@ -8072,18 +8072,18 @@
         }
         if (productObj.skinType != null && productObj.skinType != "") {
             prodtypeflag = true;
-            letinc_prod_skinType_block = generate_html_tag(
+            let inc_prod_skinType_block = generate_html_tag(
                 "div",
                 "inc_prod_skinType_block"
             );
             producttypedetails.appendChild(inc_prod_skinType_block);
-            letinc_prod_skinType_title = generate_html_tag(
+            let inc_prod_skinType_title = generate_html_tag(
                 "div",
                 "inc_prod_skinType_title"
             );
             inc_prod_skinType_title.innerText = "Skin Type";
             inc_prod_skinType_block.appendChild(inc_prod_skinType_title);
-            letinc_prod_skinType_text = generate_html_tag(
+            let inc_prod_skinType_text = generate_html_tag(
                 "div",
                 "inc_prod_skinType_text"
             );
@@ -8094,7 +8094,7 @@
     }
 
     function incscrollPgae(productBlock) {
-        letdoc = null;
+        let doc = null;
         if (document.querySelector(".inc_pdp_block") != null) {
             doc = document.querySelector(".inc_pdp_block");
             inc_scroll_height =
@@ -8130,21 +8130,21 @@
         productObj,
         productBlock
     ) {
-        letotimg = 0;
-        letotherImages = [];
+        let otimg = 0;
+        let otherImages = [];
         if (productObj.otherImageList.length > 0) {
             otherImages.push(productObj.imageURL);
-            for (letm = 0; m < productObj.otherImageList.length; m++) {
+            for (let m = 0; m < productObj.otherImageList.length; m++) {
                 otherImages.push(productObj.otherImageList[m]);
             }
         }
         otherImages.forEach(function (otherImgURLs) {
-            letotherImgURL = otherImgURLs;
-            letelImgGalleryListItemBlock = generate_html_tag(
+            let otherImgURL = otherImgURLs;
+            let elImgGalleryListItemBlock = generate_html_tag(
                 "div",
                 "inc_product_img_gallery_list_item_block"
             );
-            letimglist =
+            let imglist =
                 '<div class="inc_product_img_gallery_list_item_img_block"><div class="inc_product_img_gallery_list_item_img"><img class="inc_lazy" data-src="' +
                 otherImgURL +
                 '" src="' +
@@ -8154,12 +8154,12 @@
                 '"></div></div><div class="inc_product_img_gallery_list_item_text_block"><div class="inc_product_img_gallery_list_item_text"></div></div>';
             elImgGalleryListItemBlock.innerHTML = imglist;
 
-            letelImgGalleryListItemImg =
+            let elImgGalleryListItemImg =
                 elImgGalleryListItemBlock.querySelector(
                     ".inc_product_img_gallery_list_item_img"
                 );
 
-            letelOtherImgTag = elImgGalleryListItemBlock.querySelector(
+            let elOtherImgTag = elImgGalleryListItemBlock.querySelector(
                 ".inc_product_img_gallery_list_item_img img"
             );
             elOtherImgTag.src = otherImgURL;
@@ -8186,8 +8186,8 @@
                     }
                 );
                 elImgGalleryListItemBlock.classList.add("inc_active");
-                letimgotherlist = this.querySelector("img").src;
-                letelImgMainImg = productBlock.querySelector(
+                let imgotherlist = this.querySelector("img").src;
+                let elImgMainImg = productBlock.querySelector(
                     ".inc_product_img_main_img"
                 );
                 if (!imgotherlist.includes("VIDEO")) {
@@ -8225,23 +8225,23 @@
     }
 
     function prepareqty(productBlock, blockType) {
-        letelAddText = productBlock.querySelector(
+        let elAddText = productBlock.querySelector(
             ".inc_product_desc_add_text"
         );
-        letproductDescQtyInputText = productBlock.querySelector(
+        let productDescQtyInputText = productBlock.querySelector(
             ".inc_product_qty_input_text"
         );
-        letproductDescQtyBlock = productBlock.querySelector(
+        let productDescQtyBlock = productBlock.querySelector(
             ".inc_product_qty_block"
         );
-        letelQtyBlock = productBlock.querySelector(".inc_product_qty_block");
-        letelQtyDownBlock = productBlock.querySelector(
+        let elQtyBlock = productBlock.querySelector(".inc_product_qty_block");
+        let elQtyDownBlock = productBlock.querySelector(
             ".inc_product_qty_down_block"
         );
-        letelQtyUpBlock = productBlock.querySelector(
+        let elQtyUpBlock = productBlock.querySelector(
             ".inc_product_qty_up_block"
         );
-        letelQtyInput = generate_html_tag("input");
+        let elQtyInput = generate_html_tag("input");
         elQtyInput.setAttribute("type", "number");
         elQtyInput.setAttribute("aria-label", "quantity");
         elQtyInput.setAttribute("min", 1);
@@ -8259,8 +8259,8 @@
         );
         elQtyInput.setAttribute("oninput", "validity.valid||(value='');");
         elQtyInput.addEventListener("keydown", function (event) {
-            letelmth = this;
-            letkeyCode = event.which || event.keyCode;
+            let elmth = this;
+            let keyCode = event.which || event.keyCode;
             if (keyCode === 13) {
                 event.preventDefault();
             } else if (
@@ -8270,7 +8270,7 @@
             ) {
                 return;
             }
-            letcharValue = String.fromCharCode(keyCode),
+            let charValue = String.fromCharCode(keyCode),
                 valid = /^\d+Â£/.test(charValue);
             // if (!valid) {
             //     event.preventDefault();
@@ -8281,7 +8281,7 @@
             // }
         });
         elQtyInput.addEventListener("focusout", function () {
-            letelmt = this;
+            let elmt = this;
             setTimeout(function () {
                 qtyupdateInc(elmt, productBlock, elAddText);
             }, 50);
@@ -8307,11 +8307,11 @@
             if (_elm.value > 1) {
                 elQtyBlock.classList.remove("singleqty");
             }
-            letproductModuleBlock = prdblk.parentNode.parentNode;
-            letshowcaseProductBlock = productModuleBlock
+            let productModuleBlock = prdblk.parentNode.parentNode;
+            let showcaseProductBlock = productModuleBlock
                 .querySelector(".inc_product_showcase_block")
                 .querySelector(".inc_product_block");
-            letmodalProductBlock = productModuleBlock
+            let modalProductBlock = productModuleBlock
                 .querySelector(".inc_product_modal_block")
                 .querySelector(".inc_product_block");
             showcaseProductBlock
@@ -8321,14 +8321,14 @@
                 ".inc_product_qty_input_text input"
             ).value = parseInt(_elm.value);
 
-            letid = prdblk.getAttribute("data-id");
-            letqty = parseInt(_elm.value);
-            letmain_id = prdblk.getAttribute("data-main_id");
-            letbundle_id = prdblk.getAttribute("data-bundle_id");
-            letpname = prdblk.querySelector(
+            let id = prdblk.getAttribute("data-id");
+            let qty = parseInt(_elm.value);
+            let main_id = prdblk.getAttribute("data-main_id");
+            let bundle_id = prdblk.getAttribute("data-bundle_id");
+            let pname = prdblk.querySelector(
                 ".inc_product_desc_title_text"
             ).textContent;
-            letpprice = prdblk
+            let pprice = prdblk
                 .querySelector(".inc_product_desc_ecirp_active_text")
                 .textContent.replace("Â£", "");
             if (
@@ -8353,19 +8353,19 @@
         }
         productDescQtyInputText.appendChild(elQtyInput);
 
-        letadded_text = document.createElement("span");
+        let added_text = document.createElement("span");
         added_text.classList.add("inc_add_text");
         productDescQtyInputText.appendChild(added_text);
 
         elQtyDownBlock.addEventListener("click", function () {
-            letelinput = this.parentNode.parentNode.parentNode.querySelector(
+            let elinput = this.parentNode.parentNode.parentNode.querySelector(
                 ".inc_product_qty_input_text input"
             );
-            letproductModuleBlock = productBlock.parentNode.parentNode;
-            letshowcaseProductBlock = productModuleBlock
+            let productModuleBlock = productBlock.parentNode.parentNode;
+            let showcaseProductBlock = productModuleBlock
                 .querySelector(".inc_product_showcase_block")
                 .querySelector(".inc_product_block");
-            letmodalProductBlock = productModuleBlock
+            let modalProductBlock = productModuleBlock
                 .querySelector(".inc_product_modal_block")
                 .querySelector(".inc_product_block");
             if (
@@ -8391,14 +8391,14 @@
                 ".inc_product_qty_input_text input"
             ).value = parseInt(elinput.value);
 
-            letid = productBlock.getAttribute("data-id");
-            letqty = parseInt(elinput.value);
-            letbundle_id = productBlock.getAttribute("data-bundle_id");
-            letmain_id = productBlock.getAttribute("data-main_id");
-            letpname = productBlock.querySelector(
+            let id = productBlock.getAttribute("data-id");
+            let qty = parseInt(elinput.value);
+            let bundle_id = productBlock.getAttribute("data-bundle_id");
+            let main_id = productBlock.getAttribute("data-main_id");
+            let pname = productBlock.querySelector(
                 ".inc_product_desc_title_text"
             ).innerText;
-            letpprice = productBlock
+            let pprice = productBlock
                 .querySelector(".inc_product_desc_ecirp_active_text")
                 .innerText.replace("Â£", "");
             if (
@@ -8464,7 +8464,7 @@
         });
 
         elQtyUpBlock.addEventListener("click", function () {
-            letelinpt = this.parentNode.parentNode.parentNode.querySelector(
+            let elinpt = this.parentNode.parentNode.parentNode.querySelector(
                 ".inc_product_qty_input_text input"
             );
             elinpt.value =
@@ -8474,11 +8474,11 @@
             if (parseInt(elinpt.value) == 99) {
                 elQtyUpBlock.classList.add("maxqty");
             }
-            letproductModuleBlock = productBlock.parentNode.parentNode;
-            letshowcaseProductBlock = productModuleBlock
+            let productModuleBlock = productBlock.parentNode.parentNode;
+            let showcaseProductBlock = productModuleBlock
                 .querySelector(".inc_product_showcase_block")
                 .querySelector(".inc_product_block");
-            letmodalProductBlock = productModuleBlock
+            let modalProductBlock = productModuleBlock
                 .querySelector(".inc_product_modal_block")
                 .querySelector(".inc_product_block");
 
@@ -8501,14 +8501,14 @@
                     ".inc_product_showcase_block .inc_product_qty_block"
                 )
                 .classList.remove("singleqty");
-            letid = productBlock.getAttribute("data-id");
-            letqty = parseInt(elinpt.value);
-            letbundle_id = productBlock.getAttribute("data-bundle_id");
-            letmain_id = productBlock.getAttribute("data-main_id");
-            letpname = productBlock.querySelector(
+            let id = productBlock.getAttribute("data-id");
+            let qty = parseInt(elinpt.value);
+            let bundle_id = productBlock.getAttribute("data-bundle_id");
+            let main_id = productBlock.getAttribute("data-main_id");
+            let pname = productBlock.querySelector(
                 ".inc_product_desc_title_text"
             ).innerText;
-            letpprice = productBlock
+            let pprice = productBlock
                 .querySelector(".inc_product_desc_ecirp_active_text")
                 .innerText.replace("Â£", "");
             if (
@@ -8539,136 +8539,136 @@
         elProductShowcaseBlock,
         mainprod
     ) {
-        letproductBlock =
+        let productBlock =
             elProductShowcaseBlock.querySelector(".inc_product_block");
-        letfindObj = new INC.classes.FindObj({
+        let findObj = new INC.classes.FindObj({
             id: pdpProductId,
         });
-        letproductObj = INC.dataStore.methods().getProductById(findObj);
+        let productObj = INC.dataStore.methods().getProductById(findObj);
         setidstoelm(productBlock, productObj);
-        letelHeaderInfoBlck = productBlock.querySelector(
+        let elHeaderInfoBlck = productBlock.querySelector(
             ".inc_product_info_main_block"
         );
-        letelHeader = productBlock.querySelector(
+        let elHeader = productBlock.querySelector(
             ".inc_product_header_main_block"
         );
-        letelImgBlock = productBlock.querySelector(".inc_product_img_block");
-        letelImgGalleryListBlock = productBlock.querySelector(
+        let elImgBlock = productBlock.querySelector(".inc_product_img_block");
+        let elImgGalleryListBlock = productBlock.querySelector(
             ".inc_product_img_gallery_list_block"
         );
-        letelTitleTextBlock = productBlock.querySelector(
+        let elTitleTextBlock = productBlock.querySelector(
             ".inc_product_desc_title_text_block"
         );
-        letelTitleText = productBlock.querySelector(
+        let elTitleText = productBlock.querySelector(
             ".inc_product_desc_title_text"
         );
-        letelPromo = productBlock.querySelector(".pc_promo_div");
-        letelproductPriceLabel = productBlock.querySelector(
+        let elPromo = productBlock.querySelector(".pc_promo_div");
+        let elproductPriceLabel = productBlock.querySelector(
             ".inc_product_ecirp_label_block"
         );
-        letelPriceActiveText = productBlock.querySelector(
+        let elPriceActiveText = productBlock.querySelector(
             ".inc_product_desc_ecirp_active_text"
         );
-        letelPriceRegularText = productBlock.querySelector(
+        let elPriceRegularText = productBlock.querySelector(
             ".inc_product_desc_ecirp_regular_text"
         );
-        letelAttBlock = productBlock.querySelector(
+        let elAttBlock = productBlock.querySelector(
             ".inc_product_desc_att_block"
         );
-        letelAttColorBlock = productBlock.querySelector(
+        let elAttColorBlock = productBlock.querySelector(
             ".inc_product_desc_att_color_block"
         );
-        letelAttColorTitleText = productBlock.querySelector(
+        let elAttColorTitleText = productBlock.querySelector(
             ".inc_product_desc_att_color_title_text"
         );
-        letelAttColorListBlock = productBlock.querySelector(
+        let elAttColorListBlock = productBlock.querySelector(
             ".inc_product_desc_att_color_list_block"
         );
-        letelAttSizeBlock = productBlock.querySelector(
+        let elAttSizeBlock = productBlock.querySelector(
             ".inc_product_desc_att_size_block"
         );
-        letelAttSizeTitleText = productBlock.querySelector(
+        let elAttSizeTitleText = productBlock.querySelector(
             ".inc_product_desc_att_size_title_text"
         );
-        letelAttSizeTitleTextSelected = productBlock.querySelector(
+        let elAttSizeTitleTextSelected = productBlock.querySelector(
             ".inc_product_desc_att_size_title_text_selected"
         );
-        letelAttSizeListBlock = productBlock.querySelector(
+        let elAttSizeListBlock = productBlock.querySelector(
             ".inc_product_desc_att_size_list_block"
         );
-        letelAtt0ListBlock = productBlock.querySelector(
+        let elAtt0ListBlock = productBlock.querySelector(
             ".inc_product_desc_att_zero_list_block"
         );
-        letelAtt3ListBlock = productBlock.querySelector(
+        let elAtt3ListBlock = productBlock.querySelector(
             ".inc_product_desc_att_third_list_block"
         );
-        letelAtt4ListBlock = productBlock.querySelector(
+        let elAtt4ListBlock = productBlock.querySelector(
             ".inc_product_desc_att_fourth_list_block"
         );
-        letelAtt0Block = productBlock.querySelector(
+        let elAtt0Block = productBlock.querySelector(
             ".inc_product_desc_att_zero_block"
         );
-        letelAtt3Block = productBlock.querySelector(
+        let elAtt3Block = productBlock.querySelector(
             ".inc_product_desc_att_third_block"
         );
-        letelAtt4Block = productBlock.querySelector(
+        let elAtt4Block = productBlock.querySelector(
             ".inc_product_desc_att_fourth_block"
         );
-        letelAtt0TitleText = productBlock.querySelector(
+        let elAtt0TitleText = productBlock.querySelector(
             ".inc_product_desc_att_zero_title_text"
         );
-        letelAtt3TitleTextSelected = productBlock.querySelector(
+        let elAtt3TitleTextSelected = productBlock.querySelector(
             ".inc_product_desc_att_third_title_text_selected"
         );
-        letelAtt3TitleText = productBlock.querySelector(
+        let elAtt3TitleText = productBlock.querySelector(
             ".inc_product_desc_att_third_title_text"
         );
-        letelAtt4TitleTextSelected = productBlock.querySelector(
+        let elAtt4TitleTextSelected = productBlock.querySelector(
             ".inc_product_desc_att_fourth_title_text_selected"
         );
-        letelAtt4TitleText = productBlock.querySelector(
+        let elAtt4TitleText = productBlock.querySelector(
             ".inc_product_desc_att_fourth_title_text"
         );
 
-        letelAddBlock = productBlock.querySelector(
+        let elAddBlock = productBlock.querySelector(
             ".inc_product_desc_add_block"
         );
-        letelAddText = productBlock.querySelector(
+        let elAddText = productBlock.querySelector(
             ".inc_product_desc_add_text"
         );
-        letelAddImg = productBlock.querySelector(".inc_product_desc_add_img");
-        letelratingsBlock = productBlock.querySelector(
+        let elAddImg = productBlock.querySelector(".inc_product_desc_add_img");
+        let elratingsBlock = productBlock.querySelector(
             ".inc_product_desc_ratings_block"
         );
-        letelworthPrice = productBlock.querySelector(
+        let elworthPrice = productBlock.querySelector(
             ".inc_product_desc_ecirp_worth_text"
         );
-        leteldetailsprodblock = productBlock.querySelector(
+        let eldetailsprodblock = productBlock.querySelector(
             ".inc_product_desc_att_details_block"
         );
-        leteladdvarianttext = productBlock.querySelector(
+        let eladdvarianttext = productBlock.querySelector(
             ".inc_product_variant_simple_text"
         );
-        letelconfigtitle = productBlock.querySelector(
+        let elconfigtitle = productBlock.querySelector(
             ".inc_product_desc_add_title_text_block"
         );
-        letelvariantaddbtn = productBlock.querySelector(
+        let elvariantaddbtn = productBlock.querySelector(
             ".inc_product_desc_att_variant_add_block"
         );
-        letelvariantaddbtntext = productBlock.querySelector(
+        let elvariantaddbtntext = productBlock.querySelector(
             ".inc_product_desc_att_variant_text"
         );
-        letelvariantpopupclose = productBlock.querySelector(
+        let elvariantpopupclose = productBlock.querySelector(
             ".inc_product_desc_variant_popup_close_block"
         );
-        letelselectoptaddbtn = productBlock.querySelector(
+        let elselectoptaddbtn = productBlock.querySelector(
             ".inc_product_variant_simple_block"
         );
 
-        letproductDescAddText = productBlock.querySelector(
+        let productDescAddText = productBlock.querySelector(
             ".inc_product_add_text"
         );
-        letelQtyAddBtnBlock = productBlock.querySelector(
+        let elQtyAddBtnBlock = productBlock.querySelector(
             ".inc_product_desc_qty_add_btn_block"
         );
 
@@ -8691,16 +8691,16 @@
         }
 
         if (window.innerWidth < 769) {
-            letprodtypeflag = false;
-            letproducttypedetails_mobile_view = generate_html_tag(
+            let prodtypeflag = false;
+            let producttypedetails_mobile_view = generate_html_tag(
                 "div",
                 "inc_details_mobile_quick_view"
             );
-            letproducttypedetails = generate_html_tag(
+            let producttypedetails = generate_html_tag(
                 "div",
                 "inc_producttype_details_block"
             );
-            letprod_quick_view_close = generate_html_tag(
+            let prod_quick_view_close = generate_html_tag(
                 "div",
                 "prod_quick_view_close"
             );
@@ -8728,7 +8728,7 @@
             producttypedetails_mobile_view.appendChild(producttypedetails);
             prodtypedesc(productObj, producttypedetails, prodtypeflag);
             if (prodtypeflag == trueflag) {
-                letprod_quick_view_btn = generate_html_tag(
+                let prod_quick_view_btn = generate_html_tag(
                     "div",
                     "prod_quick_view_btn"
                 );
@@ -8764,7 +8764,7 @@
                             .classList.add("quick_view_active");
                     }
                 });
-                letprodplacement = productBlock.querySelector(
+                let prodplacement = productBlock.querySelector(
                     ".inc_product_desc_block"
                 );
                 if (prodplacement != null) {
@@ -8798,10 +8798,10 @@
             .addEventListener("click", function () {
                 productBlock.parentNode.classList.remove("inc_active");
             });
-        letelImgMainImg = elImgBlock.querySelector(
+        let elImgMainImg = elImgBlock.querySelector(
             ".inc_product_img_main_img"
         );
-        letelImgTag1 = generate_html_tag("img");
+        let elImgTag1 = generate_html_tag("img");
         if (productObj.imageURLMain != undefined) {
             elImgTag1.src = productObj.imageURLMain;
         }
@@ -8815,7 +8815,7 @@
         elImgTag1.setAttribute("alt", productObj.nameMain);
         elImgTag1.setAttribute("data-mouseover", productObj["otherImageList"]);
         elImgTag1.setAttribute("data-imageURL", productObj["imageURLMain"]);
-        letproductLink = document.createElement("a");
+        let productLink = document.createElement("a");
 
         productLink.setAttribute("rel", "noopener noreferrer");
         productLink.appendChild(elImgTag1);
@@ -8835,7 +8835,7 @@
                 INC.config.pageType == "cartPage" &&
                 window.location.href.includes("tapbuy")
             ) {
-                letrec_type = "";
+                let rec_type = "";
                 INC.methods.sendBundleClickTracking(
                     productBlock.getAttribute("data-main_id"),
                     rec_type
@@ -8897,7 +8897,7 @@
                     .classList.add("overflow_visible");
                 document.querySelector("body").classList.add("inc_popup_open");
             }
-            lettrucheck = true;
+            let trucheck = true;
             if (
                 productBlock.parentNode.parentNode.parentNode.classList.contains(
                     "inc_af_product-list_block"
@@ -8933,7 +8933,7 @@
                 INC.config.pageType == "cartPage" &&
                 window.location.href.includes("tapbuy")
             ) {
-                letrec_type = "";
+                let rec_type = "";
                 INC.methods.sendBundleClickTracking(
                     productBlock.getAttribute("data-main_id"),
                     rec_type
@@ -8994,7 +8994,7 @@
                     .classList.add("overflow_visible");
                 document.querySelector("body").classList.add("inc_popup_open");
             }
-            lettrucheck = true;
+            let trucheck = true;
             if (
                 productBlock.parentNode.parentNode.parentNode.classList.contains(
                     "inc_af_product-list_block"
@@ -9023,7 +9023,7 @@
             elPromo.classList.add("empty");
         }
 
-        letpTitleDiv = document.createElement("div");
+        let pTitleDiv = document.createElement("div");
 
         if (mainprod == "mainprod" && INC.config.pageType == "pdp") {
             pTitleDiv.innerHTML =
@@ -9032,10 +9032,10 @@
             pTitleDiv.innerHTML = productObj.nameMain;
         }
 
-        letfield1 = productObj.ratingsCount;
-        letfield2 = productObj.reviewsCount;
+        let field1 = productObj.ratingsCount;
+        let field2 = productObj.reviewsCount;
         INC.methods.get_product_ratings(field1, field2, elratingsBlock);
-        letpLink = document.createElement("a");
+        let pLink = document.createElement("a");
         pLink.setAttribute("style", "cursor: default;text-decoration: none;");
         pLink.href = productObj.url;
         pLink.addEventListener("click", function (ev) {
@@ -9045,13 +9045,13 @@
         pLink.setAttribute("title", productObj.nameMain);
         pLink.appendChild(pTitleDiv);
         elTitleText.appendChild(pLink);
-        letactivePrice = parseFloat(productObj.activePriceMain)
+        let activePrice = parseFloat(productObj.activePriceMain)
             .toFixed(2)
             .toString();
-        letregularPrice = parseFloat(productObj.regularPriceMain)
+        let regularPrice = parseFloat(productObj.regularPriceMain)
             .toFixed(2)
             .toString();
-        lettotalsaveprc = get_discount_price(
+        let totalsaveprc = get_discount_price(
             productObj.regularPrice,
             productObj.activePrice
         );
@@ -9075,7 +9075,7 @@
             elworthPrice.innerHTML = "";
         }
         if (window.innerWidth < 769) {
-            letinc_empty_popup = generate_html_tag("div", "inc_empty_popup");
+            let inc_empty_popup = generate_html_tag("div", "inc_empty_popup");
             eldetailsprodblock.appendChild(inc_empty_popup);
         }
         if (blockType == "am") {
@@ -9096,15 +9096,15 @@
         findObj = new INC.classes.FindObj({
             mainId: productObj.mainId,
         });
-        letproductColorsObj = INC.dataStore
+        let productColorsObj = INC.dataStore
             .methods()
             .getProductColorsObj(findObj);
-        letproduct0Obj = INC.dataStore.methods().getProductopt0Obj(findObj);
-        letproductSizesObj = INC.dataStore
+        let product0Obj = INC.dataStore.methods().getProductopt0Obj(findObj);
+        let productSizesObj = INC.dataStore
             .methods()
             .getProductSizesObj(findObj);
-        letproduct3Obj = INC.dataStore.methods().getProductopt3Obj(findObj);
-        letproduct4Obj = INC.dataStore.methods().getProductopt4Obj(findObj);
+        let product3Obj = INC.dataStore.methods().getProductopt3Obj(findObj);
+        let product4Obj = INC.dataStore.methods().getProductopt4Obj(findObj);
 
         elAtt0ListBlock.innerHTML = "";
         elAttSizeListBlock.innerHTML = "";
@@ -9361,7 +9361,7 @@
                     .classList.remove("show_dropdown");
             }
         }
-        letsizezero = INC.dataStore.methods().getProductopt0Obj(findObj);
+        let sizezero = INC.dataStore.methods().getProductopt0Obj(findObj);
         if (
             productColorsObj["colorArray"].length == 0 &&
             sizezero["att0Array"].length == 0
@@ -9421,10 +9421,10 @@
         }
 
         elvariantaddbtn.addEventListener("click", function () {
-            letmoduleblk =
+            let moduleblk =
                 this.parentNode.parentNode.parentNode.parentNode.parentNode
                     .parentNode.parentNode;
-            letflag_check = INC.methods.checkVariantSelection(moduleblk);
+            let flag_check = INC.methods.checkVariantSelection(moduleblk);
             if (
                 (this.textContent.trim() == "Update" ||
                     this.parentNode.classList.contains("config_avail") ==
@@ -9735,7 +9735,7 @@
                         .querySelector("body")
                         .classList.add("inc_popup_open");
                 }
-                lettrucheck = true;
+                let trucheck = true;
                 if (
                     productBlock.parentNode.parentNode.parentNode.classList.contains(
                         "inc_af_product-list_block"
@@ -9900,33 +9900,33 @@
                 break;
         }
         elAddBlock.addEventListener("click", function () {
-            letproductModuleBlock = productBlock.parentNode.parentNode;
-            letmodalProductBlock = productModuleBlock
+            let productModuleBlock = productBlock.parentNode.parentNode;
+            let modalProductBlock = productModuleBlock
                 .querySelector(".inc_product_modal_block")
                 .querySelector(".inc_product_block");
-            letflag_check =
+            let flag_check =
                 INC.methods.checkVariantSelection(productModuleBlock);
-            letsku = productBlock.getAttribute("data-sku");
-            letmainId = productBlock.getAttribute("data-main_id");
-            letmain_id = productBlock.getAttribute("data-main_id");
-            letbundle_id = productBlock.getAttribute("data-bundle_id");
-            letpname = productBlock.querySelector(
+            let sku = productBlock.getAttribute("data-sku");
+            let mainId = productBlock.getAttribute("data-main_id");
+            let main_id = productBlock.getAttribute("data-main_id");
+            let bundle_id = productBlock.getAttribute("data-bundle_id");
+            let pname = productBlock.querySelector(
                 ".inc_product_desc_title_text"
             ).textContent;
-            letpprice = productBlock
+            let pprice = productBlock
                 .querySelector(".inc_product_desc_ecirp_active_text")
                 .textContent.replace("Â£", "");
-            letelqtyvalue = productModuleBlock.querySelector(
+            let elqtyvalue = productModuleBlock.querySelector(
                 ".inc_product_showcase_block .inc_product_qty_block input"
             );
-            letqty = parseInt(elqtyvalue.value);
+            let qty = parseInt(elqtyvalue.value);
             if (qty < 1) {
                 qty = 1;
             }
-            letprod_card =
+            let prod_card =
                 elAddText.parentNode.parentNode.parentNode.parentNode.parentNode
                     .parentNode.parentNode.parentNode;
-            letprodflag = false;
+            let prodflag = false;
             if (
                 document.querySelector(".inc_sidebar_modal_block.inc_active") ==
                 null
@@ -10014,7 +10014,7 @@
                         elAddText.parentNode.parentNode.parentNode
                             .querySelector(".inc_product_desc_add_block")
                             .classList.add("Inc_checked");
-                        letpListItemBlock = document.querySelector(
+                        let pListItemBlock = document.querySelector(
                             ".inc_pdp_bundle_product_list_item_block" +
                             '[data-main_id="' +
                             mainId +
@@ -10108,11 +10108,11 @@
                         ).textContent = "Update";
 
                         if (productModuleBlock.querySelector(".inc_product_variant_simple_text").getAttribute("title_") != undefined) {
-                            letseltx = productModuleBlock.querySelector(".inc_product_variant_simple_text").getAttribute("title_")
+                            let seltx = productModuleBlock.querySelector(".inc_product_variant_simple_text").getAttribute("title_")
                             productModuleBlock.querySelector(".inc_product_variant_simple_text").setAttribute("title", seltx);
                         }
 
-                        lettitlesel = productModuleBlock.querySelector(".inc_product_variant_simple_text").getAttribute("title");
+                        let titlesel = productModuleBlock.querySelector(".inc_product_variant_simple_text").getAttribute("title");
                         productModuleBlock.querySelector(".inc_product_variant_simple_block").classList.remove("inc_select");
                         productModuleBlock.querySelector(".inc_product_variant_simple_block").classList.add("added_inc");
                         productModuleBlock.querySelector(".inc_product_variant_simple_text").setAttribute("title", titlesel);
@@ -10138,7 +10138,7 @@
                         modalProductBlock.querySelector(
                             ".inc_product_desc_add_text"
                         ).textContent = "Add To Bundle";
-                        letpListItemBlock1 = document.querySelector(
+                        let pListItemBlock1 = document.querySelector(
                             ".inc_pdp_bundle_product_list_item_block" +
                             '[data-main_id="' +
                             mainId +
@@ -10188,7 +10188,7 @@
                             modalProductBlock.querySelector(
                                 ".inc_product_desc_add_text"
                             ).textContent = "Add To Bundle";
-                            letpListItemBlock2 = document.querySelector(
+                            let pListItemBlock2 = document.querySelector(
                                 ".inc_pdp_bundle_product_list_item_block" +
                                 '[data-main_id="' +
                                 mainId +
@@ -10329,112 +10329,112 @@
         mainprod,
         rec_type
     ) {
-        letproductBlock = elmodalblock.querySelector(".inc_product_block");
-        letprdmblock = productBlock;
-        letfindObj = new INC.classes.FindObj({
+        let productBlock = elmodalblock.querySelector(".inc_product_block");
+        let prdmblock = productBlock;
+        let findObj = new INC.classes.FindObj({
             id: pdpProductId,
         });
-        letproductObj = INC.dataStore.methods().getProductById(findObj);
+        let productObj = INC.dataStore.methods().getProductById(findObj);
 
         setidstoelm(productBlock, productObj);
-        letelHeader = prdmblock.querySelector(
+        let elHeader = prdmblock.querySelector(
             ".inc_product_header_main_block"
         );
-        letelImgBlock = prdmblock.querySelector(".inc_product_img_block");
-        letelImgGalleryListBlock = prdmblock.querySelector(
+        let elImgBlock = prdmblock.querySelector(".inc_product_img_block");
+        let elImgGalleryListBlock = prdmblock.querySelector(
             ".inc_product_img_gallery_list_block"
         );
-        letelTitleBlock = prdmblock.querySelector(
+        let elTitleBlock = prdmblock.querySelector(
             ".inc_product_desc_title_block"
         );
-        letelTitleText = prdmblock.querySelector(
+        let elTitleText = prdmblock.querySelector(
             ".inc_product_desc_title_text"
         );
-        letelAttColorTitleText = prdmblock.querySelector(
+        let elAttColorTitleText = prdmblock.querySelector(
             ".inc_product_desc_att_color_title_text"
         );
-        letelPromo = productBlock.querySelector(".pc_promo_div");
-        letelPriceActiveText = prdmblock.querySelector(
+        let elPromo = productBlock.querySelector(".pc_promo_div");
+        let elPriceActiveText = prdmblock.querySelector(
             ".inc_product_desc_ecirp_active_text"
         );
-        letelPriceRegularText = prdmblock.querySelector(
+        let elPriceRegularText = prdmblock.querySelector(
             ".inc_product_desc_ecirp_regular_text"
         );
-        letelAttColorBlock = prdmblock.querySelector(
+        let elAttColorBlock = prdmblock.querySelector(
             ".inc_product_desc_att_color_block"
         );
-        letelAttColorListBlock = prdmblock.querySelector(
+        let elAttColorListBlock = prdmblock.querySelector(
             ".inc_product_desc_att_color_list_block"
         );
-        letelAttSizeBlock = prdmblock.querySelector(
+        let elAttSizeBlock = prdmblock.querySelector(
             ".inc_product_desc_att_size_block"
         );
-        letelAttSizeTitleText = prdmblock.querySelector(
+        let elAttSizeTitleText = prdmblock.querySelector(
             ".inc_product_desc_att_size_title_text"
         );
-        letelAttSizeTitleTextSelected = prdmblock.querySelector(
+        let elAttSizeTitleTextSelected = prdmblock.querySelector(
             ".inc_product_desc_att_size_title_text_selected"
         );
-        letelAttSizeListBlock = prdmblock.querySelector(
+        let elAttSizeListBlock = prdmblock.querySelector(
             ".inc_product_desc_att_size_list_block"
         );
-        letelAtt0ListBlock = prdmblock.querySelector(
+        let elAtt0ListBlock = prdmblock.querySelector(
             ".inc_product_desc_att_zero_list_block"
         );
-        letelAtt3ListBlock = prdmblock.querySelector(
+        let elAtt3ListBlock = prdmblock.querySelector(
             ".inc_product_desc_att_third_list_block"
         );
-        letelAtt4ListBlock = prdmblock.querySelector(
+        let elAtt4ListBlock = prdmblock.querySelector(
             ".inc_product_desc_att_fourth_list_block"
         );
-        letelAtt0Block = prdmblock.querySelector(
+        let elAtt0Block = prdmblock.querySelector(
             ".inc_product_desc_att_zero_block"
         );
-        letelAtt3Block = prdmblock.querySelector(
+        let elAtt3Block = prdmblock.querySelector(
             ".inc_product_desc_att_third_block"
         );
-        letelAtt4Block = prdmblock.querySelector(
+        let elAtt4Block = prdmblock.querySelector(
             ".inc_product_desc_att_fourth_block"
         );
-        letelAtt0TitleText = prdmblock.querySelector(
+        let elAtt0TitleText = prdmblock.querySelector(
             ".inc_product_desc_att_zero_title_text"
         );
-        letelAtt3TitleTextSelected = prdmblock.querySelector(
+        let elAtt3TitleTextSelected = prdmblock.querySelector(
             ".inc_product_desc_att_third_title_text_selected"
         );
-        letelAtt3TitleText = prdmblock.querySelector(
+        let elAtt3TitleText = prdmblock.querySelector(
             ".inc_product_desc_att_third_title_text"
         );
-        letelAtt4TitleTextSelected = prdmblock.querySelector(
+        let elAtt4TitleTextSelected = prdmblock.querySelector(
             ".inc_product_desc_att_fourth_title_text_selected"
         );
-        letelAtt4TitleText = prdmblock.querySelector(
+        let elAtt4TitleText = prdmblock.querySelector(
             ".inc_product_desc_att_fourth_title_text"
         );
-        letelAddBlock = prdmblock.querySelector(".inc_product_desc_add_block");
-        letelAddText = prdmblock.querySelector(".inc_product_desc_add_text");
-        letelratingsBlock = prdmblock.querySelector(
+        let elAddBlock = prdmblock.querySelector(".inc_product_desc_add_block");
+        let elAddText = prdmblock.querySelector(".inc_product_desc_add_text");
+        let elratingsBlock = prdmblock.querySelector(
             ".inc_product_desc_ratings_block"
         );
-        letelGalleryRightArrow = prdmblock.querySelector(
+        let elGalleryRightArrow = prdmblock.querySelector(
             ".inc_product_img_gallery_right_block"
         );
-        letelGallerylefttArrow = prdmblock.querySelector(
+        let elGallerylefttArrow = prdmblock.querySelector(
             ".inc_product_img_gallery_left_block"
         );
-        letproductDescriptionMainBlock = prdmblock.querySelector(
+        let productDescriptionMainBlock = prdmblock.querySelector(
             ".inc_product_description_main_block"
         );
-        letproductHeaderMainBlockTitle = prdmblock.querySelector(
+        let productHeaderMainBlockTitle = prdmblock.querySelector(
             ".inc_product_header_main_title_block"
         );
-        letproductHeaderMainBlockRating = prdmblock.querySelector(
+        let productHeaderMainBlockRating = prdmblock.querySelector(
             ".inc_product_header_main_rating_block"
         );
-        letelproductPriceLabel = prdmblock.querySelector(
+        let elproductPriceLabel = prdmblock.querySelector(
             ".inc_product_ecirp_label_block"
         );
-        letelproductdescblock = prdmblock.querySelector(
+        let elproductdescblock = prdmblock.querySelector(
             ".inc_product_desc_block"
         );
         prdmblock
@@ -10449,7 +10449,7 @@
             });
 
         if (window.innerWidth < 820) {
-            letproductFullDetailsBlock = generate_html_tag(
+            let productFullDetailsBlock = generate_html_tag(
                 "div",
                 "inc_product_mobile_full_deatils"
             );
@@ -10463,7 +10463,7 @@
                     rec_type
                 );
                 getTrackingPixel();
-                lethrefm = productBlock.querySelector(
+                let hrefm = productBlock.querySelector(
                     ".inc_product_img_main_img a"
                 ).href;
                 setTimeout(function () {
@@ -10538,14 +10538,14 @@
                 }
             });
         if (window.innerWidth > 820) {
-            letprodtypeflag = false;
-            letproducttypedetails = generate_html_tag(
+            let prodtypeflag = false;
+            let producttypedetails = generate_html_tag(
                 "div",
                 "inc_producttype_details_block"
             );
             prodtypedesc(productObj, producttypedetails, prodtypeflag);
             if (prodtypeflag == trueflag) {
-                letprodplacement = productBlock.querySelector(
+                let prodplacement = productBlock.querySelector(
                     ".inc_product_desc_att_details_block"
                 );
                 if (prodplacement != null) {
@@ -10556,10 +10556,10 @@
                 }
             }
         }
-        letelImgMainImg = elImgBlock.querySelector(
+        let elImgMainImg = elImgBlock.querySelector(
             ".inc_product_img_main_img"
         );
-        letelImgTag1 = generate_html_tag("img");
+        let elImgTag1 = generate_html_tag("img");
         if (productObj.imageURLMain != undefined) {
             elImgTag1.src = productObj.imageURLMain;
             elImgTag1.setAttribute("data-src", productObj.imageURLMain);
@@ -10591,7 +10591,7 @@
                 elGallerylefttArrow.style.display = "none";
             }
         }
-        letproductLink = document.createElement("a");
+        let productLink = document.createElement("a");
 
         productLink.setAttribute("rel", "noopener noreferrer");
         if (mainprod != "mainprod") {
@@ -10621,7 +10621,7 @@
                     rec_type
                 );
                 getTrackingPixel();
-                lethrefm = productBlock.querySelector(
+                let hrefm = productBlock.querySelector(
                     ".inc_product_img_main_img a"
                 ).href;
                 if (event.target.src.includes("VIDEO")) {
@@ -10677,7 +10677,7 @@
                     rec_type
                 );
                 getTrackingPixel();
-                lethrefm1 = productBlock.querySelector(
+                let hrefm1 = productBlock.querySelector(
                     ".inc_product_img_main_img a"
                 ).href;
                 setTimeout(function () {
@@ -10686,9 +10686,9 @@
             }
         });
 
-        letpTitleDiv = document.createElement("div");
+        let pTitleDiv = document.createElement("div");
         pTitleDiv.innerText = productObj.nameMain;
-        letpLinkModal = document.createElement("a");
+        let pLinkModal = document.createElement("a");
         pLinkModal.setAttribute("title", productObj.nameMain);
         if (mainprod != "mainprod") {
             pLinkModal.setAttribute("href", productObj.url);
@@ -10704,7 +10704,7 @@
                     rec_type
                 );
                 getTrackingPixel();
-                lethrefm2 = productBlock.querySelector(
+                let hrefm2 = productBlock.querySelector(
                     ".inc_product_img_main_img a"
                 ).href;
                 setTimeout(function () {
@@ -10713,15 +10713,15 @@
             });
         }
 
-        letfield1 = productObj.ratingsCount;
-        letfield2 = productObj.reviewsCount;
+        let field1 = productObj.ratingsCount;
+        let field2 = productObj.reviewsCount;
         INC.methods.get_product_ratings(field1, field2, elratingsBlock);
-        letpLinkModalSKU = document.createElement("span");
+        let pLinkModalSKU = document.createElement("span");
         pLinkModalSKU.classList.add("product_modal_sku");
         pLinkModalSKU.innerText = "#" + productObj.sku;
         productHeaderMainBlockRating.appendChild(pLinkModalSKU);
 
-        letpLink = document.createElement("a");
+        let pLink = document.createElement("a");
         pLink.href = productObj.url;
         pLink.setAttribute("style", "text-transform: unset;");
         pLink.setAttribute("title", productObj.nameMain);
@@ -10738,13 +10738,13 @@
             elPromo.classList.add("empty");
         }
 
-        letactivePrice = parseFloat(productObj.activePriceMain)
+        let activePrice = parseFloat(productObj.activePriceMain)
             .toFixed(2)
             .toString();
-        letregularPrice = parseFloat(productObj.regularPriceMain)
+        let regularPrice = parseFloat(productObj.regularPriceMain)
             .toFixed(2)
             .toString();
-        lettotalsaveprc = get_discount_price(
+        let totalsaveprc = get_discount_price(
             productObj.regularPrice,
             productObj.activePrice
         );
@@ -10790,10 +10790,10 @@
                 ).innerText = "Overview";
             }
         }
-        letinc_product_header_title_block_1 = productBlock.querySelector(
+        let inc_product_header_title_block_1 = productBlock.querySelector(
             ".inc_product_header_title_block_1"
         );
-        letinc_product_header_title_text_1 = productBlock.querySelector(
+        let inc_product_header_title_text_1 = productBlock.querySelector(
             ".inc_product_header_title_text_1"
         );
 
@@ -10806,15 +10806,15 @@
             productDescriptionMainBlock.innerHTML = productObj.description;
         }
 
-        letinc_product_header_title_block =
+        let inc_product_header_title_block =
             inc_product_header_title_block_1.parentNode.querySelector(
                 ".inc_product_header_title_block"
             );
 
-        letinc_product_header_new_page = productBlock.querySelector(
+        let inc_product_header_new_page = productBlock.querySelector(
             ".inc_product_header_new_page"
         );
-        letinc_product_header_new_page_text = productBlock.querySelector(
+        let inc_product_header_new_page_text = productBlock.querySelector(
             ".inc_product_header_new_page .inc_product_header_new_page_text"
         );
         inc_product_header_new_page_text.innerText = "Open In A New Tab";
@@ -10855,17 +10855,17 @@
             inc_product_header_title_block_1.classList.remove("inc_active");
         });
 
-        letproduct0Obj = INC.dataStore.methods().getProductopt0Obj(findObj);
+        let product0Obj = INC.dataStore.methods().getProductopt0Obj(findObj);
 
-        letproductColorsObj = INC.dataStore
+        let productColorsObj = INC.dataStore
             .methods()
             .getProductColorsObj(findObj);
-        letproductSizesObj = INC.dataStore
+        let productSizesObj = INC.dataStore
             .methods()
             .getProductSizesObj(findObj);
 
-        letproduct3Obj = INC.dataStore.methods().getProductopt3Obj(findObj);
-        letproduct4Obj = INC.dataStore.methods().getProductopt4Obj(findObj);
+        let product3Obj = INC.dataStore.methods().getProductopt3Obj(findObj);
+        let product4Obj = INC.dataStore.methods().getProductopt4Obj(findObj);
 
         elAtt0ListBlock.innerHTML = "";
         elAttSizeListBlock.innerHTML = "";
@@ -11134,17 +11134,17 @@
         elGalleryRightArrow.setAttribute("title", "Scroll right");
 
         elGalleryRightArrow.addEventListener("click", function () {
-            letprod_card =
+            let prod_card =
                 this.parentNode.parentNode.parentNode.parentNode.parentNode
                     .parentNode;
-            letpr_id = prod_card.getAttribute("data-main_id");
+            let pr_id = prod_card.getAttribute("data-main_id");
             slideTo(pr_id, 0, prod_card, "right", "arrow");
         });
         elGallerylefttArrow.addEventListener("click", function () {
-            letprod_card =
+            let prod_card =
                 this.parentNode.parentNode.parentNode.parentNode.parentNode
                     .parentNode;
-            letpr_id = prod_card.getAttribute("data-main_id");
+            let pr_id = prod_card.getAttribute("data-main_id");
             slideTo(pr_id, 0, prod_card, "left", "arrow");
         });
         if (
@@ -11176,8 +11176,8 @@
                 .querySelector(".inc_product_description_main_block")
                 .classList.remove("inc_active");
 
-            letproductModuleBlock = productBlock.parentNode.parentNode;
-            letflag_check =
+            let productModuleBlock = productBlock.parentNode.parentNode;
+            let flag_check =
                 INC.methods.checkVariantSelection(productModuleBlock);
             if (
                 document.querySelector(".sidebar_outer.sidebar_outer_active") ==
@@ -11188,7 +11188,7 @@
                     .classList.remove("inc_popup_open");
                 document.querySelector("html").classList.remove("inc_overlay");
             }
-            letshowcaseProductBlock = productModuleBlock
+            let showcaseProductBlock = productModuleBlock
                 .querySelector(".inc_product_showcase_block")
                 .querySelector(".inc_product_block");
             if (
@@ -11253,7 +11253,7 @@
                     productModuleBlock
                         .querySelector(".inc_product_desc_add_title_text_block")
                         .setAttribute("style", "color:#E52B45");
-                    letelement = document.querySelector(
+                    let element = document.querySelector(
                         ".inc_product_modal_block.inc_active .inc_product_block .inc_product_desc_att_color_block"
                     );
                     if (element != null) {
@@ -11284,7 +11284,7 @@
                             window.scrollTo(0, inc_scroll_height);
                         }
                     }
-                    letsidemodal = document.querySelector(
+                    let sidemodal = document.querySelector(
                         ".inc_sidebar_modal_block"
                     );
                     if (
@@ -11359,22 +11359,22 @@
         elAtt0Block.classList.add(
             "inc_total_" + product0Obj["att0Array"].length
         );
-        letzeroc = 0;
+        let zeroc = 0;
         product0Obj["att0Array"].forEach(function (sizeObj) {
-            letattSizeImgBlock0 = generate_html_tag(
+            let attSizeImgBlock0 = generate_html_tag(
                 "div",
                 "inc_product_desc_att_size_list_item_img_block"
             );
-            letattSizeImg0 = generate_html_tag(
+            let attSizeImg0 = generate_html_tag(
                 "div",
                 "inc_product_desc_att_size_list_item_img"
             );
             attSizeImgBlock0.setAttribute("blocktype", blockType);
             attSizeImgBlock0.setAttribute("varianttypes", "zero");
             attSizeImgBlock0.addEventListener("click", function () {
-                letelvariant = this;
-                letelblktype = this.getAttribute("blocktype");
-                letelvtype = this.getAttribute("varianttypes");
+                let elvariant = this;
+                let elblktype = this.getAttribute("blocktype");
+                let elvtype = this.getAttribute("varianttypes");
                 INC.methods.mappvariants(elvariant, elblktype, elvtype);
             });
             attSizeImgBlock0.classList.add("avail");
@@ -11384,7 +11384,7 @@
                     sizeObj["colorCode"] == "" ||
                     sizeObj["colorCode"] == undefined
                 ) {
-                    letsizeimg = generate_html_tag("img");
+                    let sizeimg = generate_html_tag("img");
                     sizeimg.setAttribute("alt", sizeObj["text"]);
                     sizeimg.src = sizeObj["imgSrc"];
                     attSizeImgBlock0.setAttribute(
@@ -11396,7 +11396,7 @@
                     elAtt0TitleText.style.display = "flex";
                     attSizeImgBlock0.classList.add("img_avail");
                 } else {
-                    letspancolorcode = generate_html_tag("span");
+                    let spancolorcode = generate_html_tag("span");
                     spancolorcode.classList.add("color_code");
                     spancolorcode.setAttribute("alt", sizeObj["text"]);
                     spancolorcode.style.backgroundColor = sizeObj["colorCode"];
@@ -11471,8 +11471,8 @@
                 return 0;
             });
             if (productColorsObj["colorArray"][0].label == "Select Fabric") {
-                letitems = productColorsObj["colorArray"];
-                letsortingdata = [
+                let items = productColorsObj["colorArray"];
+                let sortingdata = [
                     "Color",
                     "Size",
                     "Linen",
@@ -11492,11 +11492,11 @@
                     "Dolce",
                     "Strange Loves",
                 ];
-                letresult = [];
+                let result = [];
                 sortingdata.forEach(function (key) {
-                    letfound = false;
+                    let found = false;
                     items = items.filter(function (item) {
-                        letattcheck = item.attLebel.split("|")[0];
+                        let attcheck = item.attLebel.split("|")[0];
                         if (!found && attcheck == key) {
                             result.push(item);
                             return false;
@@ -11513,21 +11513,21 @@
                 elAttColorBlock.classList.add("inc_active");
                 elAttColorTitleText.innerText =
                     productColorsObj["colorArray"][0].label.toLowerCase();
-                letone_attr_flag = false;
+                let one_attr_flag = false;
                 if (productColorsObj["colorArray"].length == 1) {
                     one_attr_flag = true;
                 }
                 if (productColorsObj["colorArray"].length > 6) {
                     elAttColorListBlock.classList.add("greater6");
                 }
-                letpushedfabric = [];
-                letcolorC = 0;
+                let pushedfabric = [];
+                let colorC = 0;
                 elAttColorBlock.classList.add("inc_active");
                 if (
                     productColorsObj["colorArray"][0].label == "Select Fabric"
                 ) {
                     for (
-                        letaL = 0;
+                        let aL = 0;
                         aL < productColorsObj["colorArray"][0].attrLength;
                         aL++
                     ) {
@@ -11587,29 +11587,29 @@
         one_attr_flag,
         bType
     ) {
-        letattColorBlock = generate_html_tag(
+        let attColorBlock = generate_html_tag(
             "div",
             "inc_product_desc_att_color_list_item_block"
         );
-        letattColorImgBlock = generate_html_tag(
+        let attColorImgBlock = generate_html_tag(
             "div",
             "inc_product_desc_att_color_list_item_img_block"
         );
-        letattColorImg = generate_html_tag(
+        let attColorImg = generate_html_tag(
             "div",
             "inc_product_desc_att_color_list_item_img"
         );
         attColorImgBlock.setAttribute("blocktype", blockType);
         attColorImgBlock.setAttribute("varianttypes", "color");
         attColorImgBlock.addEventListener("click", function () {
-            letelvariantc = this;
-            letelblktypec = this.getAttribute("blocktype");
-            letelvtypec = this.getAttribute("varianttypes");
+            let elvariantc = this;
+            let elblktypec = this.getAttribute("blocktype");
+            let elvtypec = this.getAttribute("varianttypes");
             INC.methods.mappvariants(elvariantc, elblktypec, elvtypec);
         });
 
         imgcolorgen(colorObj, attColorImg);
-        letcolorTitle = generate_html_tag("a");
+        let colorTitle = generate_html_tag("a");
         colorTitle.innerText = colorObj["text"];
         colorTitle.title = colorObj["text"].toUpperCase();
         colorTitle.addEventListener("click", function (e) {
@@ -11639,7 +11639,7 @@
         attColorImgBlock.setAttribute("data-attrid", colorObj["att_id"]);
         attColorImgBlock.setAttribute("data-child-price", colorObj["prc"]);
         if (bType != null && colorC > 3 && blockType != "pdp") {
-            letinc_more_color = generate_html_tag("a", "inc_more_color");
+            let inc_more_color = generate_html_tag("a", "inc_more_color");
             inc_more_color.innerText = "+";
             inc_more_color.addEventListener("click", function (e) {
                 e.preventDefault();
@@ -11681,11 +11681,11 @@
                     ': <span class="inc_compulsory_sign">*</span>';
                 elAttSizeBlock.classList.add("inc_active");
                 productSizesObj["sizeArray"].forEach(function (sizeObj) {
-                    letattSizeImgBlock = generate_html_tag(
+                    let attSizeImgBlock = generate_html_tag(
                         "div",
                         "inc_product_desc_att_size_list_item_img_block"
                     );
-                    letattSizeImg = generate_html_tag(
+                    let attSizeImg = generate_html_tag(
                         "div",
                         "inc_product_desc_att_size_list_item_img"
                     );
@@ -11694,9 +11694,9 @@
                     attSizeImgBlock.setAttribute("blocktype", blockType);
                     attSizeImgBlock.setAttribute("varianttypes", "size");
                     attSizeImgBlock.addEventListener("click", function () {
-                        letelvariants = this;
-                        letelblktypes = this.getAttribute("blocktype");
-                        letelvtypes = this.getAttribute("varianttypes");
+                        let elvariants = this;
+                        let elblktypes = this.getAttribute("blocktype");
+                        let elvtypes = this.getAttribute("varianttypes");
                         INC.methods.mappvariants(
                             elvariants,
                             elblktypes,
@@ -11711,7 +11711,7 @@
                             sizeObj["colorCode"] == "" ||
                             sizeObj["colorCode"] == undefined
                         ) {
-                            letsizeimg_ = generate_html_tag("img");
+                            let sizeimg_ = generate_html_tag("img");
                             sizeimg_.setAttribute("alt", sizeObj["text"]);
                             sizeimg_.src = sizeObj["imgSrc"];
                             attSizeImgBlock.setAttribute(
@@ -11723,7 +11723,7 @@
                             elAttSizeTitleText.style.display = "flex";
                             attSizeImgBlock.classList.add("img_avail");
                         } else {
-                            letspancolorcode_ = generate_html_tag("span");
+                            let spancolorcode_ = generate_html_tag("span");
                             spancolorcode_.classList.add("color_code");
                             spancolorcode_.setAttribute("alt", sizeObj["text"]);
                             spancolorcode_.style.backgroundColor =
@@ -11803,20 +11803,20 @@
                         product3Obj["att3Array"][0].label +
                         ': <span class="inc_compulsory_sign">*</span>';
                     elAtt3Block.classList.add("inc_active");
-                    letattSizeImgBlock3 = generate_html_tag(
+                    let attSizeImgBlock3 = generate_html_tag(
                         "div",
                         "inc_product_desc_att_third_list_item_img_block"
                     );
-                    letattSizeImg3 = generate_html_tag(
+                    let attSizeImg3 = generate_html_tag(
                         "div",
                         "inc_product_desc_att_third_list_item_img"
                     );
                     attSizeImgBlock3.setAttribute("blocktype", blockType);
                     attSizeImgBlock3.setAttribute("varianttypes", "third");
                     attSizeImgBlock3.addEventListener("click", function () {
-                        letelvariantd = this;
-                        letelblktyped = this.getAttribute("blocktype");
-                        letelvtyped = this.getAttribute("varianttypes");
+                        let elvariantd = this;
+                        let elblktyped = this.getAttribute("blocktype");
+                        let elvtyped = this.getAttribute("varianttypes");
                         INC.methods.mappvariants(
                             elvariantd,
                             elblktyped,
@@ -11867,20 +11867,20 @@
                         product3Obj["att4Array"][0].label +
                         ': <span class="inc_compulsory_sign">*</span>';
                     elAtt3Block.classList.add("inc_active");
-                    letattSizeImgBlock3 = generate_html_tag(
+                    let attSizeImgBlock3 = generate_html_tag(
                         "div",
                         "inc_product_desc_att_fourth_list_item_img_block"
                     );
-                    letattSizeImg3 = generate_html_tag(
+                    let attSizeImg3 = generate_html_tag(
                         "div",
                         "inc_product_desc_att_fourth_list_item_img"
                     );
                     attSizeImgBlock3.setAttribute("blocktype", blockType);
                     attSizeImgBlock3.setAttribute("varianttypes", "fourth");
                     attSizeImgBlock3.addEventListener("click", function () {
-                        letelvariantd = this;
-                        letelblktyped = this.getAttribute("blocktype");
-                        letelvtyped = this.getAttribute("varianttypes");
+                        let elvariantd = this;
+                        let elblktyped = this.getAttribute("blocktype");
+                        let elvtyped = this.getAttribute("varianttypes");
                         INC.methods.mappvariants(
                             elvariantd,
                             elblktyped,
@@ -11916,7 +11916,7 @@
     }
     INC.methods.mappvariants = function (obj, blocktype, type_of_variant) {
         if (obj.parentNode != undefined) {
-            letproductModuleBlck =
+            let productModuleBlck =
                 obj.parentNode.parentNode.parentNode.parentNode.parentNode
                     .parentNode.parentNode.parentNode.parentNode;
             if (
@@ -11942,17 +11942,17 @@
                 productModuleBlck =
                     productModuleBlck.parentNode.parentNode.parentNode;
             }
-            letproductblockshow = productModuleBlck.querySelector(
+            let productblockshow = productModuleBlck.querySelector(
                 ".inc_product_showcase_block .inc_product_block"
             );
-            letproductblockmod = productModuleBlck.querySelector(
+            let productblockmod = productModuleBlck.querySelector(
                 ".inc_product_modal_block .inc_product_block"
             );
 
-            letmainprdid = productblockshow.getAttribute("data-main_id");
+            let mainprdid = productblockshow.getAttribute("data-main_id");
 
             if (type_of_variant == "zero") {
-                letsel_variantz = obj.getAttribute("data-size");
+                let sel_variantz = obj.getAttribute("data-size");
                 productblockmod
                     .querySelector(".inc_product_desc_att_block")
                     .setAttribute("data-zero", sel_variantz);
@@ -11960,7 +11960,7 @@
                     .querySelector(".inc_product_desc_att_block")
                     .setAttribute("data-zero", sel_variantz);
             } else if (type_of_variant == "color") {
-                letsel_variantC = obj.getAttribute("data-color");
+                let sel_variantC = obj.getAttribute("data-color");
                 productblockmod
                     .querySelector(".inc_product_desc_att_block")
                     .setAttribute("data-color", sel_variantC);
@@ -11968,7 +11968,7 @@
                     .querySelector(".inc_product_desc_att_block")
                     .setAttribute("data-color", sel_variantC);
             } else if (type_of_variant == "size") {
-                letsel_variantS = obj.getAttribute("data-size");
+                let sel_variantS = obj.getAttribute("data-size");
                 productblockmod
                     .querySelector(".inc_product_desc_att_block")
                     .setAttribute("data-size", sel_variantS);
@@ -11976,7 +11976,7 @@
                     .querySelector(".inc_product_desc_att_block")
                     .setAttribute("data-size", sel_variantS);
             } else if (type_of_variant == "third") {
-                letsel_variantT = obj.getAttribute("data-size");
+                let sel_variantT = obj.getAttribute("data-size");
                 productblockmod
                     .querySelector(".inc_product_desc_att_block")
                     .setAttribute("data-third", sel_variantT);
@@ -11984,7 +11984,7 @@
                     .querySelector(".inc_product_desc_att_block")
                     .setAttribute("data-third", sel_variantT);
             } else if (type_of_variant == "fourth") {
-                letsel_variantT = obj.getAttribute("data-size");
+                let sel_variantT = obj.getAttribute("data-size");
                 productblockmod
                     .querySelector(".inc_product_desc_att_block")
                     .setAttribute("data-fourth", sel_variantT);
@@ -11997,25 +11997,25 @@
                 .querySelector(".inc_product_desc_att_block")
                 .setAttribute("data-module-id", mainprdid);
 
-            letmain_p_id = INC.dataStore.methods().getFirstProductObjByMainId({
+            let main_p_id = INC.dataStore.methods().getFirstProductObjByMainId({
                 mainId: mainprdid,
             }).id;
-            letfindobj = new INC.classes.FindObj({
+            let findobj = new INC.classes.FindObj({
                 id: main_p_id,
             });
-            letzero_text = productblockmod
+            let zero_text = productblockmod
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-zero");
-            letsize_text = productblockmod
+            let size_text = productblockmod
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-size");
-            letcolor_text = productblockmod
+            let color_text = productblockmod
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-color");
-            letthird_text = productblockmod
+            let third_text = productblockmod
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-third");
-            letfourth_text = productblockmod
+            let fourth_text = productblockmod
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-fourth");
 
@@ -12109,75 +12109,75 @@
             productblockshow
                 .querySelector(".inc_product_desc_add_title_text_block")
                 .setAttribute("style", "");
-            letelselcolortextmodal = productblockmod.querySelector(
+            let elselcolortextmodal = productblockmod.querySelector(
                 ".inc_product_desc_att_color_title_text_selected"
             );
-            letproductSizesObj = INC.dataStore
+            let productSizesObj = INC.dataStore
                 .methods()
                 .getProductSizesObj(findobj, obj);
-            letproductColorsObj = INC.dataStore
+            let productColorsObj = INC.dataStore
                 .methods()
                 .getProductColorsObj(findobj, obj);
-            letproduct3rdObj = INC.dataStore
+            let product3rdObj = INC.dataStore
                 .methods()
                 .getProductopt3Obj(findobj, obj);
-            letproduct4thObj = INC.dataStore
+            let product4thObj = INC.dataStore
                 .methods()
                 .getProductopt4Obj(findobj, obj);
-            letproduct0Obj = INC.dataStore
+            let product0Obj = INC.dataStore
                 .methods()
                 .getProductopt0Obj(findobj, obj);
 
-            letelAttSizeBlock = productblockmod.querySelector(
+            let elAttSizeBlock = productblockmod.querySelector(
                 ".inc_product_desc_att_size_block"
             );
-            letelAttColorBlock = productblockmod.querySelector(
+            let elAttColorBlock = productblockmod.querySelector(
                 ".inc_product_desc_att_color_block"
             );
-            letelAtt3rdBlock = productblockmod.querySelector(
+            let elAtt3rdBlock = productblockmod.querySelector(
                 ".inc_product_desc_att_third_block"
             );
-            letelAtt4thBlock = productblockmod.querySelector(
+            let elAtt4thBlock = productblockmod.querySelector(
                 ".inc_product_desc_att_fourth_block"
             );
-            letelAttSizeListBlock = productblockmod.querySelector(
+            let elAttSizeListBlock = productblockmod.querySelector(
                 ".inc_product_desc_att_size_list_block"
             );
-            letelAtt0ListBlock = productblockmod.querySelector(
+            let elAtt0ListBlock = productblockmod.querySelector(
                 ".inc_product_desc_att_zero_list_block"
             );
-            letelAttColorListBlock = productblockmod.querySelector(
+            let elAttColorListBlock = productblockmod.querySelector(
                 ".inc_product_desc_att_color_list_block"
             );
-            letelAtt3ListBlock = productblockmod.querySelector(
+            let elAtt3ListBlock = productblockmod.querySelector(
                 ".inc_product_desc_att_third_list_block"
             );
-            letelcolortextmodal = productblockmod.querySelector(
+            let elcolortextmodal = productblockmod.querySelector(
                 ".inc_product_desc_att_color_title_text"
             );
-            letelAttSizeListBlockshow = productblockshow.querySelector(
+            let elAttSizeListBlockshow = productblockshow.querySelector(
                 ".inc_product_desc_att_size_list_block"
             );
-            letelAtt0ListBlockshow = productblockshow.querySelector(
+            let elAtt0ListBlockshow = productblockshow.querySelector(
                 ".inc_product_desc_att_zero_list_block"
             );
 
-            letelAttColorListBlockshow = productblockshow.querySelector(
+            let elAttColorListBlockshow = productblockshow.querySelector(
                 ".inc_product_desc_att_color_list_block"
             );
-            letelAtt3ListBlockshow = productblockshow.querySelector(
+            let elAtt3ListBlockshow = productblockshow.querySelector(
                 ".inc_product_desc_att_third_list_block"
             );
-            letelAtt4ListBlockshow = productblockshow.querySelector(
+            let elAtt4ListBlockshow = productblockshow.querySelector(
                 ".inc_product_desc_att_fourth_list_block"
             );
-            letelselcolortextshow = productblockshow.querySelector(
+            let elselcolortextshow = productblockshow.querySelector(
                 ".inc_product_desc_att_color_title_text_selected"
             );
-            letelcolortextshow = productblockmod.querySelector(
+            let elcolortextshow = productblockmod.querySelector(
                 ".inc_product_desc_att_color_title_text"
             );
-            letzerosel = false;
+            let zerosel = false;
             if (
                 type_of_variant == "color" &&
                 productblockshow.querySelector(
@@ -12188,20 +12188,20 @@
                 elAtt0ListBlockshow.innerHTML = "";
                 if (product0Obj["att0Array"].length > 0) {
                     product0Obj["att0Array"].forEach(function (sizeObj) {
-                        letattSizeImgBlock0 = generate_html_tag(
+                        let attSizeImgBlock0 = generate_html_tag(
                             "div",
                             "inc_product_desc_att_size_list_item_img_block"
                         );
-                        letattSizeImg0 = generate_html_tag(
+                        let attSizeImg0 = generate_html_tag(
                             "div",
                             "inc_product_desc_att_size_list_item_img"
                         );
                         attSizeImgBlock0.setAttribute("blocktype", blocktype);
                         attSizeImgBlock0.setAttribute("varianttypes", "zero");
                         attSizeImgBlock0.addEventListener("click", function () {
-                            letelvariantss = this;
-                            letelblktype__ = this.getAttribute("blocktype");
-                            letelvtype__ = this.getAttribute("varianttypes");
+                            let elvariantss = this;
+                            let elblktype__ = this.getAttribute("blocktype");
+                            let elvtype__ = this.getAttribute("varianttypes");
                             INC.methods.mappvariants(
                                 elvariantss,
                                 elblktype__,
@@ -12236,15 +12236,15 @@
                             "data-child-price",
                             sizeObj["prc"]
                         );
-                        letattSizeImgBlockclone0 =
+                        let attSizeImgBlockclone0 =
                             attSizeImgBlock0.cloneNode(attSizeImgBlock0);
                         attSizeImgBlockclone0.addEventListener(
                             "click",
                             function () {
-                                letelvariants_1 = this;
-                                letelblktypes__2 =
+                                let elvariants_1 = this;
+                                let elblktypes__2 =
                                     this.getAttribute("blocktype");
-                                letelvtypes__1 =
+                                let elvtypes__1 =
                                     this.getAttribute("varianttypes");
                                 INC.methods.mappvariants(
                                     elvariants_1,
@@ -12270,7 +12270,7 @@
                         }
                     });
                     if (zerosel == falseflag) {
-                        letzerotxt_ = productblockmod
+                        let zerotxt_ = productblockmod
                             .querySelector(
                                 ".inc_product_desc_att_zero_block .inc_product_desc_att_size_list_item_img_block"
                             )
@@ -12305,20 +12305,20 @@
                 if (productSizesObj["sizeArray"].length > 0) {
                     elAttSizeBlock.classList.add("inc_active");
                     productSizesObj["sizeArray"].forEach(function (sizeObj) {
-                        letattSizeImgBlock = generate_html_tag(
+                        let attSizeImgBlock = generate_html_tag(
                             "div",
                             "inc_product_desc_att_size_list_item_img_block"
                         );
-                        letattSizeImg = generate_html_tag(
+                        let attSizeImg = generate_html_tag(
                             "div",
                             "inc_product_desc_att_size_list_item_img"
                         );
                         attSizeImgBlock.setAttribute("blocktype", blocktype);
                         attSizeImgBlock.setAttribute("varianttypes", "size");
                         attSizeImgBlock.addEventListener("click", function () {
-                            letelvariants2 = this;
-                            letelblktypes2 = this.getAttribute("blocktype");
-                            letelvtypes2 = this.getAttribute("varianttypes");
+                            let elvariants2 = this;
+                            let elblktypes2 = this.getAttribute("blocktype");
+                            let elvtypes2 = this.getAttribute("varianttypes");
                             INC.methods.mappvariants(
                                 elvariants2,
                                 elblktypes2,
@@ -12338,15 +12338,15 @@
                         );
                         attSizeImgBlock.setAttribute("data-option", "2");
                         attSizeImgBlock.appendChild(attSizeImg);
-                        letattSizeImgBlockclone =
+                        let attSizeImgBlockclone =
                             attSizeImgBlock.cloneNode(attSizeImgBlock);
                         attSizeImgBlockclone.addEventListener(
                             "click",
                             function () {
-                                letelvariants_ = this;
-                                letelblktypes_ =
+                                let elvariants_ = this;
+                                let elblktypes_ =
                                     this.getAttribute("blocktype");
-                                letelvtypes_ =
+                                let elvtypes_ =
                                     this.getAttribute("varianttypes");
                                 INC.methods.mappvariants(
                                     elvariants_,
@@ -12374,7 +12374,7 @@
                     });
                 }
             } else {
-                letsizelowertext = size_text.toLocaleLowerCase();
+                let sizelowertext = size_text.toLocaleLowerCase();
                 if (
                     productblockmod.querySelector(
                         ".inc_product_desc_att_size_list_block .inc_product_desc_att_size_list_item_img_block.inc_active"
@@ -12442,11 +12442,11 @@
                         ".inc_product_desc_att_color_title_text_selected"
                     ).innerText = "";
                 }
-                letselcol = findobj.colorText;
+                let selcol = findobj.colorText;
                 if (productColorsObj["colorArray"].length > 0) {
                     elAttColorBlock.classList.add("inc_active");
-                    letclrselflag = false;
-                    letclrarrac = 0;
+                    let clrselflag = false;
+                    let clrarrac = 0;
                     productColorsObj["colorArray"].forEach(function (colorObj) {
                         if (selcol == colorObj["text"]) {
                             findobj.colorText = colorObj["text"];
@@ -12455,15 +12455,15 @@
                             findobj.colorText = "";
                             findobj.color_text = "";
                         }
-                        letattColorBlock = generate_html_tag(
+                        let attColorBlock = generate_html_tag(
                             "div",
                             "inc_product_desc_att_color_list_item_block"
                         );
-                        letattColorImgBlock = generate_html_tag(
+                        let attColorImgBlock = generate_html_tag(
                             "div",
                             "inc_product_desc_att_color_list_item_img_block"
                         );
-                        letattColorImg = generate_html_tag(
+                        let attColorImg = generate_html_tag(
                             "div",
                             "inc_product_desc_att_color_list_item_img"
                         );
@@ -12471,9 +12471,9 @@
                         attColorImgBlock.setAttribute("blocktype", blocktype);
                         attColorImgBlock.setAttribute("varianttypes", "color");
                         attColorImgBlock.addEventListener("click", function () {
-                            letelvariantc2 = this;
-                            letelblktypec2 = this.getAttribute("blocktype");
-                            letelvtypec2 = this.getAttribute("varianttypes");
+                            let elvariantc2 = this;
+                            let elblktypec2 = this.getAttribute("blocktype");
+                            let elvtypec2 = this.getAttribute("varianttypes");
                             INC.methods.mappvariants(
                                 elvariantc2,
                                 elblktypec2,
@@ -12482,7 +12482,7 @@
                         });
                         imgcolorgen(colorObj, attColorImg);
 
-                        letcolorTitle = generate_html_tag("a");
+                        let colorTitle = generate_html_tag("a");
                         colorTitle.innerText = colorObj["text"];
                         colorTitle.title = colorObj["text"];
                         colorTitle.addEventListener("click", function (e) {
@@ -12513,17 +12513,17 @@
                         );
                         attColorImgBlock.appendChild(attColorImg);
                         attColorBlock.appendChild(attColorImgBlock);
-                        letattColorBlockclone =
+                        let attColorBlockclone =
                             attColorBlock.cloneNode(attColorBlock);
                         attColorBlockclone
                             .querySelector(
                                 ".inc_product_desc_att_color_list_item_img_block"
                             )
                             .addEventListener("click", function () {
-                                letelvariantc1s = this;
-                                letelblktypec2s =
+                                let elvariantc1s = this;
+                                let elblktypec2s =
                                     this.getAttribute("blocktype");
-                                letelvtypec2s =
+                                let elvtypec2s =
                                     this.getAttribute("varianttypes");
                                 INC.methods.mappvariants(
                                     elvariantc1s,
@@ -12538,7 +12538,7 @@
                             INC.config.pageType == "cartPage"
                         ) {
                             if (clrarrac > 3) {
-                                letinc_more_color1 = generate_html_tag(
+                                let inc_more_color1 = generate_html_tag(
                                     "a",
                                     "inc_more_color"
                                 );
@@ -12550,7 +12550,7 @@
                                         if (window.innerWidth < 821) {
                                             ee.preventDefault();
                                         }
-                                        lethrefd2 =
+                                        let hrefd2 =
                                             productblockshow.querySelector(
                                                 ".inc_product_img_main_img a"
                                             ).href;
@@ -12568,7 +12568,7 @@
                                         }
                                     }
                                 );
-                                letinc_more_color1clone =
+                                let inc_more_color1clone =
                                     inc_more_color1.cloneNode(inc_more_color1);
                                 if (
                                     elAttColorListBlock.querySelector(
@@ -12581,7 +12581,7 @@
                                     elAttColorListBlockshow.appendChild(
                                         inc_more_color1clone
                                     );
-                                    letcloneelinc_more_color =
+                                    let cloneelinc_more_color =
                                         elAttColorListBlockshow.querySelector(
                                             ".inc_more_color"
                                         );
@@ -12591,7 +12591,7 @@
                                             if (window.innerWidth < 821) {
                                                 ec.preventDefault();
                                             }
-                                            lethrefd1 =
+                                            let hrefd1 =
                                                 productblockshow.querySelector(
                                                     ".inc_product_img_main_img a"
                                                 ).href;
@@ -12663,12 +12663,12 @@
                         }
                     });
                     if (clrselflag == falseflag) {
-                        letctext = productblockmod
+                        let ctext = productblockmod
                             .querySelector(
                                 ".inc_product_desc_att_color_list_item_block .inc_product_desc_att_color_list_item_img_block"
                             )
                             .getAttribute("data-color");
-                        letcolor_colorcodesel = productblockmod
+                        let color_colorcodesel = productblockmod
                             .querySelector(
                                 ".inc_product_desc_att_color_list_item_block .inc_product_desc_att_color_list_item_img_block"
                             )
@@ -12700,7 +12700,7 @@
                     }
                 }
             } else {
-                letcolorlowertext = "";
+                let colorlowertext = "";
                 if (color_text != undefined) {
                     colorlowertext = color_text.toLocaleLowerCase();
                 }
@@ -12763,7 +12763,7 @@
                             ".inc_product_desc_att_color_list_item_block.inc_active div"
                         ) != null
                     ) {
-                        letcolor_colorcode = productblockmod
+                        let color_colorcode = productblockmod
                             .querySelector(
                                 ".inc_product_desc_att_color_list_item_block.inc_active div"
                             )
@@ -12788,11 +12788,11 @@
                     elAtt3rdBlock.classList.add("inc_active");
 
                     product3rdObj["att3Array"].forEach(function (sizeObj) {
-                        letattSizeImgBlock3 = generate_html_tag(
+                        let attSizeImgBlock3 = generate_html_tag(
                             "div",
                             "inc_product_desc_att_third_list_item_img_block"
                         );
-                        letattSizeImg3 = generate_html_tag(
+                        let attSizeImg3 = generate_html_tag(
                             "div",
                             "inc_product_desc_att_third_list_item_img"
                         );
@@ -12800,9 +12800,9 @@
                         attSizeImgBlock3.setAttribute("blocktype", blocktype);
                         attSizeImgBlock3.setAttribute("varianttypes", "third");
                         attSizeImgBlock3.addEventListener("click", function () {
-                            letelvarianttd = this;
-                            letelblktypetd = this.getAttribute("blocktype");
-                            letelvtypetd = this.getAttribute("varianttypes");
+                            let elvarianttd = this;
+                            let elblktypetd = this.getAttribute("blocktype");
+                            let elvtypetd = this.getAttribute("varianttypes");
                             INC.methods.mappvariants(
                                 elvarianttd,
                                 elblktypetd,
@@ -12822,15 +12822,15 @@
                         );
                         attSizeImgBlock3.setAttribute("data-option", "3");
                         attSizeImgBlock3.appendChild(attSizeImg3);
-                        letattSizeImgBlock3clone =
+                        let attSizeImgBlock3clone =
                             attSizeImgBlock3.cloneNode(attSizeImgBlock3);
                         attSizeImgBlock3clone.addEventListener(
                             "click",
                             function () {
-                                letelvarianttd_ = this;
-                                letelblktypetd_ =
+                                let elvarianttd_ = this;
+                                let elblktypetd_ =
                                     this.getAttribute("blocktype");
-                                letelvtypetd_ =
+                                let elvtypetd_ =
                                     this.getAttribute("varianttypes");
                                 INC.methods.mappvariants(
                                     elvarianttd_,
@@ -12858,11 +12858,11 @@
                     elAtt4thBlock.classList.add("inc_active");
 
                     product4thObj["att4Array"].forEach(function (sizeObj) {
-                        letattSizeImgBlock3 = generate_html_tag(
+                        let attSizeImgBlock3 = generate_html_tag(
                             "div",
                             "inc_product_desc_att_fourth_list_item_img_block"
                         );
-                        letattSizeImg3 = generate_html_tag(
+                        let attSizeImg3 = generate_html_tag(
                             "div",
                             "inc_product_desc_att_fourth_list_item_img"
                         );
@@ -12870,9 +12870,9 @@
                         attSizeImgBlock3.setAttribute("blocktype", blocktype);
                         attSizeImgBlock3.setAttribute("varianttypes", "fourth");
                         attSizeImgBlock3.addEventListener("click", function () {
-                            letelvarianttd = this;
-                            letelblktypetd = this.getAttribute("blocktype");
-                            letelvtypetd = this.getAttribute("varianttypes");
+                            let elvarianttd = this;
+                            let elblktypetd = this.getAttribute("blocktype");
+                            let elvtypetd = this.getAttribute("varianttypes");
                             INC.methods.mappvariants(
                                 elvarianttd,
                                 elblktypetd,
@@ -12892,15 +12892,15 @@
                         );
                         attSizeImgBlock3.setAttribute("data-option", "3");
                         attSizeImgBlock3.appendChild(attSizeImg3);
-                        letattSizeImgBlock3clone =
+                        let attSizeImgBlock3clone =
                             attSizeImgBlock3.cloneNode(attSizeImgBlock3);
                         attSizeImgBlock3clone.addEventListener(
                             "click",
                             function () {
-                                letelvarianttd_ = this;
-                                letelblktypetd_ =
+                                let elvarianttd_ = this;
+                                let elblktypetd_ =
                                     this.getAttribute("blocktype");
-                                letelvtypetd_ =
+                                let elvtypetd_ =
                                     this.getAttribute("varianttypes");
                                 INC.methods.mappvariants(
                                     elvarianttd_,
@@ -12932,7 +12932,7 @@
                 }
             } else {
                 if (third_text != undefined && third_text != null) {
-                    letthirdlowertext = third_text.toLocaleLowerCase();
+                    let thirdlowertext = third_text.toLocaleLowerCase();
                     if (
                         productblockmod.querySelector(
                             ".inc_product_desc_att_third_list_block .inc_product_desc_att_third_list_item_img_block.inc_active"
@@ -12971,7 +12971,7 @@
                         .classList.add("inc_active");
                 }
                 if (fourth_text != null && fourth_text != undefined) {
-                    letfourthlowertext = fourth_text.toLocaleLowerCase();
+                    let fourthlowertext = fourth_text.toLocaleLowerCase();
                     if (
                         productblockmod.querySelector(
                             ".inc_product_desc_att_fourth_list_block .inc_product_desc_att_fourth_list_item_img_block.inc_active"
@@ -13010,7 +13010,7 @@
                         .classList.add("inc_active");
                 }
             }
-            letcheckzeroselflag = false;
+            let checkzeroselflag = false;
             if (
                 productblockmod.querySelector(
                     ".inc_product_desc_att_zero_list_block .inc_product_desc_att_size_list_item_img_block.inc_active"
@@ -13022,7 +13022,7 @@
                 type_of_variant == "zero" ||
                 (checkzeroselflag == trueflag && type_of_variant != "color")
             ) {
-                letzerolowertext = "";
+                let zerolowertext = "";
                 zero_text = "";
                 if (checkzeroselflag == trueflag) {
                     if (obj != null) {
@@ -13122,7 +13122,7 @@
                     document.querySelector(".inc_product_block.show_overlay") !=
                     null
                 ) {
-                    letallact = document.querySelectorAll(
+                    let allact = document.querySelectorAll(
                         ".inc_product_desc_att_block.inc_active"
                     );
                     if (
@@ -13140,7 +13140,7 @@
                             .querySelector("body")
                             .classList.remove("inc_popup_open");
                     }
-                    for (letactelm in allact) {
+                    for (let actelm in allact) {
                         if (
                             allact[actelm] != null &&
                             Object.prototype.hasOwnProperty.call(allact, actelm)
@@ -13163,24 +13163,24 @@
         }
     };
     INC.methods.checkVariantSelection = function (prod_module_block) {
-        letattr_flag_color = false;
-        letattr_flag_size = false;
-        letattr__flag_zero = false;
-        letattr__flag_third = false;
-        letattr__flag_fourth = false;
-        letelSize = prod_module_block.querySelector(
+        let attr_flag_color = false;
+        let attr_flag_size = false;
+        let attr__flag_zero = false;
+        let attr__flag_third = false;
+        let attr__flag_fourth = false;
+        let elSize = prod_module_block.querySelector(
             ".inc_product_desc_att_size_block.inc_active"
         );
-        letelColor = prod_module_block.querySelector(
+        let elColor = prod_module_block.querySelector(
             ".inc_product_desc_att_color_block.inc_active"
         );
-        letelattr0 = prod_module_block.querySelector(
+        let elattr0 = prod_module_block.querySelector(
             ".inc_product_desc_att_zero_block.inc_active"
         );
-        letelthird3 = prod_module_block.querySelector(
+        let elthird3 = prod_module_block.querySelector(
             ".inc_product_desc_att_third_block.inc_active"
         );
-        letelfourth4 = prod_module_block.querySelector(
+        let elfourth4 = prod_module_block.querySelector(
             ".inc_product_desc_att_fourth_block.inc_active"
         );
 
@@ -13326,8 +13326,8 @@
     };
 
     function imgcolorgen(colorObj, attColorImg) {
-        letcolrdcode = false;
-        letimagecode = false;
+        let colrdcode = false;
+        let imagecode = false;
         if (colorObj["colorCode"] != "" && colorObj["colorCode"] != undefined) {
             colrdcode = true;
         } else if (colorObj["imgSrc"].length > 0) {
@@ -13335,7 +13335,7 @@
                 colorObj["colorCode"] == "" &&
                 colorObj["imgSrc"].charAt(0) != "#"
             ) {
-                letcolorImg = generate_html_tag("img");
+                let colorImg = generate_html_tag("img");
                 colorImg.setAttribute("alt", colorObj["text"]);
                 colorImg.src = colorObj["imgSrc"];
                 attColorImg.appendChild(colorImg);
@@ -13344,7 +13344,7 @@
             }
         }
         if (colrdcode == trueflag || imagecode == trueflag) {
-            letspancolorcode = generate_html_tag("span");
+            let spancolorcode = generate_html_tag("span");
             spancolorcode.setAttribute("alt", colorObj["text"]);
             if (imagecode == trueflag) {
                 spancolorcode.style.backgroundColor = colorObj["imgSrc"];
@@ -13359,32 +13359,32 @@
         findObj,
         blockType
     ) {
-        letdataStore = INC.dataStore;
-        letproductBlock = productBlockel;
-        letproductModuleBlock = productBlock.parentNode.parentNode;
-        letmodal_attr_block = productModuleBlock.querySelector(
+        let dataStore = INC.dataStore;
+        let productBlock = productBlockel;
+        let productModuleBlock = productBlock.parentNode.parentNode;
+        let modal_attr_block = productModuleBlock.querySelector(
             ".inc_product_modal_block"
         );
-        letzero_text = modal_attr_block
+        let zero_text = modal_attr_block
             .querySelector(".inc_product_desc_att_block")
             .getAttribute("data-zero");
-        letsize_text = modal_attr_block
+        let size_text = modal_attr_block
             .querySelector(".inc_product_desc_att_block")
             .getAttribute("data-size");
-        letcolor_text = modal_attr_block
+        let color_text = modal_attr_block
             .querySelector(".inc_product_desc_att_block")
             .getAttribute("data-color");
-        letthird_text = modal_attr_block
+        let third_text = modal_attr_block
             .querySelector(".inc_product_desc_att_block")
             .getAttribute("data-third");
-        letfourth_text = modal_attr_block
+        let fourth_text = modal_attr_block
             .querySelector(".inc_product_desc_att_block")
             .getAttribute("data-fourth");
-        letelproductPriceLabel = productBlock.querySelector(
+        let elproductPriceLabel = productBlock.querySelector(
             ".inc_product_ecirp_label_block"
         );
         //data-fourth
-        letsel_attr_text = "";
+        let sel_attr_text = "";
 
         if (color_text != undefined) {
             findObj.color_text = color_text;
@@ -13477,7 +13477,7 @@
                         ".inc_product_variant_simple_text"
                     ).innerText = "";
 
-                    letvariant_span = generate_html_tag(
+                    let variant_span = generate_html_tag(
                         "span",
                         "variant_span"
                     );
@@ -13516,19 +13516,19 @@
                 }
             }
             if (color_text != null) {
-                letcolorImg = modal_attr_block.querySelector(
+                let colorImg = modal_attr_block.querySelector(
                     ".inc_product_desc_att_color_list_item_block.inc_active img"
                 );
-                letcolorSrc = "";
-                letcolorAlt = "";
+                let colorSrc = "";
+                let colorAlt = "";
                 if (colorImg != null) {
                     colorSrc = colorImg.src;
                     colorAlt = colorImg.alt;
                 }
-                letPrdVarSimTxt = productBlock.querySelector(
+                let PrdVarSimTxt = productBlock.querySelector(
                     ".inc_product_variant_simple_text"
                 );
-                letcolorTitle = generate_html_tag("div");
+                let colorTitle = generate_html_tag("div");
                 colorTitle.addEventListener("click", function (e) {
                     e.preventDefault();
                 });
@@ -13542,9 +13542,9 @@
                 colorTitle.classList.add("colorCircle");
             }
         }
-        letproductObj = INC.dataStore.methods().getProductByAtt(findObj);
+        let productObj = INC.dataStore.methods().getProductByAtt(findObj);
         if (Object.keys(productObj).length != 0) {
-            letpreviousSKU = "";
+            let previousSKU = "";
             previousSKU = productBlock.getAttribute("data-sku");
             productBlock.setAttribute("data-id", productObj.id);
             productBlock.setAttribute("data-sku", productObj.sku);
@@ -13566,7 +13566,7 @@
                 ) != null &&
                 sel_attr_text != ""
             ) {
-                letadded_sum_prod = document.querySelector(
+                let added_sum_prod = document.querySelector(
                     '.inc_pdp_bundle_cart_added_product_block[data-main_id="' +
                     productObj.mainId +
                     '"]'
@@ -13599,7 +13599,7 @@
                         ".inc_product_desc_att_color_list_item_block.inc_active .inc_product_desc_att_color_list_item_img_block"
                     ) != null
                 ) {
-                    letoptionimage = modal_attr_block
+                    let optionimage = modal_attr_block
                         .querySelector(
                             ".inc_product_desc_att_color_list_item_block.inc_active .inc_product_desc_att_color_list_item_img_block"
                         )
@@ -13614,7 +13614,7 @@
                 }
             }
             if (color_text != undefined) {
-                letccode = modal_attr_block
+                let ccode = modal_attr_block
                     .querySelector(
                         ".inc_product_desc_att_color_list_item_block.inc_active div"
                     )
@@ -13628,35 +13628,35 @@
                     ).style.backgroundColor = ccode;
                 }
             }
-            letelPromo = productBlock.querySelector(".pc_promo_div");
-            letelImgBlock = productBlock.querySelector(
+            let elPromo = productBlock.querySelector(".pc_promo_div");
+            let elImgBlock = productBlock.querySelector(
                 ".inc_product_img_block"
             );
-            letelImgGalleryListBlock = productBlock.querySelector(
+            let elImgGalleryListBlock = productBlock.querySelector(
                 ".inc_product_img_gallery_list_block"
             );
-            letelTitleText = productBlock.querySelector(
+            let elTitleText = productBlock.querySelector(
                 ".inc_product_desc_title_text"
             );
-            letelPriceActiveText = productBlock.querySelector(
+            let elPriceActiveText = productBlock.querySelector(
                 ".inc_product_desc_ecirp_active_text"
             );
-            letelPriceRegularText = productBlock.querySelector(
+            let elPriceRegularText = productBlock.querySelector(
                 ".inc_product_desc_ecirp_regular_text"
             );
-            letelAddText = productBlock.querySelector(
+            let elAddText = productBlock.querySelector(
                 ".inc_product_desc_add_text"
             );
-            letelworthPrice = productBlock.querySelector(
+            let elworthPrice = productBlock.querySelector(
                 ".inc_product_desc_ecirp_worth_text"
             );
-            letelGalleryRightArrow = productBlock.querySelector(
+            let elGalleryRightArrow = productBlock.querySelector(
                 ".inc_product_img_gallery_right_block"
             );
-            letelGallerylefttArrow = productBlock.querySelector(
+            let elGallerylefttArrow = productBlock.querySelector(
                 ".inc_product_img_gallery_left_block"
             );
-            leteladdbtnqtyblock = productBlock.querySelector(
+            let eladdbtnqtyblock = productBlock.querySelector(
                 ".inc_product_desc_qty_add_btn_block"
             );
             if (
@@ -13681,7 +13681,7 @@
                         ".inc_product_header_main_title_block"
                     ) != null
                 ) {
-                    letelModalTitle = productBlock.querySelector(
+                    let elModalTitle = productBlock.querySelector(
                         ".inc_product_header_main_title_block"
                     );
                 }
@@ -13695,7 +13695,7 @@
                     eladdbtnqtyblock.classList.add("inc_active");
                 }
             }
-            letelImgMainImg = elImgBlock.querySelector(
+            let elImgMainImg = elImgBlock.querySelector(
                 ".inc_product_img_main_img"
             );
 
@@ -13730,7 +13730,7 @@
                 .querySelectorAll("img")[0]
                 .setAttribute("data-imageURL", productObj["imageURL"]);
 
-            letprod_ids = productModuleBlock.getAttribute("data-main_id");
+            let prod_ids = productModuleBlock.getAttribute("data-main_id");
             if (
                 document.querySelector(
                     '.inc_pdp_bundle_product_list_items_block .inc_pdp_bundle_product_list_item_block[data-main_id="' +
@@ -13738,7 +13738,7 @@
                     '"]'
                 ) != null
             ) {
-                lettab_img = document.querySelector(
+                let tab_img = document.querySelector(
                     '.inc_pdp_bundle_product_list_items_block .inc_pdp_bundle_product_list_item_block[data-main_id="' +
                     prod_ids +
                     '"]'
@@ -13808,17 +13808,17 @@
                     .setAttribute("title", productObj.name);
             }
 
-            letactivePrice = parseFloat(productObj.activePrice)
+            let activePrice = parseFloat(productObj.activePrice)
                 .toFixed(2)
                 .toString();
-            letregularPrice = parseFloat(productObj.regularPrice)
+            let regularPrice = parseFloat(productObj.regularPrice)
                 .toFixed(2)
                 .toString();
-            lettotalsaveprc = get_discount_price(
+            let totalsaveprc = get_discount_price(
                 productObj.regularPrice,
                 productObj.activePrice
             );
-            lettotalsaveper = get_discount_price_percentage(
+            let totalsaveper = get_discount_price_percentage(
                 productObj.regularPrice,
                 productObj.activePrice
             );
@@ -13874,17 +13874,17 @@
                     delete dataStore["bundleCartProducts"][previousSKU];
                 }
             }
-            letelQtyInput = productBlock.parentNode.parentNode.querySelector(
+            let elQtyInput = productBlock.parentNode.parentNode.querySelector(
                 ".inc_product_modal_block .inc_product_desc_qty_add_btn_block .inc_product_qty_block input"
             );
-            letsku = productBlock.getAttribute("data-sku");
-            letbundle_id = productBlock.getAttribute("data-bundle_id");
-            letmain_id = productBlock.getAttribute("data-main_id");
-            letqty = parseInt(elQtyInput.value);
-            letpname = productBlock.querySelector(
+            let sku = productBlock.getAttribute("data-sku");
+            let bundle_id = productBlock.getAttribute("data-bundle_id");
+            let main_id = productBlock.getAttribute("data-main_id");
+            let qty = parseInt(elQtyInput.value);
+            let pname = productBlock.querySelector(
                 ".inc_product_desc_title_text"
             ).textContent;
-            letpprice = productBlock
+            let pprice = productBlock
                 .querySelector(".inc_product_desc_ecirp_active_text")
                 .textContent.replace("Â£", "");
 
@@ -13931,15 +13931,15 @@
     };
 
     INC.methods.createProductListItemBlock = function (productObjs) {
-        letproductListItemBlock = generate_html_tag(
+        let productListItemBlock = generate_html_tag(
             "div",
             "inc_pdp_bundle_product_list_item_block"
         );
-        letfindObj = new INC.classes.FindObj({
+        let findObj = new INC.classes.FindObj({
             id: productObjs.id,
             mainId: productObjs.mainId,
         });
-        letproductObj = INC.dataStore.methods().getProductById(findObj);
+        let productObj = INC.dataStore.methods().getProductById(findObj);
         productListItemBlock.style.userSelect = "none";
         productListItemBlock.setAttribute("data-id", productObj.id);
         productListItemBlock.setAttribute("data-sku", productObj.sku);
@@ -13949,7 +13949,7 @@
             productObj.bundleId
         );
 
-        letseemoreprodhtml =
+        let seemoreprodhtml =
             '<div class="inc_pdp_bundle_product_list_item_added_block"><div class="inc_pdp_bundle_product_list_item_added_btn_block"><div class="inc_pdp_bundle_product_list_item_added_btn_img_block"><div class="inc_pdp_bundle_product_list_item_added_btn_img"></div></div><div class="inc_pdp_bundle_product_list_item_added_btn_text_block"><div class="inc_pdp_bundle_product_list_item_added_btn_text"></div></div></div></div><div class="inc_pdp_bundle_product_list_item_img_block"><div class="inc_pdp_bundle_product_list_item_img"><img class="inc_lazy" data-src="' +
             productObj.imageURL +
             '" src="' +
@@ -13970,7 +13970,7 @@
                 }
             );
 
-            letelListMainBlock = document.querySelector(
+            let elListMainBlock = document.querySelector(
                 ".inc_pdp_bundle_product_list_main_block"
             );
             Array.prototype.forEach.call(
@@ -14011,8 +14011,8 @@
         pname,
         pprice
     ) {
-        letdataStore = INC.dataStore;
-        letlistToDelete = [];
+        let dataStore = INC.dataStore;
+        let listToDelete = [];
         if (
             !Object.prototype.hasOwnProperty.call(
                 dataStore,
@@ -14050,7 +14050,7 @@
             case "sub":
                 delete dataStore["bundleCartProducts"][bundleCartObj["sku"]];
                 INC.config.pdpaddedProductList.remove_prod_list = function () {
-                    letwhat,
+                    let what,
                         a = arguments,
                         L = a.length,
                         ax;
@@ -14063,8 +14063,8 @@
                     return this;
                 };
                 listToDelete[0] = main_id;
-                for (leti = 0; i < INC.config.bundle_tracking.length; i++) {
-                    letobj = INC.config.bundle_tracking[i];
+                for (let i = 0; i < INC.config.bundle_tracking.length; i++) {
+                    let obj = INC.config.bundle_tracking[i];
                     if (obj != undefined) {
                         if (listToDelete.indexOf(obj.id) != -1) {
                             INC.config.bundle_tracking.splice(i, 1);
@@ -14072,7 +14072,7 @@
                     }
                 }
                 INC.config.bundle_skuPushed.remove_prod_list = function () {
-                    letwhat1,
+                    let what1,
                         a1 = arguments,
                         L1 = a1.length,
                         ax1;
@@ -14097,23 +14097,23 @@
     };
 
     INC.methods.calculateBundleTotal = function () {
-        letdataStore = INC.dataStore;
-        letbundleCartProducts = dataStore["bundleCartProducts"];
-        letproductListObj = dataStore.dataStoreObj;
-        letduplicate_check_produ = [];
-        lettotalRegularPrice = 0;
-        lettotalActivePrice = 0;
-        lettotalMainProduct = 0;
-        lettotalAddonProducts = 0;
-        lettotalAddonProductsCount = 0;
-        lettotalProductCount = 0;
-        lettotal_qty = 0;
-        lettotal_collect_point = 0;
-        letmainId = INC.methods.getProductIdFromWebPage();
+        let dataStore = INC.dataStore;
+        let bundleCartProducts = dataStore["bundleCartProducts"];
+        let productListObj = dataStore.dataStoreObj;
+        let duplicate_check_produ = [];
+        let totalRegularPrice = 0;
+        let totalActivePrice = 0;
+        let totalMainProduct = 0;
+        let totalAddonProducts = 0;
+        let totalAddonProductsCount = 0;
+        let totalProductCount = 0;
+        let total_qty = 0;
+        let total_collect_point = 0;
+        let mainId = INC.methods.getProductIdFromWebPage();
         if (bundleCartProducts != null && bundleCartProducts != undefined) {
             Object.keys(bundleCartProducts).forEach(function (sku) {
-                for (letmainProductId in productListObj) {
-                    for (letchildProductId in productListObj[mainProductId]) {
+                for (let mainProductId in productListObj) {
+                    for (let childProductId in productListObj[mainProductId]) {
                         if (
                             sku ==
                             productListObj[mainProductId][childProductId]["sku"]
@@ -14130,11 +14130,11 @@
                                     childProductId
                                     ]["sku"]
                                 );
-                                letregularPrice =
+                                let regularPrice =
                                     productListObj[mainProductId][
                                     childProductId
                                     ]["regularPrice"];
-                                letactivePrice =
+                                let activePrice =
                                     productListObj[mainProductId][
                                     childProductId
                                     ]["activePrice"];
@@ -14197,7 +14197,7 @@
                 }
             });
         }
-        letpriceObj = {
+        let priceObj = {
             totalActivePrice: parseFloat(totalActivePrice).toFixed(2),
             totalRegularPrice: parseFloat(totalRegularPrice).toFixed(2),
             totalMainProduct: totalMainProduct,
@@ -14211,61 +14211,61 @@
     };
 
     INC.methods.updateBundleCartBlock = function (priceObj) {
-        letdataStore = INC.dataStore;
-        letbundleCartProducts = dataStore["bundleCartProducts"];
-        lettotalRegularPrice = priceObj.totalRegularPrice;
-        lettotalActivePrice = priceObj.totalActivePrice;
-        lettotalMainProduct = priceObj.totalMainProduct;
-        lettotalAddonProducts = priceObj.totalAddonProducts;
-        lettotalAddonProductsCount = priceObj.totalAddonProductsCount;
-        lettotalProductCount = priceObj.totalProductCount;
-        letelPdpBundleCartBlock = document.querySelector(
+        let dataStore = INC.dataStore;
+        let bundleCartProducts = dataStore["bundleCartProducts"];
+        let totalRegularPrice = priceObj.totalRegularPrice;
+        let totalActivePrice = priceObj.totalActivePrice;
+        let totalMainProduct = priceObj.totalMainProduct;
+        let totalAddonProducts = priceObj.totalAddonProducts;
+        let totalAddonProductsCount = priceObj.totalAddonProductsCount;
+        let totalProductCount = priceObj.totalProductCount;
+        let elPdpBundleCartBlock = document.querySelector(
             ".inc_pdp_bundle_cart_block"
         );
         if (elPdpBundleCartBlock != null) {
-            letelBundleCartAddedBlock = document.querySelector(
+            let elBundleCartAddedBlock = document.querySelector(
                 ".inc_pdp_bundle_cart_added_block"
             );
-            letelBundleCartSummaryViewBtnCount = document.querySelector(
+            let elBundleCartSummaryViewBtnCount = document.querySelector(
                 ".inc_pdp_bundle_cart_summary_view_btn_count"
             );
-            letelBundleCartPriceRegularText = document.querySelector(
+            let elBundleCartPriceRegularText = document.querySelector(
                 ".inc_pdp_bundle_cart_summary_ecirp_regular_text"
             );
-            letelBundleCartPriceActiveText = document.querySelector(
+            let elBundleCartPriceActiveText = document.querySelector(
                 ".inc_pdp_bundle_cart_summary_ecirp_active_text"
             );
-            letelBundleCartTitleTextcount = document.querySelector(
+            let elBundleCartTitleTextcount = document.querySelector(
                 ".inc_pdp_bundle_cart_title_text"
             );
-            letelbundlesavetext = document.querySelector(
+            let elbundlesavetext = document.querySelector(
                 ".inc_pdp_bundle_cart_summary_ecirp_save_text"
             );
-            letelBundleCartAddBtnCount = document.querySelector(
+            let elBundleCartAddBtnCount = document.querySelector(
                 ".inc_pdp_bundle_cart_summary_count_text"
             );
-            letelBundleCartAddBtnText = document.querySelector(
+            let elBundleCartAddBtnText = document.querySelector(
                 ".inc_pdp_bundle_cart_summary_add_btn_text"
             );
             elBundleCartAddedBlock.innerHTML = "";
-            letbundleCartProductsArray = Object.keys(bundleCartProducts);
+            let bundleCartProductsArray = Object.keys(bundleCartProducts);
             elBundleCartSummaryViewBtnCount.textContent =
                 bundleCartProductsArray.length;
             if (window.innerWidth < 769) {
                 elBundleCartTitleTextcount.textContent = "Items you've added";
             }
-            for (letskup in INC.config.bundle_skuPushed) {
-                letelcont = INC.config.bundle_skuPushed[skup];
-                for (letbundaray in bundleCartProductsArray) {
-                    letfindObj = new INC.classes.FindObj({
+            for (let skup in INC.config.bundle_skuPushed) {
+                let elcont = INC.config.bundle_skuPushed[skup];
+                for (let bundaray in bundleCartProductsArray) {
+                    let findObj = new INC.classes.FindObj({
                         sku: bundleCartProductsArray[bundaray],
                     });
-                    letproductObj = INC.dataStore
+                    let productObj = INC.dataStore
                         .methods()
                         .getProductBySKU(findObj);
                     if (elcont == productObj.id) {
-                        letproductId = productObj.id;
-                        letprepen_elm = this.createBundleCartAddedProductBlock(
+                        let productId = productObj.id;
+                        let prepen_elm = this.createBundleCartAddedProductBlock(
                             productId,
                             bundleCartProducts[
                             bundleCartProductsArray[bundaray]
@@ -14316,7 +14316,7 @@
             elBundleCartPriceRegularText.parentNode.parentNode.parentNode.parentNode.classList.remove(
                 "is_special_ecirp"
             );
-            lettotalsaveprcs = get_discount_price(
+            let totalsaveprcs = get_discount_price(
                 totalRegularPrice,
                 totalActivePrice
             );
@@ -14347,10 +14347,10 @@
                 elPdpBundleCartBlock != null &&
                 elPdpBundleCartBlock != undefined
             ) {
-                letelBundleCartTitleText = document.querySelector(
+                let elBundleCartTitleText = document.querySelector(
                     ".inc_pdp_bundle_cart_title_text"
                 );
-                letelBundleCartAddBtnTexts = document.querySelector(
+                let elBundleCartAddBtnTexts = document.querySelector(
                     ".inc_pdp_bundle_cart_summary_add_btn_text"
                 );
                 elBundleCartAddBtnTexts.style.textTransform = "none";
@@ -14393,19 +14393,19 @@
                 }
             }
 
-            letelPriceMainTitleText = elPdpBundleCartBlock.querySelector(
+            let elPriceMainTitleText = elPdpBundleCartBlock.querySelector(
                 ".inc_pdp_bundle-cart_ecirp_main_title_text"
             );
-            letelPriceMainFigureText = elPdpBundleCartBlock.querySelector(
+            let elPriceMainFigureText = elPdpBundleCartBlock.querySelector(
                 ".inc_pdp_bundle-cart_ecirp_main_figure_text"
             );
-            letelPriceAddonTitleText = elPdpBundleCartBlock.querySelector(
+            let elPriceAddonTitleText = elPdpBundleCartBlock.querySelector(
                 ".inc_pdp_bundle-cart_ecirp_addon_title_text"
             );
-            letelPriceAddonFigureText = elPdpBundleCartBlock.querySelector(
+            let elPriceAddonFigureText = elPdpBundleCartBlock.querySelector(
                 ".inc_pdp_bundle-cart_ecirp_addon_figure_text"
             );
-            letelPriceActiveText = elPdpBundleCartBlock.querySelector(
+            let elPriceActiveText = elPdpBundleCartBlock.querySelector(
                 ".inc_pdp_bundle_cart_summary_ecirp_active_text"
             );
 
@@ -14443,45 +14443,45 @@
     };
 
     INC.methods.createBundleCartAddedProductBlock = function (productId, qty) {
-        letaddedProductBlock = generate_html_tag(
+        let addedProductBlock = generate_html_tag(
             "div",
             "inc_pdp_bundle_cart_added_product_block"
         );
-        letfindObj = new INC.classes.FindObj({
+        let findObj = new INC.classes.FindObj({
             id: productId,
         });
-        letproductObj = INC.dataStore.methods().getProductById(findObj);
+        let productObj = INC.dataStore.methods().getProductById(findObj);
         addedProductBlock.setAttribute("data-id", productObj.id);
         addedProductBlock.setAttribute("data-sku", productObj.sku);
         addedProductBlock.setAttribute("data-main_id", productObj.mainId);
         addedProductBlock.setAttribute("data-bundle_id", productObj.bundleId);
 
-        letprod_module_elm = document.querySelector(
+        let prod_module_elm = document.querySelector(
             '.inc_pdp_block .inc_product_module_block[data-main_id="' +
             productObj.mainId +
             '"]'
         );
         if (prod_module_elm != null) {
-            letmodal_attr_block = prod_module_elm.querySelector(
+            let modal_attr_block = prod_module_elm.querySelector(
                 ".inc_product_modal_block"
             );
-            letzero_text = modal_attr_block
+            let zero_text = modal_attr_block
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-zero");
-            letsize_text = modal_attr_block
+            let size_text = modal_attr_block
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-size");
-            letcolor_text = modal_attr_block
+            let color_text = modal_attr_block
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-color");
-            letthird_text = modal_attr_block
+            let third_text = modal_attr_block
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-third");
-            letfourth_text = modal_attr_block
+            let fourth_text = modal_attr_block
                 .querySelector(".inc_product_desc_att_block")
                 .getAttribute("data-fourth");
 
-            letsel_attr_text = "";
+            let sel_attr_text = "";
             if (color_text != undefined) {
                 sel_attr_text = color_text;
             }
@@ -14498,7 +14498,7 @@
             if (third_text != undefined) {
                 sel_attr_text = sel_attr_text + " / " + third_text;
             }
-            letaddedsumprodhtml =
+            let addedsumprodhtml =
                 '<div class="inc_pdp_bundle_cart_added_product_img_block"><div class="inc_pdp_bundle_cart_added_product_img"><img src="' +
                 productObj.imageURL +
                 '" data-src="' +
@@ -14528,10 +14528,10 @@
                     "this.src='" + INC.config.noimage + "'"
                 );
 
-            letelEditTextBlock = addedProductBlock.querySelector(
+            let elEditTextBlock = addedProductBlock.querySelector(
                 ".inc_pdp_bundle_cart_added_product_edit_text_block"
             );
-            letelEditImgBlock = addedProductBlock.querySelector(
+            let elEditImgBlock = addedProductBlock.querySelector(
                 ".inc_pdp_bundle_cart_added_product_edit_img_block"
             );
 
@@ -14650,22 +14650,22 @@
                 ".product-add-to-cart .flits-wishlist-product-page #flits-wsl-token"
             ) != null
         ) {
-            lettoken = document.querySelector(
+            let token = document.querySelector(
                 ".product-add-to-cart .flits-wishlist-product-page #flits-wsl-token"
             ).value;
         }
-        letmainids = productBlock.getAttribute("data-main_id");
-        letfindObj = new INC.classes.FindObj(findObjd);
-        letproductObj = INC.dataStore.methods().getProductById(findObj);
-        letparams = "";
-        letqty = productBlock.querySelector(
+        let mainids = productBlock.getAttribute("data-main_id");
+        let findObj = new INC.classes.FindObj(findObjd);
+        let productObj = INC.dataStore.methods().getProductById(findObj);
+        let params = "";
+        let qty = productBlock.querySelector(
             ".inc_product_qty_input_text input"
         ).value;
         if (productObj.option[0] != undefined) {
             optName0 = productObj.option[0].text;
         }
         if (productObj.ProductType == "configurable") {
-            letparams =
+            let params =
                 "action=add&product+id=" +
                 productObj.mainId +
                 "&qty%5B%5D=" +
@@ -14718,7 +14718,7 @@
                     "";
             }
         } else {
-            letopt__Id = "attribute[" + productObj.attrId + "]";
+            let opt__Id = "attribute[" + productObj.attrId + "]";
             params = {
                 action: "add",
                 "product id": productObj.mainId,
@@ -14731,7 +14731,7 @@
         if (rec_type == trueflag) {
             INC.config.pdpaddedProductList = [];
         }
-        letaddUrl = INC.config.addToBasketURL;
+        let addUrl = INC.config.addToBasketURL;
         jQuery.ajax({
             type: "POST",
             headers: {
@@ -14818,12 +14818,12 @@
             },
         });
         function removecartfn() {
-            letelm = document.querySelectorAll(".minicart-remove-button");
-            for (letl of elm) {
+            let elm = document.querySelectorAll(".minicart-remove-button");
+            for (let l of elm) {
                 l.addEventListener("click", function (e) {
                     e.preventDefault();
-                    lethrfn = this.getAttribute("href");
-                    letxhr2 = new XMLHttpRequest();
+                    let hrfn = this.getAttribute("href");
+                    let xhr2 = new XMLHttpRequest();
                     xhr2.open("GET", hrfn, false);
                     xhr2.onload = function () { };
                     xhr2.onreadystatechange = function () {
@@ -14842,10 +14842,10 @@
             INC.methods.createSidebarBlock();
         }
         function appendtocart(data) {
-            letdataelm = document.createElement("div");
+            let dataelm = document.createElement("div");
             dataelm.innerHTML = data;
-            letelmim = dataelm.querySelectorAll(".mini-cart-image img");
-            for (lete of elmim) {
+            let elmim = dataelm.querySelectorAll(".mini-cart-image img");
+            for (let e of elmim) {
                 e.src = e.getAttribute("data-src");
             }
             if (document.querySelector(".mini-cart-product") != null) {
@@ -14880,7 +14880,7 @@
                     INC.init();
                 }
             }
-            letcall_addprodtosidebar = false;
+            let call_addprodtosidebar = false;
 
             if (
                 INC.config.pageType != "cartPage" &&
@@ -14960,7 +14960,7 @@
             if (INC.config.pageType != "cartPage") {
                 setTimeout(function () {
                     loadsidebarajax(null, rec_type);
-                    letallprd = addedprdblock.querySelectorAll(
+                    let allprd = addedprdblock.querySelectorAll(
                         ".inc_recommended_products_list_block .inc_product_module_block"
                     ).length;
                     if (
@@ -14977,7 +14977,7 @@
                                 ".inc_recommended_tabs_list_item_block.inc_active"
                             ) != null
                         ) {
-                            letremcat = document.querySelector(
+                            let remcat = document.querySelector(
                                 ".inc_recommended_tabs_list_item_block.inc_active"
                             );
 
@@ -15064,7 +15064,7 @@
                                 ".inc_recommended_products_list_block .inc_product_module_block"
                             ).length == 1
                         ) {
-                            letlen = addedprdblock.parentNode.querySelectorAll(
+                            let len = addedprdblock.parentNode.querySelectorAll(
                                 ".inc_recommended_products_list_block .inc_product_module_block"
                             ).length;
                             checkTabEmpty(len);
@@ -15146,7 +15146,7 @@
             }
         }
         document.querySelector("body").classList.remove("inc_popup_open");
-        letpageType = "";
+        let pageType = "";
         switch (INC.config.pageType) {
             case "pdp":
                 pageType = "107";
@@ -15186,7 +15186,7 @@
                 }, 1500);
             }
         }, 3000);
-        leteventDataObj = {};
+        let eventDataObj = {};
         if (
             INC.config.pageType == "pdp" &&
             window.innerWidth > 820 &&
@@ -15216,16 +15216,16 @@
                 productObj.bundleId == "undefined") ||
             productObj.bundleId == undefined
         ) {
-            leteventdata__ = {
+            let eventdata__ = {
                 core_product_id: INC.config.Product_id,
                 product_id: productObj.mainId,
             };
             if (oosStatus) {
-                letrpt = "1";
+                let rpt = "1";
             } else {
-                letrpt = "4";
+                let rpt = "4";
             }
-            letdata__ = {
+            let data__ = {
                 eventData: btoa(
                     JSON.stringify({
                         event_data: eventdata__,
@@ -15272,7 +15272,7 @@
     };
 
     function checkTabEmpty(len_) {
-        letallprd_ = document.querySelectorAll(
+        let allprd_ = document.querySelectorAll(
             ".inc_recommended_products_list_block .inc_product_module_block"
         ).length;
         if (
@@ -15289,7 +15289,7 @@
                     ".inc_recommended_tabs_list_item_block.inc_active"
                 ) != null
             ) {
-                letremcat_ = document.querySelector(
+                let remcat_ = document.querySelector(
                     ".inc_recommended_tabs_list_item_block.inc_active"
                 );
                 if (
@@ -15332,20 +15332,20 @@
     }
     INC.methods.addBundleToCart = function (btn_cart, recsType) {
         INC.clientConfig.OOS = [];
-        letdataStore = INC.dataStore;
-        letmainProductId = document
+        let dataStore = INC.dataStore;
+        let mainProductId = document
             .querySelector(
                 ".inc_pdp_product-main_block .inc_product_module_block"
             )
             .getAttribute("data-main_id");
-        letformData = [];
-        leturl_add = [];
-        letcount_pr_to_add = 0;
-        lettotal_length = Object.keys(dataStore.bundleCartProducts);
+        let formData = [];
+        let url_add = [];
+        let count_pr_to_add = 0;
+        let total_length = Object.keys(dataStore.bundleCartProducts);
         Object.keys(dataStore.bundleCartProducts).forEach(function (
             bundleCartProduct
         ) {
-            letfindObj = new INC.classes.FindObj({
+            let findObj = new INC.classes.FindObj({
                 id: bundleCartProduct,
             });
             addedProductIndex.push(
@@ -15362,17 +15362,17 @@
                     ".product-add-to-cart .flits-wishlist-product-page #flits-wsl-token"
                 ) != null
             ) {
-                lettoken = document.querySelector(
+                let token = document.querySelector(
                     ".product-add-to-cart .flits-wishlist-product-page #flits-wsl-token"
                 ).value;
             }
-            letproductObj = INC.dataStore.methods().getProductById(findObj);
-            letqty = INC.dataStore.bundleCartProducts[bundleCartProduct];
-            letaddProductURL = INC.config.addToBasketURL;
-            letparams = "";
+            let productObj = INC.dataStore.methods().getProductById(findObj);
+            let qty = INC.dataStore.bundleCartProducts[bundleCartProduct];
+            let addProductURL = INC.config.addToBasketURL;
+            let params = "";
 
             if (productObj.ProductType == "configurable") {
-                letparam_ =
+                let param_ =
                     "action=add&product+id=" +
                     productObj.mainId +
                     "&qty%5B%5D=" +
@@ -15494,12 +15494,12 @@
 
         callprodA();
         function removecartfn() {
-            letelm = document.querySelectorAll(".minicart-remove-button");
-            for (letl of elm) {
+            let elm = document.querySelectorAll(".minicart-remove-button");
+            for (let l of elm) {
                 l.addEventListener("click", function (e) {
                     e.preventDefault();
-                    lethrfn = this.getAttribute("href");
-                    letxhr2 = new XMLHttpRequest();
+                    let hrfn = this.getAttribute("href");
+                    let xhr2 = new XMLHttpRequest();
                     xhr2.open("GET", hrfn, false);
                     xhr2.onload = function () { };
                     xhr2.onreadystatechange = function () {
@@ -15520,10 +15520,10 @@
             }
         }
         function appendtocart(data) {
-            letdataelm = document.createElement("div");
+            let dataelm = document.createElement("div");
             dataelm.innerHTML = data;
-            letelmim = dataelm.querySelectorAll(".mini-cart-image img");
-            for (lete of elmim) {
+            let elmim = dataelm.querySelectorAll(".mini-cart-image img");
+            for (let e of elmim) {
                 e.src = e.getAttribute("data-src");
             }
             if (document.querySelector(".mini-cart-product") != null) {
@@ -15740,7 +15740,7 @@
         INC.clientConfig.OOS = [];
         INC.clientConfig.OOS_MESG = [];
 
-        letajaxmainid = formData.split("&id=")[1].split("&")[0];
+        let ajaxmainid = formData.split("&id=")[1].split("&")[0];
         INC.clientConfig.OOS.push(ajaxmainid);
         INC.clientConfig.OOS_MESG.push(formd.description);
     }
@@ -15775,13 +15775,13 @@
     }
 
     function checkAddedProductInJustAdded() {
-        letaddCheckCategory = INC.config.pdpaddedProductList;
-        letproductListArrayprod = INC.dataStore.bundleProductsArray;
-        letcategoryList = INC.dataStore.methods().getUniqueCatergories();
-        for (letcatlist in categoryList) {
-            letcount = 0;
-            for (letprd in productListArrayprod) {
-                letfirstProductObjByMainId = INC.dataStore
+        let addCheckCategory = INC.config.pdpaddedProductList;
+        let productListArrayprod = INC.dataStore.bundleProductsArray;
+        let categoryList = INC.dataStore.methods().getUniqueCatergories();
+        for (let catlist in categoryList) {
+            let count = 0;
+            for (let prd in productListArrayprod) {
+                let firstProductObjByMainId = INC.dataStore
                     .methods()
                     .getFirstProductObjByMainId({
                         mainId: productListArrayprod[prd],
@@ -15800,13 +15800,13 @@
             }
 
             if (count == 0) {
-                lettitleel = categoryList[catlist];
-                leteltablist = document.querySelectorAll(
+                let titleel = categoryList[catlist];
+                let eltablist = document.querySelectorAll(
                     ".inc_recommended_tabs_list_item_block"
                 );
                 if (eltablist != null) {
                     for (const element of eltablist) {
-                        lettitleText = element.getAttribute("title");
+                        let titleText = element.getAttribute("title");
                         if (titleText == titleel) {
                             if (element != null) {
                                 element.parentNode.removeChild(element);
@@ -15831,7 +15831,7 @@
                     ".inc_recommended_products_list_block .inc_product_module_block"
                 ) == null
             ) {
-                letremcateg = document.querySelector(
+                let remcateg = document.querySelector(
                     ".inc_recommended_tabs_list_item_block.inc_active"
                 );
                 if (remcateg != null) {
@@ -15857,15 +15857,15 @@
     }
 
     function add_to_cart_tracking_multiple(mainProductId) {
-        letevent_type = "bundle_add_to_cart";
-        letcore_prod_id = "";
-        letproductIdsforTracking = [];
+        let event_type = "bundle_add_to_cart";
+        let core_prod_id = "";
+        let productIdsforTracking = [];
         core_prod_id = mainProductId;
 
-        letpageType = "100";
-        letall_data = [];
-        letbundlpos = "";
-        for (lettc in INC.config.bundle_tracking) {
+        let pageType = "100";
+        let all_data = [];
+        let bundlpos = "";
+        for (let tc in INC.config.bundle_tracking) {
             if (INC.config.bundle_tracking.length == 1) {
                 productIdsforTracking.push(mainProductId);
                 productIdsforTracking.push(INC.config.bundle_tracking[tc].id);
@@ -15950,10 +15950,10 @@
                 }
             }
         }
-        letbundlec_1 = document.querySelectorAll(
+        let bundlec_1 = document.querySelectorAll(
             ".inc_pdp_bundle_product_list_main_block .inc_product_module_block"
         ).length;
-        letdata = {
+        let data = {
             eventData: btoa(
                 JSON.stringify({
                     event_data: {
@@ -15976,12 +15976,12 @@
     }
 
     function makeTrackingApiCall(eventdata) {
-        letp_url = "https://optimizedby.increasingly.co/ImportData";
-        letxhr = new XMLHttpRequest();
+        let p_url = "https://optimizedby.increasingly.co/ImportData";
+        let xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 if (xhr.responseText != "" && xhr.responseText != null) {
-                    letresul = xhr.responseText;
+                    let resul = xhr.responseText;
                     console.log("track" + resul);
                 }
             }
@@ -15992,7 +15992,7 @@
     }
 
     function getCurrentFormattedTime() {
-        letd = new Date();
+        let d = new Date();
         return (
             d.getFullYear() +
             "-" +
@@ -16015,8 +16015,8 @@
         pageType,
         rec_type
     ) {
-        letimportEventDataObj = {};
-        letimportDataObj = {};
+        let importEventDataObj = {};
+        let importDataObj = {};
 
         importEventDataObj["event_data"] = eventDataObj;
 
@@ -16032,9 +16032,9 @@
                 break;
             case "bundleProductClickTracking":
                 if (oosStatus) {
-                    letrpt = "1";
+                    let rpt = "1";
                 } else {
-                    letrpt = "4";
+                    let rpt = "4";
                 }
                 importEventDataObj["event_type"] =
                     "bundle_product_click_tracking";
@@ -16052,7 +16052,7 @@
                                 ".inc_pdp_block .inc_product_module_block"
                             )[0] != undefined
                         ) {
-                            letbundlec = document.querySelectorAll(
+                            let bundlec = document.querySelectorAll(
                                 ".inc_pdp_bundle_product_list_main_block .inc_product_module_block"
                             ).length;
                             importEventDataObj["db"] = bundlec.toString();
@@ -16071,10 +16071,10 @@
                             ".inc_pdp_block .inc_product_module_block"
                         )[0] != undefined
                     ) {
-                        letbundlec_ = document.querySelectorAll(
+                        let bundlec_ = document.querySelectorAll(
                             ".inc_pdp_bundle_product_list_main_block .inc_product_module_block"
                         ).length;
-                        letbundleShown = bundlec_.toString();
+                        let bundleShown = bundlec_.toString();
                         importEventDataObj["db"] = bundleShown;
                     }
                 }
@@ -16089,9 +16089,9 @@
         INC.methods.sendTrackingEvents(importDataObj);
     };
     INC.methods.sendTrackingEvents = function (importDataObj) {
-        letxhr = new XMLHttpRequest();
-        letmethod = "POST";
-        leturl = INC.config.trackingURL;
+        let xhr = new XMLHttpRequest();
+        let method = "POST";
+        let url = INC.config.trackingURL;
         xhr.onreadystatechange = handleStateChange;
 
         xhr.open(method, url, true);
@@ -16107,9 +16107,9 @@
     };
     INC.methods.addVisitorID = function () {
         function generateUniqueINCVisitorId(len, bits) {
-            letbits1 = bits || 36;
-            letoutStr = "";
-            letnewStr;
+            let bits1 = bits || 36;
+            let outStr = "";
+            let newStr;
             while (outStr.length < len) {
                 newStr = generateRandomString(bits1).toString().slice(2);
                 outStr += newStr.slice(
@@ -16119,14 +16119,14 @@
             }
             return outStr;
         }
-        letivid = "";
+        let ivid = "";
         if (readCookie("ivid") != undefined) {
             ivid = readCookie("ivid");
         }
-        letclientdomain = window.location.host;
-        letarr = clientdomain.split(".");
-        letd = new Date();
-        letexpires = "expires=" + d.toUTCString();
+        let clientdomain = window.location.host;
+        let arr = clientdomain.split(".");
+        let d = new Date();
+        let expires = "expires=" + d.toUTCString();
         if (ivid.length == 0) {
             ivid = generateUniqueINCVisitorId(42, 16);
             arr.shift();
@@ -16174,7 +16174,7 @@
     }
 
     function clickListener(e) {
-        letclickedElement = e.target;
+        let clickedElement = e.target;
         if (clickedElement != null) {
             try {
                 if (
@@ -16192,15 +16192,15 @@
                     if (
                         clickedElement.parentNode.querySelector("input").checked
                     ) {
-                        letclEle = clickedElement.parentNode;
-                        letselValue =
+                        let clEle = clickedElement.parentNode;
+                        let selValue =
                             clickedElement.parentNode.querySelector(
                                 "span"
                             ).innerText;
-                        letbundleavailblk = document.querySelector(
+                        let bundleavailblk = document.querySelector(
                             ".inc_bundle_avail_block"
                         );
-                        letqry =
+                        let qry =
                             ".inc_pdp_block .inc_pdp_product-main_block .inc_product_modal_block .inc_product_desc_att_block [title='" +
                             selValue.toUpperCase() +
                             "']";
@@ -16235,9 +16235,9 @@
                         }
 
                         // if (bundleavailblk != null) {
-                        //     letsiblingClass = document.querySelector('.inc_bundle_avail_block').nextElementSibling.classList
+                        //     let siblingClass = document.querySelector('.inc_bundle_avail_block').nextElementSibling.classList
                         //     setTimeout(function () {
-                        //         letsiblingEle = document.querySelector('.' + siblingClass[0] + "." + siblingClass[1])
+                        //         let siblingEle = document.querySelector('.' + siblingClass[0] + "." + siblingClass[1])
                         //         siblingEle.parentNode.insertBefore(bundleavailblk, siblingEle)
                         //         bundleavailblk.style.display = 'none'
                         //         document.querySelector('.inc_pdp_block').style.display = 'none'
@@ -16248,18 +16248,18 @@
                         //}
                     }
                     //else {
-                    //     letaddCartStatus = true
+                    //     let addCartStatus = true
                     //     if (clickedElement.tagName == 'IMG') {
                     //         addCartStatus = false
                     //     }
-                    //     letbundleavailblk = document.querySelector('.inc_bundle_avail_block')
+                    //     let bundleavailblk = document.querySelector('.inc_bundle_avail_block')
                     //     if (bundleavailblk != null) {
-                    //         letsiblingClass = document.querySelector('.inc_bundle_avail_block').nextElementSibling.classList
+                    //         let siblingClass = document.querySelector('.inc_bundle_avail_block').nextElementSibling.classList
                     //         setTimeout(function () {
                     //             if (siblingClass[1] != undefined) {
-                    //                 letsiblingEle = document.querySelector('.' + siblingClass[0] + "." + siblingClass[1])
+                    //                 let siblingEle = document.querySelector('.' + siblingClass[0] + "." + siblingClass[1])
                     //             } else {
-                    //                 letsiblingEle = document.querySelector('.' + siblingClass[0])
+                    //                 let siblingEle = document.querySelector('.' + siblingClass[0])
                     //             }
 
                     //             siblingEle.parentNode.insertBefore(bundleavailblk, siblingEle)
@@ -16268,26 +16268,26 @@
                     //                 document.querySelector('.inc_pdp_block').style.display = ''
                     //                 document.querySelector('.inc_af_block ').style.display = 'none'
                     //                 oosStatus = falseflag
-                    //                 letselectedSwatch = document.querySelectorAll('.swatches .selected a')
-                    //                 for (lets = 0; s < selectedSwatch.length; s++) {
-                    //                     letsswatch = selectedSwatch[s].title
-                    //                     letfbtEleSize = document.querySelectorAll('.inc_pdp_block .inc_product_modal_block .inc_product_desc_att_block [data-size="' + sswatch + '"]')
+                    //                 let selectedSwatch = document.querySelectorAll('.swatches .selected a')
+                    //                 for (let s = 0; s < selectedSwatch.length; s++) {
+                    //                     let sswatch = selectedSwatch[s].title
+                    //                     let fbtEleSize = document.querySelectorAll('.inc_pdp_block .inc_product_modal_block .inc_product_desc_att_block [data-size="' + sswatch + '"]')
                     //                     for (let fbtEleS_=0;fbtEleS_<fbtEleSize.length;fbtEleS_++) {
                     //                         fbtEleSize[fbtEleS_].click()
                     //                     }
-                    //                     letfbtEleColor = document.querySelectorAll('.inc_pdp_block .inc_product_modal_block .inc_product_desc_att_block [data-color="' + sswatch + '"]')
-                    //                     for (letfbtEleC_=0;fbtEleC_<fbtEleColor.length;fbtEleC_++) {
+                    //                     let fbtEleColor = document.querySelectorAll('.inc_pdp_block .inc_product_modal_block .inc_product_desc_att_block [data-color="' + sswatch + '"]')
+                    //                     for (let fbtEleC_=0;fbtEleC_<fbtEleColor.length;fbtEleC_++) {
                     //                         fbtEleColor[fbtEleC_].click()
                     //                     }
                     //                 }
                     //             }
                     //             if (window.innerWidth < 820 && addCartStatus) {
-                    //                 letfindObj = new INC.classes.FindObj();
-                    //                 letp_ids = INC.methods.getProductIdFromWebPage()
+                    //                 let findObj = new INC.classes.FindObj();
+                    //                 let p_ids = INC.methods.getProductIdFromWebPage()
                     //                 findObj["id"] = INC.dataStore.methods().getFirstProductObjByMainId({
                     //                     mainId: p_ids
                     //                 }).id;
-                    //                 letelPDP = document.querySelector('.wrapper-product-image-container')
+                    //                 let elPDP = document.querySelector('.wrapper-product-image-container')
                     //                 INC.methods.addProductToSidebarCart(findObj, "client_add_btn", null, null, elPDP);
                     //                 INC.methods.showSidebar("clientBtn");
                     //                 checkAddedProductInJustAdded()
@@ -16302,11 +16302,11 @@
                 ) {
                     INC.config.pdpaddedProductList = []
                     INC.config.pdpaddedProductList.push(INC.methods.getProductIdFromWebPage())
-                    letattrArray = document.querySelectorAll(
+                    let attrArray = document.querySelectorAll(
                         ".productView-options-inner .form-field .form-radio"
                     );
-                    letattCounter = 0;
-                    for (letatt of attrArray) {
+                    let attCounter = 0;
+                    for (let att of attrArray) {
                         if (att.checked == trueflag) {
                             attCounter++;
                         }
@@ -16513,16 +16513,16 @@
                             }
                         }
                         if (INC.config.pageType == "cartPage") return;
-                        letfindObj = new INC.classes.FindObj();
-                        letp_ids = INC.methods.getProductIdFromWebPage();
+                        let findObj = new INC.classes.FindObj();
+                        let p_ids = INC.methods.getProductIdFromWebPage();
                         findObj["id"] = INC.dataStore
                             .methods()
                             .getFirstProductObjByMainId({
                                 mainId: p_ids,
                             }).id;
-                        letclientATCFlag = trueflag;
+                        let clientATCFlag = trueflag;
                         if (clientATCFlag == trueflag) {
-                            letelPDP = document.querySelector(
+                            let elPDP = document.querySelector(
                                 ".wrapper-product-image-container"
                             );
                             INC.config.pdpaddedProductList = [];
@@ -16570,7 +16570,7 @@
                             "button--add-to-cart"
                         ) == trueflag
                     ) {
-                        letprd_wrapplp = document.querySelector(
+                        let prd_wrapplp = document.querySelector(
                             ".fancybox-container .js-quick-shop"
                         );
                         plp_modal_pr(prd_wrapplp);
@@ -16891,7 +16891,7 @@
                                                 "moreThanOne"
                                             ) == falseflag
                                     ) {
-                                        letallact = document.querySelectorAll(
+                                        let allact = document.querySelectorAll(
                                             ".inc_product_desc_att_block.inc_active"
                                         );
 
@@ -16914,7 +16914,7 @@
                                                     "inc_popup_open"
                                                 );
                                         }
-                                        for (letactelm in allact) {
+                                        for (let actelm in allact) {
                                             if (
                                                 allact[actelm] != null &&
                                                 Object.prototype.hasOwnProperty.call(
@@ -16975,7 +16975,7 @@
                                         "swatch-element"
                                     ) == trueflag
                                 ) {
-                                    letclick_textsel =
+                                    let click_textsel =
                                         clickedElement.parentNode.querySelector('label').innerText.toLowerCase()
 
                                     if (
@@ -17051,7 +17051,7 @@
                     }
                 }
                 setTimeout(function () {
-                    letinc_prod_img1 = document.querySelector(
+                    let inc_prod_img1 = document.querySelector(
                         ".inc_product_modal_block.inc_active .inc_product_img_main_img img"
                     );
                     if (inc_prod_img1) {
@@ -17059,11 +17059,11 @@
                     }
                 }, 2000);
             } catch (err) {
-                letformData = new FormData();
+                let formData = new FormData();
                 formData.append("EmailId", "shashi@increasingly.com");
                 formData.append("Subject", "JS Error on Conranshop");
                 formData.append("Message", err + "Error Stack" + err.stack);
-                letxhr = new XMLHttpRequest();
+                let xhr = new XMLHttpRequest();
                 xhr.open("POST", "//api.increasingly.co/SendEmail", trueflag);
                 xhr.send(formData);
                 throw err;
@@ -17072,8 +17072,8 @@
     }
 
     function plp_modal_pr(product_wrapper) {
-        letprd_name = "";
-        letprd_price = 0;
+        let prd_name = "";
+        let prd_price = 0;
         if (
             product_wrapper.querySelector(
                 ".quick-shop__title.js-product-title"
@@ -17090,13 +17090,13 @@
                 .querySelector(".modal_price .current_price")
                 .textContent.trim();
         }
-        letprd_prc = prd_price
+        let prd_prc = prd_price
             .split("Â£")[1]
             .split("/")[0]
             .replace(" ", "")
             .replace(",", "")
             .trim();
-        letprd_img_url = "";
+        let prd_img_url = "";
         if (
             document.querySelector(
                 ".product-gallery__main .image__container img"
@@ -17106,8 +17106,8 @@
                 ".product-gallery__main .image__container img"
             ).src;
         }
-        letold_prc = 0;
-        letpr_id = "";
+        let old_prc = 0;
+        let pr_id = "";
         if (
             document
                 .querySelector(".fancybox-container")
@@ -17129,7 +17129,7 @@
                 .innerText.replace("Â£", "")
                 .replace(",", "");
         }
-        letqty = 1;
+        let qty = 1;
 
         let swatch1;
         let swatch2;
@@ -17146,15 +17146,15 @@
             swatch2 = document.querySelectorAll(
                 ".js-quick-shop .swatch_options .swatch .swatch__options"
             )[1];
-            letsizeSwatch = swatch1.querySelectorAll("input");
-            for (letl = 0; l < sizeSwatch.length; l++) {
+            let sizeSwatch = swatch1.querySelectorAll("input");
+            for (let l = 0; l < sizeSwatch.length; l++) {
                 if (sizeSwatch[l].checked) {
                     size = sizeSwatch[l].value;
                     break;
                 }
             }
-            letcolorSwatch = swatch2.querySelectorAll("input");
-            for (letz = 0; z < colorSwatch.length; z++) {
+            let colorSwatch = swatch2.querySelectorAll("input");
+            for (let z = 0; z < colorSwatch.length; z++) {
                 if (colorSwatch[z].checked) {
                     color = colorSwatch[z].value;
                     break;
@@ -17164,14 +17164,14 @@
             swatch1 = document.querySelectorAll(
                 ".js-quick-shop .swatch_options .swatch .swatch__options input"
             );
-            for (letm = 0; m < swatch1.length; m++) {
+            for (let m = 0; m < swatch1.length; m++) {
                 if (swatch1[m].checked) {
                     size = swatch1[m].value;
                     break;
                 }
             }
         }
-        letsize_c = size + " , " + color;
+        let size_c = size + " , " + color;
         if (
             product_wrapper.querySelector(
                 ".quantity-wrapper .quantity-input"
@@ -17184,7 +17184,7 @@
         if (isNaN(qty)) qty = 1;
         qty = Math.abs(qty);
         if (pr_id != undefined) {
-            letprod_id = pr_id;
+            let prod_id = pr_id;
             setTimeout(function () {
                 plp_listeners(
                     prd_name,
@@ -17208,8 +17208,8 @@
         prod_id,
         size_c_
     ) {
-        letproductId = prod_id;
-        letqty = 1;
+        let productId = prod_id;
+        let qty = 1;
         if (INC.config.deviceType == "desktop") {
             qty = qty_shade_;
         }
@@ -17220,12 +17220,12 @@
         INC.dataStore.plpProductQty = qty;
 
         INC.methods.clear();
-        letp_img = prd_img_url_;
-        letp_name = prd_name_;
-        letprc = prd_prc_;
-        lets_prc = null;
-        letp_activePrice = 0;
-        letregularPrice = 0;
+        let p_img = prd_img_url_;
+        let p_name = prd_name_;
+        let prc = prd_prc_;
+        let s_prc = null;
+        let p_activePrice = 0;
+        let regularPrice = 0;
         if (old_prc_ != 0) {
             s_prc = prd_prc_;
             prc = old_prc_;
@@ -17257,15 +17257,15 @@
         setTimeout(function () {
             if (textsel == null) {
                 if (document.querySelector('select[name="options[33]"]') != null) {
-                    letselvar = document.querySelector('select[name="options[33]"]');
+                    let selvar = document.querySelector('select[name="options[33]"]');
                     textsel = selvar.options[selvar.selectedIndex].innerText.trim().toLocaleLowerCase();
                 }
             }
             if (textsel.indexOf('"') > 0) {
                 textsel = textsel.replace('"', '').trim()
             }
-            letall_list_el = document.querySelectorAll('.inc_pdp_product-main_block .inc_product_showcase_block')
-            for (letalistel in all_list_el) {
+            let all_list_el = document.querySelectorAll('.inc_pdp_product-main_block .inc_product_showcase_block')
+            for (let alistel in all_list_el) {
                 if (all_list_el[alistel] != null && Object.prototype.hasOwnProperty.call(all_list_el, alistel)) {
                     if (all_list_el[alistel].querySelector('.inc_product_desc_att_zero_block.inc_active') != null) {
                         if (all_list_el[alistel].querySelector('.inc_product_desc_att_zero_block.inc_active .inc_product_desc_att_size_list_item_img_block[datasize="' + textsel + '"] div') != undefined) {
@@ -17328,7 +17328,7 @@
                     if (window.matchMedia("(orientation: portrait)").matches) {
                         console.log("PORTRAIT");
                         INC.config.deviceMode = "PORTRAIT";
-                        letinc_pdp_block_rem =
+                        let inc_pdp_block_rem =
                             document.querySelector(".inc_pdp_block");
                         if (inc_pdp_block_rem != null) {
                             inc_pdp_block_rem.parentNode.removeChild(
@@ -17336,13 +17336,13 @@
                             );
                         }
                         onloadpdp = false;
-                        letsidebar_rem = document.querySelector(
+                        let sidebar_rem = document.querySelector(
                             ".inc_sidebar_modal_block"
                         );
                         if (sidebar_rem != null) {
                             sidebar_rem.parentNode.removeChild(sidebar_rem);
                         }
-                        letover_rem = document.querySelector(
+                        let over_rem = document.querySelector(
                             ".inc_sidebar_overlay_block"
                         );
                         if (over_rem != null) {
@@ -17356,14 +17356,14 @@
                         console.log("LANSCAPE");
                         INC.config.deviceMode = "LANSCAPE";
                         onloadpdp = false;
-                        letinc_pdp_block_remove =
+                        let inc_pdp_block_remove =
                             document.querySelector(".inc_pdp_block");
                         if (inc_pdp_block_remove != null) {
                             inc_pdp_block_remove.parentNode.removeChild(
                                 inc_pdp_block_remove
                             );
                         }
-                        letsidebar_remove = document.querySelector(
+                        let sidebar_remove = document.querySelector(
                             ".inc_sidebar_modal_block"
                         );
                         if (sidebar_remove != null) {
@@ -17371,7 +17371,7 @@
                                 sidebar_remove
                             );
                         }
-                        letover_remove = document.querySelector(
+                        let over_remove = document.querySelector(
                             ".inc_sidebar_overlay_block"
                         );
                         if (over_remove != null) {
@@ -17410,44 +17410,44 @@
             elm.className == "left_arrow inc_active" ||
             type_of == "left"
         ) {
-            letnn2 = -1;
-            letindslid = (INC.config.inc_slideIndex += nn2);
+            let nn2 = -1;
+            let indslid = (INC.config.inc_slideIndex += nn2);
             inc_showSlides(indslid, nn2, elm, type_of, arrow);
         } else {
-            letnn1 = 1;
-            letindslid1 = (INC.config.inc_slideIndex += nn1);
+            let nn1 = 1;
+            let indslid1 = (INC.config.inc_slideIndex += nn1);
             inc_showSlides(indslid1, nn1, elm, type_of, arrow);
         }
     }
 
     function inc_showSlides(n, _ind, elm, _type_of, arrow) {
-        letshowcase_other_img_list = elm.querySelector(
+        let showcase_other_img_list = elm.querySelector(
             ".inc_product_showcase_block .inc_product_img_main_img a"
         );
-        letshowcase_dots = elm.querySelectorAll(
+        let showcase_dots = elm.querySelectorAll(
             ".inc_product_showcase_block .inc_product_img_gallery_list_block .inc_product_img_gallery_list_item_block"
         );
-        letmodal_dots = elm.querySelectorAll(
+        let modal_dots = elm.querySelectorAll(
             ".inc_product_modal_block .inc_product_img_gallery_list_block .inc_product_img_gallery_list_item_block"
         );
 
-        letshowcase_other_img = elm.querySelector(
+        let showcase_other_img = elm.querySelector(
             ".inc_product_showcase_block .inc_product_img_main_img a img"
         );
 
-        letmodal_other_img = elm.querySelector(
+        let modal_other_img = elm.querySelector(
             ".inc_product_modal_block .inc_product_img_main_img a img"
         );
 
-        letotherImg_list =
+        let otherImg_list =
             showcase_other_img_list.getAttribute("otherImageList");
-        letadditional_img = [];
-        letmainImg = showcase_other_img_list.getAttribute("imageURL");
+        let additional_img = [];
+        let mainImg = showcase_other_img_list.getAttribute("imageURL");
         additional_img.push(mainImg);
-        for (leti = 0; i < otherImg_list.split(",").length; i++) {
+        for (let i = 0; i < otherImg_list.split(",").length; i++) {
             additional_img.push(otherImg_list.split(",")[i]);
         }
-        letget_org_img = showcase_other_img_list.getAttribute("imageURL");
+        let get_org_img = showcase_other_img_list.getAttribute("imageURL");
         if (n > additional_img.length) {
             INC.config.inc_slideIndex = 1;
         }
@@ -17455,12 +17455,12 @@
             INC.config.inc_slideIndex = additional_img.length;
         }
 
-        for (letim = 0; im < showcase_dots.length; im++) {
+        for (let im = 0; im < showcase_dots.length; im++) {
             if (modal_dots[im] != undefined) {
                 modal_dots[im].classList.remove("inc_active");
             }
         }
-        letimg_src = additional_img[INC.config.inc_slideIndex - 1].replace(
+        let img_src = additional_img[INC.config.inc_slideIndex - 1].replace(
             "160x90",
             "2000x1500"
         );
@@ -17471,7 +17471,7 @@
                 "this.src='" + get_org_img + "'"
             );
 
-            for (letr = 0; r < showcase_dots.length; r++) {
+            for (let r = 0; r < showcase_dots.length; r++) {
                 modal_dots[r].classList.remove("inc_active");
             }
             if (showcase_dots[INC.config.inc_slideIndex - 1] != null) {
@@ -17484,11 +17484,11 @@
             if (arrow == "arrow") {
                 if (window.innerWidth < 480) {
                     if (modal_dots.length > 4) {
-                        letactivedots = elm.querySelector(
+                        let activedots = elm.querySelector(
                             ".inc_product_modal_block .inc_product_img_gallery_list_block .inc_product_img_gallery_list_item_block.inc_active"
                         );
                         if (activedots != null) {
-                            letactind = activedots.getAttribute("index");
+                            let actind = activedots.getAttribute("index");
                             if (actind == 3) {
                                 if (modal_dots.length >= 4) {
                                     modal_dots[0].setAttribute(
@@ -17805,11 +17805,11 @@
                     }
                 } else {
                     if (modal_dots.length > 6) {
-                        letactivedots = elm.querySelector(
+                        let activedots = elm.querySelector(
                             ".inc_product_modal_block .inc_product_img_gallery_list_block .inc_product_img_gallery_list_item_block.inc_active"
                         );
                         if (activedots != null) {
-                            letactind = activedots.getAttribute("index");
+                            let actind = activedots.getAttribute("index");
                             if (actind == 5) {
                                 if (modal_dots.length >= 6) {
                                     modal_dots[0].setAttribute(
@@ -17965,11 +17965,11 @@
             }
             // if (arrow == "arrow") {
             //     if (modal_dots.length > 6) {
-            //         letactivedots = elm.querySelector(
+            //         let activedots = elm.querySelector(
             //             ".inc_product_modal_block .inc_product_img_gallery_list_block .inc_product_img_gallery_list_item_block.inc_active"
             //         );
             //         if (activedots != null) {
-            //             letactind = activedots.getAttribute("index");
+            //             let actind = activedots.getAttribute("index");
             //             if (actind == 5) {
             //                 if (modal_dots.length >= 6) {
             //                     modal_dots[0].setAttribute(
@@ -18123,8 +18123,8 @@
             // }
         }
     }
-    letxDown = null;
-    letyDown = null;
+    let xDown = null;
+    let yDown = null;
 
     function add_swipe(element) {
         element.addEventListener("touchstart", handleTouchStart, {
@@ -18141,14 +18141,14 @@
     }
 
     function handleTouchMove(evt) {
-        letprod_card = null;
+        let prod_card = null;
         if (!xDown || !yDown) {
             return;
         }
-        letxUp = evt.touches[0].clientX;
-        letyUp = evt.touches[0].clientY;
-        letxDiff = xDown - xUp;
-        letyDiff = yDown - yUp;
+        let xUp = evt.touches[0].clientX;
+        let yUp = evt.touches[0].clientY;
+        let xDiff = xDown - xUp;
+        let yDiff = yDown - yUp;
         if (
             Math.abs(xDiff) + Math.abs(yDiff) > 150 ||
             Math.abs(xDiff) + Math.abs(yDiff) < 150
@@ -18172,8 +18172,8 @@
     }
 
     function attribute_listing(valueArray) {
-        letitems = valueArray;
-        letsorting = [
+        let items = valueArray;
+        let sorting = [
             "Colour",
             "Color",
             "Color_size",
@@ -18189,9 +18189,9 @@
             "INJECTING NEEDLE",
             "INCLUDE SHARPS BIN",
         ];
-        letresult = [];
+        let result = [];
         sorting.forEach(function (key) {
-            letfound = false;
+            let found = false;
             items = items.filter(function (item) {
                 if (!found && item.attributeCode == key) {
                     result.push(item);
@@ -18204,13 +18204,13 @@
         });
         return result;
     }
-    letBase64 = {
+    let Base64 = {
         _keyStr:
             "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
         encode: function (e) {
-            lett = "";
-            letn, r, i, s, o, u, a;
-            letf = 0;
+            let t = "";
+            let n, r, i, s, o, u, a;
+            let f = 0;
             e = Base64._utf8_encode(e);
             while (f < e.length) {
                 n = e.charCodeAt(f++);
@@ -18235,10 +18235,10 @@
             return t;
         },
         decode: function (e) {
-            lett = "";
-            letn, r, i;
-            lets, o, u, a;
-            letf = 0;
+            let t = "";
+            let n, r, i;
+            let s, o, u, a;
+            let f = 0;
             e = e.replace(/[^A-Za-z0-9+/=]/g, "");
             while (f < e.length) {
                 s = this._keyStr.indexOf(e.charAt(f++));
@@ -18261,9 +18261,9 @@
         },
         _utf8_encode: function (e) {
             e = e.replace(/rn/g, "n");
-            lett = "";
-            for (letn = 0; n < e.length; n++) {
-                letr = e.charCodeAt(n);
+            let t = "";
+            for (let n = 0; n < e.length; n++) {
+                let r = e.charCodeAt(n);
                 if (r < 128) {
                     t += String.fromCharCode(r);
                 } else if (r > 127 && r < 2048) {
@@ -18278,10 +18278,10 @@
             return t;
         },
         _utf8_decode: function (e) {
-            lett = "";
-            letn = 0;
-            letr = 0;
-            letc2 = 0;
+            let t = "";
+            let n = 0;
+            let r = 0;
+            let c2 = 0;
             while (n < e.length) {
                 r = e.charCodeAt(n);
                 if (r < 128) {
@@ -18293,7 +18293,7 @@
                     n += 2;
                 } else {
                     c2 = e.charCodeAt(n + 1);
-                    letc3 = e.charCodeAt(n + 2);
+                    let c3 = e.charCodeAt(n + 2);
                     t += String.fromCharCode(
                         ((r & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63)
                     );
@@ -18305,9 +18305,9 @@
     };
 
     function getTrackingPixel() {
-        leturl = "";
+        let url = "";
         if (url != "") {
-            letoImg = document.createElement("img");
+            let oImg = document.createElement("img");
             oImg.setAttribute("id", "cstracking");
             oImg.setAttribute("src", url);
             oImg.setAttribute("height", "1px");
@@ -18328,17 +18328,17 @@
     }
 
     function incPriceMismatch(active_price, special_price, product_id) {
-        letdata = {};
-        letpriceMismatchObj = {};
+        let data = {};
+        let priceMismatchObj = {};
         priceMismatchObj.token = INC.config.clientToken;
         priceMismatchObj.product_id = product_id
             ? product_id
             : INC.methods.getProductIdFromWebPage();
 
-        letcheckSpecial = document.querySelector(
+        let checkSpecial = document.querySelector(
             ".product-price .price-standard "
         );
-        letisSpecial = false;
+        let isSpecial = false;
         if (checkSpecial != null) {
             isSpecial = true;
         }
@@ -18429,9 +18429,9 @@
     }
 
     function oosproduct(prdid) {
-        letformat_json_data;
-        letproduct_id = prdid;
-        letqty = 0;
+        let format_json_data;
+        let product_id = prdid;
+        let qty = 0;
         format_json_data = JSON.stringify({
             token: INC.config.clientToken,
             product_id: product_id,
@@ -18439,12 +18439,12 @@
         });
 
         if (product_id != null) {
-            letdata = {
+            let data = {
                 eventData: Base64.encode(format_json_data),
             };
-            letp_url =
+            let p_url =
                 "https://usagather.increasingly.com/ProductInventoryUpdate";
-            letxhr = new XMLHttpRequest();
+            let xhr = new XMLHttpRequest();
             xhr.open("POST", p_url, true);
             xhr.onreadystatechange = function () {
                 if (xhr.readyState == XMLHttpRequest.DONE) {
@@ -18458,11 +18458,11 @@
     }
 
     function cb_tc(bundle_response, recommendation_) {
-        letbundles_tc = "";
-        letbundleproductarrayTC = {};
-        letpdpProductId = "";
+        let bundles_tc = "";
+        let bundleproductarrayTC = {};
+        let pdpProductId = "";
         if (bundle_response.ProductsDetail != null) {
-            for (letprdetails in bundle_response.ProductsDetail) {
+            for (let prdetails in bundle_response.ProductsDetail) {
                 bundleproductarrayTC[
                     bundle_response.ProductsDetail[prdetails].ProductId
                 ] = bundle_response.ProductsDetail[prdetails];
@@ -18471,7 +18471,7 @@
             bundle_response.ProductsDetail == null ||
             bundle_response.ProductsDetail == "null"
         ) {
-            for (letc in bundle_response.CategoryRecommendations) {
+            for (let c in bundle_response.CategoryRecommendations) {
                 bundleproductarrayTC[
                     bundle_response.CategoryRecommendations[c].ProductId
                 ] = bundle_response.CategoryRecommendations[c];
@@ -18483,7 +18483,7 @@
             bundles_tc = bundle_response.Bundles;
         }
 
-        for (leti in bundles_tc) {
+        for (let i in bundles_tc) {
             if (Object.prototype.hasOwnProperty.call(bundles_tc, i)) {
                 if (
                     INC.config.dupDataObjectProducts.indexOf(
@@ -18499,8 +18499,8 @@
                         bundleids: bundles_tc[i].BundleId,
                         productids: bundles_tc[i].ProductIds,
                     });
-                    letirbBundleObj = bundles_tc[i];
-                    letbundleObj = {};
+                    let irbBundleObj = bundles_tc[i];
+                    let bundleObj = {};
 
                     if (recommendation_ != "recommendation") {
                         bundleObj.id = irbBundleObj["BundleId"];
@@ -18514,7 +18514,7 @@
                             irbBundleObj["DiscountPrice"];
                         bundleObj.productCount = irbBundleObj["ProductCount"];
                     }
-                    letirbProductsArray = "";
+                    let irbProductsArray = "";
                     if (recommendation_ == "recommendation") {
                         irbProductsArray = bundles_tc;
                     } else {
@@ -18532,14 +18532,14 @@
                             }
                         }
                     }
-                    for (letirbprdarray in irbProductsArray) {
+                    for (let irbprdarray in irbProductsArray) {
                         if (
                             Object.prototype.hasOwnProperty.call(
                                 irbProductsArray,
                                 irbprdarray
                             )
                         ) {
-                            letproduct =
+                            let product =
                                 bundleproductarrayTC[
                                 irbProductsArray[irbprdarray]
                                 ] || irbProductsArray[irbprdarray];
@@ -18557,9 +18557,9 @@
                                     product.ProductId
                                 );
 
-                                letpAttributes = product["Attributes"] || "";
+                                let pAttributes = product["Attributes"] || "";
                                 if (pAttributes != "" && pAttributes != null) {
-                                    for (letpatt1 of pAttributes) {
+                                    for (let patt1 of pAttributes) {
                                         if (patt1.attributeCode == "color") {
                                             patt1.attributeCode = "Color";
                                         }
@@ -18599,10 +18599,10 @@
                                     pAttributes =
                                         attribute_listing(pAttributes);
                                 }
-                                letpAttObj = {};
-                                letattr_values = "";
-                                lettcount = 0;
-                                for (letp2 of pAttributes) {
+                                let pAttObj = {};
+                                let attr_values = "";
+                                let tcount = 0;
+                                for (let p2 of pAttributes) {
                                     if (
                                         p2.attributeId != null &&
                                         p2.attributeId != undefined
@@ -18625,7 +18625,7 @@
                                         ) {
                                             pAttributes[0].attributeIdAd = 0;
                                             attr_values = p2.attributeValues;
-                                            for (letv of attr_values) {
+                                            for (let v of attr_values) {
                                                 v["opId"] = v.optionId;
                                                 v.optionId = 0;
                                             }
@@ -18633,7 +18633,7 @@
                                             // pAttributes[0].attributeId = 1;
                                             pAttributes[0].attributeIdAd = 1;
                                             attr_values = p2.attributeValues;
-                                            for (letv1 of attr_values) {
+                                            for (let v1 of attr_values) {
                                                 v1["opId"] = v1.optionId;
                                                 v1.optionId = 1;
                                             }
@@ -18653,7 +18653,7 @@
                                         }
                                         p2.attributeIdAd = tcount;
                                         attr_values = p2.attributeValues;
-                                        for (letv2 of attr_values) {
+                                        for (let v2 of attr_values) {
                                             v2["opId"] = v2.optionId;
                                             v2.optionId = tcount;
                                         }
@@ -18662,12 +18662,12 @@
                                 }
 
                                 if (pAttributes.length) {
-                                    for (letk in pAttributes) {
-                                        letpAttributesObj = pAttributes[k];
-                                        letpAttributesValues =
+                                    for (let k in pAttributes) {
+                                        let pAttributesObj = pAttributes[k];
+                                        let pAttributesValues =
                                             pAttributesObj["attributeValues"];
-                                        for (letl in pAttributesValues) {
-                                            letchildProduct =
+                                        for (let l in pAttributesValues) {
+                                            let childProduct =
                                                 pAttributesValues[l];
                                             if (
                                                 childProduct[
@@ -18744,7 +18744,7 @@
                                                 "childProductDescription"
                                             ] = product["Description"];
 
-                                            letproductObj =
+                                            let productObj =
                                                 new INC.classes.ProductAttObj(
                                                     childProduct
                                                 );
@@ -18802,7 +18802,7 @@
                                                 INC.dataStore.dataStoreObj[
                                                 product["ProductId"]
                                                 ][productObj["id"]];
-                                            for (letpAttcb in productObj) {
+                                            for (let pAttcb in productObj) {
                                                 if (pAttcb == "option") {
                                                     if (
                                                         !Object.prototype.hasOwnProperty.call(
@@ -18829,7 +18829,7 @@
                                     }
                                 }
                                 if (pAttributes.length == 0) {
-                                    letproductObjS =
+                                    let productObjS =
                                         new INC.classes.ProductObj(product);
                                     productObjS["bundleId"] =
                                         irbBundleObj["BundleId"];
@@ -18896,11 +18896,11 @@
         _bundleCount,
         elementName
     ) {
-        letelementName_ = elementName;
-        letproductId_ = productId;
-        letapiKey = INC.config.clientToken;
-        letirbPATH = "//rapidload.increasingly.co/increasingly_bundles?irb/";
-        letirbReqParams =
+        let elementName_ = elementName;
+        let productId_ = productId;
+        let apiKey = INC.config.clientToken;
+        let irbPATH = "//rapidload.increasingly.co/increasingly_bundles?irb/";
+        let irbReqParams =
             "product_ids=" +
             productId_ +
             "&category_id=" +
@@ -18915,10 +18915,10 @@
             INC.config.ivid +
             "&rc=" +
             "1";
-        letirbReqURL1 = decodeURI(irbPATH + btoa(irbReqParams));
-        letnetworkConfigObj = new INC.classes.NWConfig();
+        let irbReqURL1 = decodeURI(irbPATH + btoa(irbReqParams));
+        let networkConfigObj = new INC.classes.NWConfig();
         networkConfigObj["url"] = irbReqURL1;
-        letxhr = new XMLHttpRequest();
+        let xhr = new XMLHttpRequest();
         xhr.open("GET", networkConfigObj["url"], true);
         xhr.onload = function () {
             console.log("xhr");
@@ -18931,7 +18931,7 @@
                     }
                 }
             } else if (xhr.status === 401 || xhr.status === 0) {
-                letresp = localStorage.getItem("bundle_recs");
+                let resp = localStorage.getItem("bundle_recs");
                 cb_tc(JSON.parse(resp), "recommendation");
             }
         };
