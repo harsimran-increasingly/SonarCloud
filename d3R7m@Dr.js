@@ -59,7 +59,7 @@
     INC.config.OOSProduct = false;
     INC.config.disablebtn = true;
     INC.config.sidebarremovedprod = [];
-    INC.config.plpProductId
+    INC.config.plpProductI = null
     INC.config.cartproductids = [];
     INC.config.bundle_skuPushed = [];
     INC.config.recommendationProduct = [];
@@ -1561,7 +1561,7 @@
                     case "pdp":
                         if (!INC.config.OOSProduct) {
                             let product = bundleResponse.ProductsDetail[0]
-                            if (!incPriceMismatch(product.Price, product.SpecialPrice, product.ProductId)) {
+                            if (!incPriceMismatch(product.Price, product.SpecialPrice)) {
                                 INC.methods.createPDPBlock();
                             }
                         }
@@ -2464,11 +2464,9 @@
                             width_prod = 190;
                             prod_c = 1;
                         } else if (window.innerWidth > 1023) {
-                            if (window.innerWidth > 1023) {
-                                width_prod = 190;
-                            } else {
-                                width_prod = 190;
-                            }
+
+                            width_prod = 190;
+
                         }
                         if (window.innerWidth < 900) {
                             width_prod = 190;
@@ -2505,11 +2503,9 @@
                         if (window.innerWidth <= 946) {
                             width_prod = 190;
                         } else if (window.innerWidth > 1023) {
-                            if (window.innerWidth > 1023) {
-                                width_prod = 190;
-                            } else {
-                                width_prod = 190;
-                            }
+
+                            width_prod = 190;
+
                         }
                         if (window.innerWidth < 900) {
                             width_prod = 190;
@@ -3087,7 +3083,7 @@
                 }
             }
             let addCount = document.querySelectorAll(".inc_sidebar_cart_added_block .inc_cart_added_product_block").length;
-            document.querySelector(".inc_sidebar_cart_added_block").className.replace(/\binc_added_.+?/g, "");
+            let replaceValue = document.querySelector(".inc_sidebar_cart_added_block").className.replace(/\binc_added_.+?/g, "");
             document.querySelector(".inc_sidebar_cart_added_block").classList.add("inc_added_" + addCount);
             if (sbBlock.querySelector(".inc_cart_added_product_block") == null) {
                 if (sbBlock.querySelector(".inc_header_title_text_block") != null) {
